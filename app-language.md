@@ -43,7 +43,7 @@ Options → File → Language
 ## <a name="Lang_Folder_Absent"></a>When No `/Lang` Folder Is Present
 
 <div class="zoom-on-hover">
-  <img src="/manual/assets/images/lang_1.png" alt="No Lang Folder Present" style="width:220px;" />
+  <img src="/manual/asset/images//lang_1.png" alt="No Lang Folder Present" style="width:220px;" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 
@@ -54,7 +54,7 @@ If no `/Lang` folder is present in the root directory, MiB64 will not prompt for
 ## <a name="Lang_Folder_Present"></a>When `/Lang` Folder Is Present
 
 <div class="zoom-on-hover">
-  <img src="/manual/assets/images/lang_4.png" alt="Lang Folder Present" style="width:220px;" />
+  <img src="/manual/asset/images//lang_4.png" alt="Lang Folder Present" style="width:220px;" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 
@@ -74,7 +74,7 @@ If your preferred language is missing:
 File → Language (when `/Lang` folder is present)
 
 <div class="zoom-on-hover">
-  <img src="/manual/assets/images/lang_3.png" alt="Language Menu" style="width:220px;" />
+  <img src="/manual/asset/images//lang_3.png" alt="Language Menu" style="width:220px;" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 

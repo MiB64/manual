@@ -25,7 +25,7 @@ parent: Settings (Application)
 # Application Settings
 
 <div class="zoom-on-hover">
-  <img src="/manual/assets/images/config_settings.png" alt="Application Settings Screenshot" />
+  <img src="/manual/asset/images//config_settings.png" alt="Application Settings Screenshot" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 
