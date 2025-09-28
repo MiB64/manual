@@ -1,0 +1,13 @@
+remote_theme: just-the-docs/just-the-docs
+markdown: kramdown
+has_toc: false
+
+just_the_docs:
+  logo: "/manual/assets/images/mib64_icon_main_100x100l.png"
+  nav_enabled: true
+  search_enabled: true
+  heading_anchors: true
+  collections:
+    manual:
+      output: true
+      permalink: /:path/
