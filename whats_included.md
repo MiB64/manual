@@ -1,35 +1,45 @@
 ---
-title: What's Included
+title: What's included
 nav_order: 2
 parent: Introduction
 ---
 
-# What's Included in MiB64?
+## What's Included in MiB64
 
-MiB64 1.0 was released as an inclusive archive.  
-We recommend downloading MiB64 from the [MiB64 Homepage](web_links.md) or an official mirror to ensure you have the complete and unaltered package.
+MiB64 1.0 is an inclusive archive. We recommend downloading MiB64 from the [MiB64 Releases](web_links.html) for an official download from releases to ensure you have the complete and unaltered package.
 
-In simple terms, you get:
+---
 
-- The application
-- The settings files (`.rds`, `.cdb`, `.rdi`, etc.)
-- 1 audio plugin (a dummy "No audio" plugin)
-- 1 video plugin (`Icepir8sMIBLLE`)
-- 1 input plugin (`NRage_MiB_Input`)
+### Included Components
+
+- The application  
+- Settings files (`.rds`, `.cdb`, `.rdi`, etc.)  
+- 1 audio plugin (a dummy “No audio” plugin)  
+- 1 video plugin (`Icepir8sMIBLLE`)  
+- 1 input plugin (`NRage_MiB_Input`)  
 - 1 internal RSP
 
-You do **not** get any games included.  
-Do **not** ask us for games. See [this page](installing_games.md).
+---
 
-The MiB64 source code is available from our [GitHub repository](https://github.com/MiB64/MiB64-public).  
+### Not Included
+
+You do **not** get any games included.  
+Do **not** ask us for games.  
+See [this page](installing_games.html) for more information.
+
+---
+
+### Source Code
+
+The MiB64 source code is available on [GitHub](https://github.com/MiB64/MiB64-public).  
 Contributors are always welcome.
 
 ---
 
-## Navigation
+### Navigation
 
-- [Back to Introduction](introduction.md)
-- [Back to What is MiB64](whats-is-mib64.md)
+- [Introduction](introduction.html)  
+- [What is MiB64](what_is_mib64.html)
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
