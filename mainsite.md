@@ -5,6 +5,12 @@ redirect_to: https://www.mib64.net/
 permalink: /manual/mainsite.html
 ---
 
+
+<p class="auto-style2">
+<img class="auto-style1" src="/manual/asset/images/mib64_banner.png" /></p>
+<h2 class="auto-style2">Off to MiB64 Homepage!</h2>
+
+
 <!-- ClauseEcho: Instant External Redirect -->
 <script>
   window.location.href = "https://www.mib64.net/";
