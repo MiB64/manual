@@ -15,12 +15,12 @@ If you do not have an archiver installed, we recommend [7-Zip](https://www.7-zip
 
 Please select a topic:
 
-- [Preparation](preparing.md)
-- [Standard Install](standard_install.md)
-- [Installing Games](installing_games.md)
-- [Keeping Current](updating_files.md)
-- [Adding Plugins](additional_plugins.md)
-- [Backing Up](backing_up.md)
+- [Preparation](preparing)
+- [Standard Install](standard_install)
+- [Installing Games](installing_games)
+- [Keeping Current](updating_files)
+- [Adding Plugins](additional_plugins)
+- [Backing Up](backing_up)
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

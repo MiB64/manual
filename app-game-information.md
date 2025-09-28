@@ -55,7 +55,7 @@ Options → Settings → Game Information
 
 ---
 
-**Note:** This tab is only available if [Hide Advanced Settings](app_options.md#o5) is unchecked.
+**Note:** This tab is only available if [Hide Advanced Settings](app_options#o5) is unchecked.
 
 ---
 

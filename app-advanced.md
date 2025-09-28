@@ -55,7 +55,7 @@ Options → Settings → Advanced
 
 ---
 
-**Note:** This tab is only available if [Hide Advanced Settings](app_options.md#o5) is unchecked.
+**Note:** This tab is only available if [Hide Advanced Settings](app_options#o5) is unchecked.
 
 ---
 
@@ -66,7 +66,7 @@ Options → Settings → Advanced
 - Default: Recompiler  
 - Recommended: Recompiler (should not matter if using RDS)
 
-Can be overridden per-ROM via [ROM Settings](app_game_settings.md#o1) if RDS is enabled.  
+Can be overridden per-ROM via [ROM Settings](app_game_settings#o1) if RDS is enabled.  
 MiB64 was tested primarily with Recompiler. Interpreter may cause issues in some games.
 
 ---
@@ -76,7 +76,7 @@ MiB64 was tested primarily with Recompiler. Interpreter may cause issues in some
 - Default: Check Memory Advance  
 - Recommended: Check Memory Advance (should not matter if using RDS)
 
-Also overridden via [ROM Settings](app_game_settings.md#r1) if RDS is enabled.  
+Also overridden via [ROM Settings](app_game_settings#r1) if RDS is enabled.  
 Usually set by the RDS author. If not, you may need to determine the correct value manually.
 
 ---
@@ -92,7 +92,7 @@ ABL is a speed optimization for the recompiler.
 
 Most noticeable in racing games like Diddy Kong Racing and Mario Kart.
 
-Can be overridden via [ROM Settings](app_game_settings.md#r2) if RDS is enabled.  
+Can be overridden via [ROM Settings](app_game_settings#r2) if RDS is enabled.  
 MiB64 was tested with ABL enabled. Turning it off may require adjusting other settings.
 
 **Notes:**

@@ -7,7 +7,7 @@ parent: System Requirements
 # Feature Lists
 
 This page is intended for more advanced or curious users.  
-If you meet the [system requirements](min_specs.md), then you already have everything covered and don't need to worry about this.
+If you meet the [system requirements](min_specs), then you already have everything covered and don't need to worry about this.
 
 MiB64 is compiled with Microsoft Visual Studio 19.
 
@@ -105,8 +105,8 @@ This is due to development path, not inherent API differences.
 
 ## Navigation
 
-- [Back to Requirements](requirements.md)
-- [Next: Minimum Specs](min_specs.md)
+- [Back to Requirements](requirements)
+- [Next: Minimum Specs](min_specs)
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

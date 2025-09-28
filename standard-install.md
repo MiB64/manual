@@ -24,11 +24,11 @@ There is no install (or uninstall) program.
 
 ---
 
-All the necessary files to get you started and playing N64 games are included—apart from [the games themselves](installing_games.md).
+All the necessary files to get you started and playing N64 games are included—apart from [the games themselves](installing_games).
 
-You will be asked to choose a language. Read more about this [here](language_files.md).
+You will be asked to choose a language. Read more about this [here](language_files).
 
-If you're not sure what to do next, refer to the [Using MiB64](using_mib64.md) section of this manual.
+If you're not sure what to do next, refer to the [Using MiB64](using_mib64) section of this manual.
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

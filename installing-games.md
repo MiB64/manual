@@ -31,7 +31,7 @@ Select the folder via the File menu or right-click in the Browser.
 2. Game files must have a standard N64 extension: `.z64`, `.v64`, `.rom`—or be inside a `.zip` file with one of these extensions.
 3. Byte order is not important. MiB64 can read all standard byte orders. It does not affect emulation performance.
 4. If using zipped games, there must be **only one game per zip file**. Compress files individually.
-5. To arrange games in subfolders, choose the top-level folder and enable the [Directory Recursion option](app_rom_selection.md#Enable_Recursion). MiB64 will search all subfolders and list games together.
+5. To arrange games in subfolders, choose the top-level folder and enable the [Directory Recursion option](app_rom_selection#Enable_Recursion). MiB64 will search all subfolders and list games together.
 6. You cannot add games from separate folder trees. Consolidate them into one location.
 7. There is no practical limit (AFAIK) to the number of games you can have—except for available storage space.
 8. Zipped games do not affect emulation speed, only loading time (which may even be faster depending on your system).

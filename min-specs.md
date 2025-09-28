@@ -59,7 +59,7 @@ The following chipsets—and any cards based on them—are considered **below mi
 - nVidia Riva128 *(poor image quality)*
 - S3 Savage 4, Savage 2000 *(particularly bad; may hang)*
 
-See [Feature Lists](feature_lists.md) for an explanation of why these cards are not capable of producing good quality images in MiB64.
+See [Feature Lists](feature_lists) for an explanation of why these cards are not capable of producing good quality images in MiB64.
 
 ---
 

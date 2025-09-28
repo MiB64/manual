@@ -92,7 +92,7 @@ Recommended so you can verify configuration before playing.
 **Notes:**
 
 - Fullscreen occurs *before* emulation starts—required for some plugins/hardware.
-- Don’t enable this if “Start emulation after ROMs are opened” ([Advanced](app_advanced.md#o1)) is disabled.
+- Don’t enable this if “Start emulation after ROMs are opened” ([Advanced](app_advanced#o1)) is disabled.
 - The RDB may override this for games marked “Unsupported.”  
   You can edit the RDB or change the game’s status if needed.
 

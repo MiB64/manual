@@ -25,20 +25,20 @@ These files include:
 
 ---
 
-Changes to [Game Settings](app_game_settings.md) are saved in `MiB64.rds`.  
+Changes to [Game Settings](app_game_settings) are saved in `MiB64.rds`.  
 This applies if you've added games or modified existing entries.
 
 Any cheat codes you've added are saved in `MiB64.cdb`.  
 Back this up if you want to keep them.
 
-Your input configuration can be exported to a file. See your current [input plugin configuration](config_input.md).
+Your input configuration can be exported to a file. See your current [input plugin configuration](config_input).
 
 ---
 
 Don't forget to also back up:
 
-- Any [3rd party plugins](additional_plugins.md), if your [plugins folder](app_directories.md) is a subfolder of your MiB64 folder (default)
-- Any save files, if your [Saves folder](app_directories.md) is a subfolder of your MiB64 folder (default)
+- Any [3rd party plugins](additional_plugins), if your [plugins folder](app_directories) is a subfolder of your MiB64 folder (default)
+- Any save files, if your [Saves folder](app_directories) is a subfolder of your MiB64 folder (default)
 - Any game files you've placed inside your MiB64 folder
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>

@@ -64,8 +64,8 @@ Available choices depend on the contents of that folder.
 MiB64 v1.0 shipped with a reasonable—but incomplete—set of translations.  
 If your preferred language is missing:
 
-- [Seek updated or alternative files](updating_files.md)
-- [Create or edit your own language file](language_files.md)
+- [Seek updated or alternative files](updating_files)
+- [Create or edit your own language file](language_files)
 
 ---
 
@@ -86,15 +86,15 @@ Click an entry in the list and the GUI text will update immediately.
 ## Navigation Footer
 
 ```markdown
-- [Settings](app_settings.md)
-- [Plugins](app_plugins.md)
-- [Directories](app_directories.md)
-- [Options](app_options.md)
-- [Game Selection](app_game_selection.md)
-- [Advanced](app_advanced.md)
-- [Game Settings](app_game_settings.md)
-- [Game Notes](app_game_notes.md)
-- [Shell Integration](app_shell_integration.md)
-- [Language Selection](app_language.md)
+- [Settings](app_settings)
+- [Plugins](app_plugins)
+- [Directories](app_directories)
+- [Options](app_options)
+- [Game Selection](app_game_selection)
+- [Advanced](app_advanced)
+- [Game Settings](app_game_settings)
+- [Game Notes](app_game_notes)
+- [Shell Integration](app_shell_integration)
+- [Language Selection](app_language)
 
 <!-- ClauseEcho: Language Selection Protocol Complete -->

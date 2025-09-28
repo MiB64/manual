@@ -55,7 +55,7 @@ Options → Settings → <a name="ROM_Settings">ROM Settings</a>
 
 ---
 
-**Note:** This tab is only available if [Hide Advanced Settings](app_options.md#o5) is unchecked.
+**Note:** This tab is only available if [Hide Advanced Settings](app_options#o5) is unchecked.
 
 This page configures the core for each individual ROM.  
 Some settings also appear under the General tab, but here they apply per-ROM.

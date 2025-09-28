@@ -33,18 +33,18 @@ Options → Settings
 
 All settings of the main MiB64 application (the executable) are explained here.
 
-Before you go any further, please read the [Beginners](beginners.md) section.  
+Before you go any further, please read the [Beginners](beginners) section.  
 After you have, please select a topic:
 
-- [Settings](app_settings.md)
-- [Plugins](app_plugins.md)
-- [Directories](app_directories.md)
-- [Options](app_options.md)
-- [Game Selection](app_game_selection.md)
-- [Advanced](app_advanced.md)
-- [Game Settings](app_game_settings.md)
-- [Game Information](app_game_information.md)
-- [Language Selection](app_language.md)
+- [Settings](app_settings)
+- [Plugins](app_plugins)
+- [Directories](app_directories)
+- [Options](app_options)
+- [Game Selection](app_game_selection)
+- [Advanced](app_advanced)
+- [Game Settings](app_game_settings)
+- [Game Information](app_game_information)
+- [Language Selection](app_language)
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

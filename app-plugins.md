@@ -93,7 +93,7 @@ If not, the button will be greyed out. Same applies to configuration dialogs.
 **Points:**
 
 1. The video plugin interfaces with MiB64’s RSP.  
-   You must have the correct [RSP configuration](config_rsp.md) for the plugin type (HLE or LLE).  
+   You must have the correct [RSP configuration](config_rsp) for the plugin type (HLE or LLE).  
    Even with HLE, the RSP may pre-process graphics (e.g. Zelda backdrops).  
    At the time of writing, all N64 emulators use HLE video—true LLE is not available.
 
@@ -110,9 +110,9 @@ If not, the button will be greyed out. Same applies to configuration dialogs.
 **Points:**
 
 1. The audio plugin interfaces with MiB64’s RSP.  
-   You must have the correct [RSP configuration](config_rsp.md) for the plugin type (HLE or LLE).
+   You must have the correct [RSP configuration](config_rsp) for the plugin type (HLE or LLE).
 
-Open the [audio plugin configuration dialog](config_audio.md) from the Options menu.
+Open the [audio plugin configuration dialog](config_audio) from the Options menu.
 
 **Choose the No Audio plugin if:**
 
@@ -133,7 +133,7 @@ For compatibility, it’s better to turn volume down.
 1. The input plugin interfaces directly with the emulator core.
 2. It handles input, MemPak (if supported), and other accessories like Transfer Pak or Voice Pak.
 
-Open the [input plugin configuration dialog](config_input.md) from the Options menu.
+Open the [input plugin configuration dialog](config_input) from the Options menu.
 
 **Choose a non-default input plugin if:**
 
@@ -154,7 +154,7 @@ Open the [input plugin configuration dialog](config_input.md) from the Options m
 2. MiB64 includes an internal RSP with two cores.
 3. The RSP interfaces with the core, audio, and video plugins (three-stage system).
 
-Open the [RSP plugin configuration dialog](config_rsp.md) from the Options menu.
+Open the [RSP plugin configuration dialog](config_rsp) from the Options menu.
 
 ---
 

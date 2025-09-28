@@ -31,9 +31,9 @@ has_children: true
 
 This section explains the system requirements for MiB64. Please select a topic:
 
-- [Requirements](requirements.md)
-- [Feature Lists](feature_lists.md)
-- [Minimum Specs](min_specs.md)
+- [Requirements](requirements)
+- [Feature Lists](feature_lists)
+- [Minimum Specs](min_specs)
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
