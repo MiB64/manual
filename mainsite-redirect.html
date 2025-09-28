@@ -6,24 +6,40 @@
     <style>
       body {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100vh;
         background: #000;
         color: #fff;
         font-family: sans-serif;
+        text-align: center;
       }
       a {
         font-size: 1.2em;
         color: #0ff;
         text-decoration: underline;
+        margin-bottom: 1em;
+      }
+      p {
+        font-size: 0.9em;
+        color: #aaa;
       }
     </style>
+    <script>
+      window.addEventListener("load", function () {
+        window.open("https://www.mib64.net/", "_blank", "noopener,noreferrer");
+        setTimeout(function () {
+          window.location.href = "index.html";
+        }, 3000); // 3-second delay
+      });
+    </script>
   </head>
   <body>
-    <a href="https://www.mib64.net/" target="_blank" rel="noopener noreferrer" onclick="window.location.href='index.html'">
-      Click to launch MiB64 Main Site
+    <a href="https://www.mib64.net/" target="_blank" rel="noopener noreferrer">
+      Click here if the MiB64 site didn’t open automatically
     </a>
+    <p>Some browsers (like Firefox) may silently block automatic tab launches. You’ll be redirected shortly.</p>
     <!-- ClauseEcho: Homepage Redirect Protocol Complete -->
   </body>
 </html>
