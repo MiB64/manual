@@ -37,22 +37,27 @@
       Click here if the MiB64 site didn’t open automatically
     </a>
     <p>Some browsers (like Firefox) may silently block automatic tab launches.</p>
-    <div id="countdown">Preparing redirect…</div>
+    <div id="countdown">Redirecting in 9 seconds...</div>
 
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        window.open("https://www.mib64.net/", "_blank", "noopener,noreferrer");
+      let userClicked = false;
 
+      document.getElementById("launchLink").addEventListener("click", function () {
+        userClicked = true;
+      });
+
+      window.addEventListener("load", function () {
+        window.open("https://www.mib64.net/", "_blank", "noopener,noreferrer");
         let seconds = 9;
         const countdown = document.getElementById("countdown");
-        countdown.textContent = `Redirecting in ${seconds} seconds...`;
-
         const timer = setInterval(() => {
           seconds--;
           countdown.textContent = `Redirecting in ${seconds} seconds...`;
           if (seconds <= 0) {
             clearInterval(timer);
-            window.location.href = "index.html";
+            if (!userClicked) {
+              window.location.href = "index.html";
+            }
           }
         }, 1000);
       });
