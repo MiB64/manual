@@ -1,6 +1,11 @@
 ---
 title: MiB64 Homepage
 nav_order: 0
+redirect_to: https://www.mib64.net/
+permalink: /manual/mainsite.html
 ---
 
-[Launch MiB64 Main Site](https://www.mib64.net/)
+<!-- ClauseEcho: Instant External Redirect -->
+<script>
+  window.location.href = "https://www.mib64.net/";
+</script>
