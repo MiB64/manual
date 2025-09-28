@@ -6,9 +6,22 @@ permalink: /manual/mainsite.html
 ---
 
 
+<style type="text/css">
+.auto-style1 {
+	vertical-align: middle;
+}
+.auto-style2 {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+
 <p class="auto-style2">
 <img class="auto-style1" src="/manual/asset/images/mib64_banner.png" /></p>
 <h2 class="auto-style2">Off to MiB64 Homepage!</h2>
+
 
 
 <!-- ClauseEcho: Instant External Redirect -->
