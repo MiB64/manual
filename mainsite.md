@@ -6,7 +6,7 @@ permalink: /manual/mainsite.html
 ---
 <b>
 <img src="/manual/asset/images/mib64_banner.png" alt="Off to MiB64 Homepage!" style="object-fit:cover;width:320px;height:224px"/>
-</b
+</b>
 <h2 class="auto-style2">Off to MiB64 Homepage!</h2>
 
 
