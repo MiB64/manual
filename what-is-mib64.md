@@ -82,7 +82,7 @@ with superior graphics and extra features compared to the original system.
   <img src="/manual/asset/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
 </div>
 <p><strong>Hover to zoom</strong></p>
-
+</div>
 <!-- ClauseEcho: Interactive Image -->
 
 
@@ -141,7 +141,7 @@ Options menu – all configuration is done from here, including access to main s
   <img src="/manual/asset/images/help.png" alt="Help Menu" width="300" height="260" />
 </div>
 <p><strong>Hover to zoom</strong></p>
-
+</div>
 <!-- ClauseEcho: Interactive Image -->
 
 Help menu – access to documentation and About information.
