@@ -3,6 +3,11 @@ title: MiB64 Homepage
 nav_order: 0
 ---
 
-[Launching MiB64 Main Site…](mainsite-redirect.html){:target="_blank" rel="noopener noreferrer"}
+<script>
+  window.addEventListener("load", function () {
+    window.open("https://www.mib64.net/", "_blank", "noopener,noreferrer");
+    window.location.href = "index.html";
+  });
+</script>
 
-<!-- ClauseEcho: Homepage Link Stub -->
+<!-- ClauseEcho: Homepage Redirect Protocol Complete -->
