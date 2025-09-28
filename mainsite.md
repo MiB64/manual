@@ -5,10 +5,11 @@ nav_order: 0
 
 <!-- ClauseEcho: Silent Tab Block Disclosure -->
 > ⚠️ **Browser Behavior Notice**  
-> Firefox may silently have blocked scripted tab launches unless it's pop-up blocker is disabled
-> Also if you have another pop-up block enabled you can either grant permission for the url or disable it.  
+> Firefox may silently block scripted tab launches unless its pop-up blocker is disabled.  
 > If nothing happens, click the link below manually or adjust browser settings.
 
-[Launch MiB64 Main Site](mainsite-redirect.html){:target="_blank" rel="noopener noreferrer"}
+<a href="mainsite-redirect.html" onclick="window.open('https://www.mib64.net/', '_blank', 'noopener,noreferrer');">
+  Launch MiB64 Main Site
+</a>
 
 <!-- ClauseEcho: Homepage Redirect Protocol Complete -->
