@@ -1,17 +1,18 @@
 ---
 title: MiB64 Homepage
 nav_order: 0
-redirect_to: https://www.mib64.net/
 permalink: /manual/mainsite.html
 ---
 
-<img src="/manual/asset/images/mib64_banner.png" alt="Off to MiB64 Homepage!" style="object-fit:cover;width:200px;height:224px"/>
-</b>
-<h2 class="auto-style2">Off to MiB64 Homepage!</h2>
+<p align="center">
+  <img src="/manual/asset/images/mib64_banner.png" alt="MiB64 Banner" style="max-width:80%; margin-top:2em;" />
+</p>
 
+<h2 style="text-align:center; color:#0ff; font-family:sans-serif;">Off to MiB64 Homepage!</h2>
 
-
-<!-- ClauseEcho: Instant External Redirect -->
+<!-- ClauseEcho: Delayed External Redirect -->
 <script>
-  window.location.href = "https://www.mib64.net/";
+  setTimeout(function() {
+    window.location.href = "https://www.mib64.net/";
+  }, 800); // 800ms delay to allow image to load
 </script>
