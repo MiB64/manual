@@ -1,41 +1,89 @@
 ---
 title: Introduction
 nav_order: 2
+parent: MiB64 User Manual
 has_children: true
 ---
 
 <style>
+.zoom-pair {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  text-align: left;
+}
+
 .zoom-on-hover {
   display: inline-block;
   position: relative;
 }
+
 .zoom-on-hover img {
-  width: 300px;
-  transition: transform 0.3s ease;
-  cursor: zoom-in;
-  transform-origin: left center;
   display: block;
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transform-origin: left center;
 }
+
 .zoom-on-hover:hover img {
   transform: scale(1.5);
-  z-index: 10;
+}
+
+.zoom-pair .zoom-on-hover:first-child:hover img {
+  z-index: 9999;
+}
+
+.zoom-pair .zoom-on-hover:last-child:hover img {
+  z-index: 100;
+}
+
+/* Final fix for standalone zoomable images */
+.zoom-single {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  text-align: center;
+}
+
+.zoom-single:hover img {
+  transform: scale(1.5);
+  transform-origin: center center;
+  z-index: 999;
 }
 </style>
 
-# Introduction to MiB64
-
 <div class="zoom-on-hover">
-  <img src="/manual/asset/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
+  <img src="/manual/assets/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 
-This section will take you through the basics—things that everyone should be aware of before they start to use MiB64, and before reading further into this file.
+<!-- ClauseEcho: Interactive Image -->
 
-Please select a topic:
+This section will take you through the basics – things that everyone should be aware of  
+before they start to use MiB64, and before reading further into this file.  
+Please select a topic.
 
-- [What is MiB64](whats-is-mib64.md)
-- [What's included](whats_included.md)
+<table align="left" style="width: 100%">
+  <tr>
+    <td></td>
+    <td class="auto-style3" style="width: 120px">
+      <a href="what_is_mib64.md">What is MiB64</a>
+    </td>
+    <td class="auto-style3" style="width: 110px">
+      <a href="whats_included.md">What's included</a>
+    </td>
+    <td></td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Introduction Protocol Activated -->
+<!-- ClauseEcho: Introduction Protocol Complete -->
