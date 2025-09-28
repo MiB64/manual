@@ -75,10 +75,10 @@ You’ll need to read about other plugins, try them, ask knowledgeable users onl
 MiB64 supports one plugin of each type at a time.  
 Plugins cannot be assigned per-game.
 
-1. [Video plugin](#video-plugin-selection)
-2. [Audio plugin](#audio-plugin-selection)
-3. [Input plugin](#input-plugin-selection)
-4. [RSP plugin](#rsp-plugin-selection)
+1. [Video plugin](#video_plugin_selection)
+2. [Audio plugin](#audio_plugin_selection)
+3. [Input plugin](#input_plugin_selection)
+4. [RSP plugin](#rsp_plugin_selection)
 
 If none of the reasons to change plugins apply to you, stick with the defaults.
 
@@ -88,7 +88,7 @@ If not, the button will be greyed out. Same applies to configuration dialogs.
 
 ---
 
-## Video Plugin Selection
+## <a name="video_plugin_selection"></a>Video Plugin Selection
 
 **Points:**
 
@@ -105,7 +105,7 @@ If not, the button will be greyed out. Same applies to configuration dialogs.
 
 ---
 
-## Audio Plugin Selection
+## <a name="audio_plugin_selection"></a>Audio Plugin Selection
 
 **Points:**
 
@@ -126,7 +126,7 @@ For compatibility, it’s better to turn volume down.
 
 ---
 
-## Input Plugin Selection
+## <a name="input_plugin_selection"></a>Input Plugin Selection
 
 **Points:**
 
@@ -146,7 +146,7 @@ Open the [input plugin configuration dialog](config_input.md) from the Options m
 
 ---
 
-## RSP Plugin Selection
+## <a name="rsp_plugin_selection"></a>RSP Plugin Selection
 
 **Points:**
 
