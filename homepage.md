@@ -3,10 +3,6 @@ title: Homepage
 nav_order: 0
 ---
 
-<script>
-  window.addEventListener("load", function () {
-    window.open("https://www.mib64.net/", "_blank", "noopener,noreferrer");
-  });
-</script>
+[Launch MiB64 Main Site](https://www.mib64.net){:target="_blank" rel="noopener noreferrer"}
 
-<!-- ClauseEcho: Homepage Redirect Protocol Complete -->
+<!-- ClauseEcho: Homepage Link Protocol Complete -->
