@@ -15,41 +15,23 @@
         font-family: sans-serif;
         text-align: center;
       }
-      a {
-        font-size: 1.2em;
-        color: #0ff;
-        text-decoration: underline;
-        margin-bottom: 1em;
-      }
-      p {
-        font-size: 0.9em;
-        color: #aaa;
-      }
       #countdown {
-        font-size: 0.9em;
+        font-size: 1em;
         color: #ccc;
         margin-top: 1em;
       }
     </style>
   </head>
   <body>
-    <a id="launchLink" href="https://www.mib64.net/" target="_blank" rel="noopener noreferrer">
-      Click here if the MiB64 site didn’t open automatically
-    </a>
-    <p>Some browsers (like Firefox) may silently block automatic tab launches.</p>
-    <div id="countdown">Preparing redirect…</div>
+    <p>Redirecting to manual homepage in <span id="countdown">9</span> seconds...</p>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        window.open("https://www.mib64.net/", "_blank", "noopener,noreferrer");
-
         let seconds = 9;
         const countdown = document.getElementById("countdown");
-        countdown.textContent = `Redirecting in ${seconds} seconds...`;
-
         const timer = setInterval(() => {
           seconds--;
-          countdown.textContent = `Redirecting in ${seconds} seconds...`;
+          countdown.textContent = seconds;
           if (seconds <= 0) {
             clearInterval(timer);
             window.location.href = "index.html";
