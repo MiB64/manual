@@ -6,62 +6,26 @@ has_children: true
 ---
 
 <style>
-.zoom-pair {
-  display: flex;
-  gap: 12px;
-  align-items: flex-end;
-  justify-content: flex-start;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: max-content;
-  text-align: left;
-}
-
 .zoom-on-hover {
   display: inline-block;
   position: relative;
 }
-
 .zoom-on-hover img {
   display: block;
   cursor: zoom-in;
   transition: transform 0.3s ease;
   position: relative;
   z-index: 1;
-  transform-origin: left center;
+  transform-origin: center center;
 }
-
 .zoom-on-hover:hover img {
   transform: scale(1.5);
-}
-
-.zoom-pair .zoom-on-hover:first-child:hover img {
-  z-index: 9999;
-}
-
-.zoom-pair .zoom-on-hover:last-child:hover img {
-  z-index: 100;
-}
-
-/* Final fix for standalone zoomable images */
-.zoom-single {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: max-content;
-  text-align: center;
-}
-
-.zoom-single:hover img {
-  transform: scale(1.5);
-  transform-origin: center center;
   z-index: 999;
 }
 </style>
 
 <div class="zoom-on-hover">
-  <img src="/manual/asset/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
+  <img src="/manual/assets/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 
@@ -75,10 +39,10 @@ Please select a topic.
   <tr>
     <td></td>
     <td class="auto-style3" style="width: 120px">
-      <a href="what_is_mib64.md">What is MiB64</a>
+      <a href="what-is-mib64">What is MiB64</a>
     </td>
     <td class="auto-style3" style="width: 110px">
-      <a href="whats_included.md">What's included</a>
+      <a href="whats-included">What's included</a>
     </td>
     <td></td>
   </tr>

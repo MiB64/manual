@@ -6,7 +6,7 @@ parent: Introduction
 
 ## What's Included in MiB64
 
-MiB64 1.0 is an inclusive archive. We recommend downloading MiB64 from the [MiB64 Releases](web_links.html) for an official download from releases to ensure you have the complete and unaltered package.
+MiB64 1.0 is an inclusive archive. We recommend downloading MiB64 from the [MiB64 Releases](web-links#mib64-releases) for an official download from releases to ensure you have the complete and unaltered package.
 
 ---
 
@@ -25,7 +25,7 @@ MiB64 1.0 is an inclusive archive. We recommend downloading MiB64 from the [MiB6
 
 You do **not** get any games included.  
 Do **not** ask us for games.  
-See [this page](installing_games.html) for more information.
+See [this page](installing-games) for more information.
 
 ---
 
@@ -34,12 +34,18 @@ See [this page](installing_games.html) for more information.
 The MiB64 source code is available on [GitHub](https://github.com/MiB64/MiB64-public).  
 Contributors are always welcome.
 
----
-
-### Navigation
-
-- [Introduction](introduction.html)  
-- [What is MiB64](what_is_mib64.html)
+<table align="left" style="width: 100%">
+  <tr>
+    <td></td>
+    <td class="auto-style3" style="width: 110px">
+      <a href="introduction">Introduction</a>
+    </td>
+    <td class="auto-style3" style="width: 136px">
+      <a href="what-is-mib64">What is MiB64</a>
+    </td>
+    <td></td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
