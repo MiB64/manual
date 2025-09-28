@@ -10,4 +10,10 @@ nav_order: 0
   });
 </script>
 
+<!-- ClauseEcho: Silent Tab Block Disclosure -->
+> ⚠️ **Browser Behavior Notice**  
+> ⚠️ Firefox may silently block scripted tab launches unless developer mode is active or popup permissions are granted.  
+> If nothing happens, click the link manually or adjust browser settings.
+
+
 <!-- ClauseEcho: Homepage Redirect Protocol Complete -->
