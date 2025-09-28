@@ -6,7 +6,7 @@ parent: Installation
 
 # Updating MiB64 Files
 
-The first thing, of course, is to check you have the **latest version of MiB64** by visiting the official site—see [Web Links](web-links.md).
+The first thing, of course, is to check you have the **latest version of MiB64** by visiting the official site—see [Web Links](web_links.md).
 
 Check if any of the plugins have been updated. This could make a large difference to your results.  
 Keep an eye on any third-party plugins included with MiB64 that you are using, as they may be updated independently of MiB64.
@@ -24,7 +24,7 @@ Updates to this file could help you get more games working by:
 - Improving user instructions in the Notes fields
 - Correcting status designations
 
-This is an important file to keep updated. See [Web Links](web-links.md).
+This is an important file to keep updated. See [Web Links](web_links.md).
 
 ---
 
@@ -37,7 +37,7 @@ Updates to this file may:
 - Remove problematic or non-working cheats
 - Improve guidance notes
 
-See [Web Links](web-links.md).
+See [Web Links](web_links.md).
 
 ---
 
@@ -45,7 +45,7 @@ See [Web Links](web-links.md).
 
 Updates to this file can provide extra information for games in the Game Browser, such as Genre.  
 Only a basic example file was included with MiB64.  
-If you're interested in using this feature, see if someone has published a suitable file. See [Web Links](web-links.md).
+If you're interested in using this feature, see if someone has published a suitable file. See [Web Links](web_links.md).
 
 ---
 
@@ -70,7 +70,7 @@ A badly written file could:
 
 It cannot damage your system (they're plain text and cannot carry viruses).  
 If in doubt, revert to the original files included with the emulator or the latest official ones.  
-See [Web Links](web-links.md) for download locations.
+See [Web Links](web_links.md) for download locations.
 
 ---
 
@@ -86,7 +86,7 @@ To install:
 
 ## Installing Updated Plugins
 
-[Install updated plugins](additional-plugins.md) the same way you would add any plugin to MiB64.
+[Install updated plugins](additional_plugins.md) the same way you would add any plugin to MiB64.
 
 - Usually the updated plugin will overwrite the older one.
 - If you don't want this to happen, rename either version.

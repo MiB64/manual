@@ -1,7 +1,7 @@
 ---
 title: Installation
 nav_order: 4
-has-children: true
+has_children: true
 ---
 
 # MiB64 Installation
@@ -16,11 +16,11 @@ If you do not have an archiver installed, we recommend [7-Zip](https://www.7-zip
 Please select a topic:
 
 - [Preparation](preparing.md)
-- [Standard Install](standard-install.md)
-- [Installing Games](installing-games.md)
-- [Keeping Current](updating-files.md)
-- [Adding Plugins](additional-plugins.md)
-- [Backing Up](backing-up.md)
+- [Standard Install](standard_install.md)
+- [Installing Games](installing_games.md)
+- [Keeping Current](updating_files.md)
+- [Adding Plugins](additional_plugins.md)
+- [Backing Up](backing_up.md)
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

@@ -2,7 +2,7 @@
 title: Introduction
 nav_order: 2
 parent: MiB64 User Manual
-has-children: true
+has_children: true
 ---
 
 <style>

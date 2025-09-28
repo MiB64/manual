@@ -43,7 +43,7 @@ parent: Application Settings
 
 <div class="zoom-pair">
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/config-settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    <img src="/manual/assets/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
   </div>
   <div class="zoom-on-hover">
     <img src="/manual/assets/images/directories.png" alt="Directories Dialog" width="155" />

@@ -7,7 +7,7 @@ parent: System Requirements
 # Feature Lists
 
 This page is intended for more advanced or curious users.  
-If you meet the [system requirements](min-specs.md), then you already have everything covered and don't need to worry about this.
+If you meet the [system requirements](min_specs.md), then you already have everything covered and don't need to worry about this.
 
 MiB64 is compiled with Microsoft Visual Studio 19.
 
@@ -49,10 +49,10 @@ Exactly which are used varies from game to game.
 - BLENDFACTORALPHA
 - BLENDTEXTUREALPHAPM
 - BLENDCURRENTALPHA
-- MODULATEALPHA-ADDCOLOR
-- MODULATECOLOR-ADDALPHA
-- MODULATEINVALPHA-ADDCOLOR
-- MODULATEINVCOLOR-ADDALPHA
+- MODULATEALPHA_ADDCOLOR
+- MODULATECOLOR_ADDALPHA
+- MODULATEINVALPHA_ADDCOLOR
+- MODULATEINVCOLOR_ADDALPHA
 
 We no longer recommend the use of Jabo Plugins as they are outdated.  
 Watch this space for updated Ice-related specs.
@@ -106,7 +106,7 @@ This is due to development path, not inherent API differences.
 ## Navigation
 
 - [Back to Requirements](requirements.md)
-- [Next: Minimum Specs](min-specs.md)
+- [Next: Minimum Specs](min_specs.md)
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

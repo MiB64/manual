@@ -40,10 +40,10 @@ Options → File → Language
 
 ---
 
-## <a name="Lang-Folder-Absent"></a>When No `/Lang` Folder Is Present
+## <a name="Lang_Folder_Absent"></a>When No `/Lang` Folder Is Present
 
 <div class="zoom-on-hover">
-  <img src="/manual/assets/images/lang-1.png" alt="No Lang Folder Present" style="width:220px;" />
+  <img src="/manual/assets/images/lang_1.png" alt="No Lang Folder Present" style="width:220px;" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 
@@ -51,10 +51,10 @@ If no `/Lang` folder is present in the root directory, MiB64 will not prompt for
 
 ---
 
-## <a name="Lang-Folder-Present"></a>When `/Lang` Folder Is Present
+## <a name="Lang_Folder_Present"></a>When `/Lang` Folder Is Present
 
 <div class="zoom-on-hover">
-  <img src="/manual/assets/images/lang-4.png" alt="Lang Folder Present" style="width:220px;" />
+  <img src="/manual/assets/images/lang_4.png" alt="Lang Folder Present" style="width:220px;" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 
@@ -64,17 +64,17 @@ Available choices depend on the contents of that folder.
 MiB64 v1.0 shipped with a reasonable—but incomplete—set of translations.  
 If your preferred language is missing:
 
-- [Seek updated or alternative files](updating-files.md)
-- [Create or edit your own language file](language-files.md)
+- [Seek updated or alternative files](updating_files.md)
+- [Create or edit your own language file](language_files.md)
 
 ---
 
-## <a name="Change-Language-Later"></a>Changing Language Later
+## <a name="Change_Language_Later"></a>Changing Language Later
 
 File → Language (when `/Lang` folder is present)
 
 <div class="zoom-on-hover">
-  <img src="/manual/assets/images/lang-3.png" alt="Language Menu" style="width:220px;" />
+  <img src="/manual/assets/images/lang_3.png" alt="Language Menu" style="width:220px;" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 
@@ -86,15 +86,15 @@ Click an entry in the list and the GUI text will update immediately.
 ## Navigation Footer
 
 ```markdown
-- [Settings](app-settings.md)
-- [Plugins](app-plugins.md)
-- [Directories](app-directories.md)
-- [Options](app-options.md)
-- [Game Selection](app-game-selection.md)
-- [Advanced](app-advanced.md)
-- [Game Settings](app-game-settings.md)
-- [Game Notes](app-game-notes.md)
-- [Shell Integration](app-shell-integration.md)
-- [Language Selection](app-language.md)
+- [Settings](app_settings.md)
+- [Plugins](app_plugins.md)
+- [Directories](app_directories.md)
+- [Options](app_options.md)
+- [Game Selection](app_game_selection.md)
+- [Advanced](app_advanced.md)
+- [Game Settings](app_game_settings.md)
+- [Game Notes](app_game_notes.md)
+- [Shell Integration](app_shell_integration.md)
+- [Language Selection](app_language.md)
 
 <!-- ClauseEcho: Language Selection Protocol Complete -->

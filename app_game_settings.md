@@ -43,19 +43,19 @@ parent: Application Settings
 
 <div class="zoom-pair">
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/config-settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    <img src="/manual/assets/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
   </div>
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/game-settings.png" alt="Game Settings Dialog" width="155" />
+    <img src="/manual/assets/images/game_settings.png" alt="Game Settings Dialog" width="155" />
   </div>
 </div>
 <p><strong>Hover to zoom</strong></p>
 
-Options → Settings → <a name="ROM-Settings">ROM Settings</a>
+Options → Settings → <a name="ROM_Settings">ROM Settings</a>
 
 ---
 
-**Note:** This tab is only available if [Hide Advanced Settings](app-options.md#o5) is unchecked.
+**Note:** This tab is only available if [Hide Advanced Settings](app_options.md#o5) is unchecked.
 
 This page configures the core for each individual ROM.  
 Some settings also appear under the General tab, but here they apply per-ROM.
@@ -64,12 +64,12 @@ Some settings also appear under the General tab, but here they apply per-ROM.
 
 ## Sections
 
-- [General Settings](#General-Settings)
-- [Recompiler Settings](#Recompiler-Settings)
+- [General Settings](#General_Settings)
+- [Recompiler Settings](#Recompiler_Settings)
 
 ---
 
-## <a name="General-Settings"></a>General Settings
+## <a name="General_Settings"></a>General Settings
 
 ### <a name="o1"></a>"CPU core style"
 
@@ -173,7 +173,7 @@ Usually not required.
 
 ---
 
-## <a name="Recopiler-Settings"></a>Recompiler Settings
+## <a name="Recopiler_Settings"></a>Recompiler Settings
 
 ### <a name="r1"></a>"Self-mod code method"
 
