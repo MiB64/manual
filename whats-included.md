@@ -16,7 +16,7 @@ MiB64 1.0 is an inclusive archive. We recommend downloading MiB64 from the [MiB6
 - Settings files (`.rds`, `.cdb`, `.rdi`, etc.)  
 - 1 audio plugin (a dummy “No audio” plugin)  
 - 1 video plugin (`Icepir8sMIBLLE`)  
-- 1 input plugin (`NRage_MiB_Input`)  
+- 1 input plugin (`NRage-MiB-Input`)  
 - 1 internal RSP
 
 ---

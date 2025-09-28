@@ -43,7 +43,7 @@ parent: Application Settings
 
 <div class="zoom-pair">
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    <img src="/manual/assets/images/config-settings.png" alt="Config Settings Dialog" width="300" height="207" />
   </div>
   <div class="zoom-on-hover">
     <img src="/manual/assets/images/advanced.png" alt="Advanced Dialog" width="155" />
@@ -55,18 +55,18 @@ Options → Settings → Advanced
 
 ---
 
-**Note:** This tab is only available if [Hide Advanced Settings](app_options.md#o5) is unchecked.
+**Note:** This tab is only available if [Hide Advanced Settings](app-options.md#o5) is unchecked.
 
 ---
 
-## <a name="Upper_tab"></a>Upper Tab – Core Defaults (Dropdowns)
+## <a name="Upper-tab"></a>Upper Tab – Core Defaults (Dropdowns)
 
 ### <a name="b1"></a>"CPU core style"
 
 - Default: Recompiler  
 - Recommended: Recompiler (should not matter if using RDS)
 
-Can be overridden per-ROM via [ROM Settings](app_game_settings.md#o1) if RDS is enabled.  
+Can be overridden per-ROM via [ROM Settings](app-game-settings.md#o1) if RDS is enabled.  
 MiB64 was tested primarily with Recompiler. Interpreter may cause issues in some games.
 
 ---
@@ -76,7 +76,7 @@ MiB64 was tested primarily with Recompiler. Interpreter may cause issues in some
 - Default: Check Memory Advance  
 - Recommended: Check Memory Advance (should not matter if using RDS)
 
-Also overridden via [ROM Settings](app_game_settings.md#r1) if RDS is enabled.  
+Also overridden via [ROM Settings](app-game-settings.md#r1) if RDS is enabled.  
 Usually set by the RDS author. If not, you may need to determine the correct value manually.
 
 ---
@@ -92,7 +92,7 @@ ABL is a speed optimization for the recompiler.
 
 Most noticeable in racing games like Diddy Kong Racing and Mario Kart.
 
-Can be overridden via [ROM Settings](app_game_settings.md#r2) if RDS is enabled.  
+Can be overridden via [ROM Settings](app-game-settings.md#r2) if RDS is enabled.  
 MiB64 was tested with ABL enabled. Turning it off may require adjusting other settings.
 
 **Notes:**
@@ -102,7 +102,7 @@ MiB64 was tested with ABL enabled. Turning it off may require adjusting other se
 
 ---
 
-## <a name="Lower_tab"></a>Lower Tab – Checkboxes
+## <a name="Lower-tab"></a>Lower Tab – Checkboxes
 
 ### <a name="o1"></a>"Start emulation after ROMs are opened"
 

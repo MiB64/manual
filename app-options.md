@@ -43,10 +43,10 @@ parent: Application Settings
 
 <div class="zoom-pair">
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    <img src="/manual/assets/images/config-settings.png" alt="Config Settings Dialog" width="300" height="207" />
   </div>
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/app_options_defuult.png" alt="Options Dialog" width="155" />
+    <img src="/manual/assets/images/app-options-defuult.png" alt="Options Dialog" width="155" />
   </div>
 </div>
 <p><strong>Hover to zoom</strong></p>
@@ -92,7 +92,7 @@ Recommended so you can verify configuration before playing.
 **Notes:**
 
 - Fullscreen occurs *before* emulation starts—required for some plugins/hardware.
-- Don’t enable this if “Start emulation after ROMs are opened” ([Advanced](app_advanced.md#o1)) is disabled.
+- Don’t enable this if “Start emulation after ROMs are opened” ([Advanced](app-advanced.md#o1)) is disabled.
 - The RDB may override this for games marked “Unsupported.”  
   You can edit the RDB or change the game’s status if needed.
 

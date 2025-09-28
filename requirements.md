@@ -1,7 +1,7 @@
 ---
 title: System Requirements
 nav_order: 3
-has_children: true
+has-children: true
 ---
 
 <style>
@@ -32,8 +32,8 @@ has_children: true
 This section explains the system requirements for MiB64. Please select a topic:
 
 - [Requirements](requirements.md)
-- [Feature Lists](feature_lists.md)
-- [Minimum Specs](min_specs.md)
+- [Feature Lists](feature-lists.md)
+- [Minimum Specs](min-specs.md)
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

@@ -43,34 +43,34 @@ parent: Application Settings
 
 <div class="zoom-pair">
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    <img src="/manual/assets/images/config-settings.png" alt="Config Settings Dialog" width="300" height="207" />
   </div>
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/game_selection.png" alt="Game Selection Dialog" width="155" />
+    <img src="/manual/assets/images/game-selection.png" alt="Game Selection Dialog" width="155" />
   </div>
 </div>
 <p><strong>Hover to zoom</strong></p>
 
-Options → Settings → <a name="Game_Selection">Game Selection</a>
+Options → Settings → <a name="Game-Selection">Game Selection</a>
 
 ---
 
-**Note:** This tab is only available if [Hide Advanced Settings](app_options.md#o5) is unchecked.
+**Note:** This tab is only available if [Hide Advanced Settings](app-options.md#o5) is unchecked.
 
 ---
 
 ## Game Browser Controls
 
-- <a name="Max_Remembered_Games"></a>**Max # of Games Remembered** (Max 10)  
+- <a name="Max-Remembered-Games"></a>**Max # of Games Remembered** (Max 10)  
   Shown in `File > Recent Games`
 
-- <a name="Max_Remembered_Dirs"></a>**Max # of Game Dirs Remembered** (Max 10)  
+- <a name="Max-Remembered-Dirs"></a>**Max # of Game Dirs Remembered** (Max 10)  
   Shown in `File > Recent Game Directories`
 
 - **Enable/Disable Browser**  
   Toggle the “Use Game Browser” checkbox
 
-- <a name="Enable_Recursion"></a>**Enable/Disable Directory Recursion**  
+- <a name="Enable-Recursion"></a>**Enable/Disable Directory Recursion**  
   Toggle the “Directory Recursion” checkbox
 
 - **Add/Remove Fields**  

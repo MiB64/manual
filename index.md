@@ -2,7 +2,7 @@
 title: MiB64 User Manual
 layout: default
 nav_order: 1
-has_children: true
+has-children: true
 ---
 
 Welcome to the MiB64 User Manual.

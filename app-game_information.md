@@ -43,10 +43,10 @@ parent: Application Settings
 
 <div class="zoom-pair">
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    <img src="/manual/assets/images/config-settings.png" alt="Config Settings Dialog" width="300" height="207" />
   </div>
   <div class="zoom-on-hover">
-    <img src="/manual/assets/images/game_information.png" alt="Game Information Dialog" width="155" />
+    <img src="/manual/assets/images/game-information.png" alt="Game Information Dialog" width="155" />
   </div>
 </div>
 <p><strong>Hover to zoom</strong></p>
@@ -55,7 +55,7 @@ Options → Settings → Game Information
 
 ---
 
-**Note:** This tab is only available if [Hide Advanced Settings](app_options.md#o5) is unchecked.
+**Note:** This tab is only available if [Hide Advanced Settings](app-options.md#o5) is unchecked.
 
 ---
 

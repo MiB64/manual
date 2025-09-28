@@ -20,15 +20,15 @@ There is no install (or uninstall) program.
 
 2. You will now see a folder named `MiB64 - 1.0`.
 
-3. That's it! Run `MiB64_1.0.exe` (depending on your Windows operating system).
+3. That's it! Run `MiB64-1.0.exe` (depending on your Windows operating system).
 
 ---
 
-All the necessary files to get you started and playing N64 games are included—apart from [the games themselves](installing_games.md).
+All the necessary files to get you started and playing N64 games are included—apart from [the games themselves](installing-games.md).
 
-You will be asked to choose a language. Read more about this [here](language_files.md).
+You will be asked to choose a language. Read more about this [here](language-files.md).
 
-If you're not sure what to do next, refer to the [Using MiB64](using_mib64.md) section of this manual.
+If you're not sure what to do next, refer to the [Using MiB64](using-mib64.md) section of this manual.
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

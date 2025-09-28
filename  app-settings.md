@@ -25,7 +25,7 @@ parent: Settings (Application)
 # Application Settings
 
 <div class="zoom-on-hover">
-  <img src="/manual/assets/images/config_settings.png" alt="Application Settings Screenshot" />
+  <img src="/manual/assets/images/config-settings.png" alt="Application Settings Screenshot" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 
@@ -36,15 +36,15 @@ All settings of the main MiB64 application (the executable) are explained here.
 Before you go any further, please read the [Beginners](beginners.md) section.  
 After you have, please select a topic:
 
-- [Settings](app_settings.md)
-- [Plugins](app_plugins.md)
-- [Directories](app_directories.md)
-- [Options](app_options.md)
-- [Game Selection](app_game_selection.md)
-- [Advanced](app_advanced.md)
-- [Game Settings](app_game_settings.md)
-- [Game Information](app_game_information.md)
-- [Language Selection](app_language.md)
+- [Settings](app-settings.md)
+- [Plugins](app-plugins.md)
+- [Directories](app-directories.md)
+- [Options](app-options.md)
+- [Game Selection](app-game-selection.md)
+- [Advanced](app-advanced.md)
+- [Game Settings](app-game-settings.md)
+- [Game Information](app-game-information.md)
+- [Language Selection](app-language.md)
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
