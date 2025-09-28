@@ -6,7 +6,7 @@ nav_order: 0
 <script>
   window.addEventListener("load", function () {
     window.open("https://www.mib64.net/", "_blank", "noopener,noreferrer");
-    window.location.href = "/manual/";
+    window.location.href = "/index";
   });
 </script>
 
