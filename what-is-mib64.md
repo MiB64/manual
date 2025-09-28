@@ -28,10 +28,10 @@ Title bar, file menu, system menu, options menu, help menu, status bar, and FPS 
 <table align="left" style="width: 100%">
   <tr>
     <td></td>
-    <td class="auto-style3" style="width: 110px">
+    <td class="auto-style3" style="width: 150px">
       <a href="introduction">Introduction</a>
     </td>
-    <td class="auto-style3" style="width: 200px">
+    <td class="auto-style3" style="width: 150px">
       <a href="whats-included">What's included</a>
     </td>
     <td></td>

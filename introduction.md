@@ -38,10 +38,10 @@ Please select a topic.
 <table align="left" style="width: 100%">
   <tr>
     <td></td>
-    <td class="auto-style3" style="width: 120px">
+    <td class="auto-style3" style="width: 150px">
       <a href="what-is-mib64">What is MiB64</a>
     </td>
-    <td class="auto-style3" style="width: 110px">
+    <td class="auto-style3" style="width: 150px">
       <a href="whats-included">What's included</a>
     </td>
     <td></td>

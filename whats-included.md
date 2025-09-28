@@ -37,10 +37,10 @@ Contributors are always welcome.
 <table align="left" style="width: 100%">
   <tr>
     <td></td>
-    <td class="auto-style3" style="width: 110px">
+    <td class="auto-style3" style="width: 150px">
       <a href="introduction">Introduction</a>
     </td>
-    <td class="auto-style3" style="width: 136px">
+    <td class="auto-style3" style="width: 150px">
       <a href="what-is-mib64">What is MiB64</a>
     </td>
     <td></td>
