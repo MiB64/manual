@@ -22,7 +22,7 @@ We hope you have as much fun using MiB64 as [we](credits) had making it :)
 
 ## Section Links
 
-- [MiB64 Homepage](mainsite)
+- [MiB64 Homepage](/manual/mainsite)
 - [MiB64 User Manual](index)
 - [Introduction](introduction)
   - [What is MiB64](what-is-mib64)
