@@ -77,6 +77,7 @@ If you meet all the [requirements](min_specs.html) and follow the advice contain
 documentation it should be possible for you to enjoy a wide selection of games, even perhaps  
 with superior graphics and extra features compared to the original system.
 
+<div style="text-align: center;">
 <div class="zoom-on-hover">
   <img src="/manual/asset/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
 </div>
@@ -135,6 +136,7 @@ Options menu – all configuration is done from here, including access to main s
 - Alist is basically the RSP/audio  
 - Idle is how much free time is left over on your system
 
+<div style="text-align: center;">
 <div class="zoom-on-hover">
   <img src="/manual/asset/images/help.png" alt="Help Menu" width="300" height="260" />
 </div>
