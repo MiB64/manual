@@ -13,16 +13,11 @@ permalink: /manual/mainsite.html
     color: #fff;
     font-family: sans-serif;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
   }
-  img {
+  .banner {
     max-width: 80%;
-    height: auto;
-    margin-bottom: 1em;
+    margin: 2em auto 1em;
+    display: block;
   }
   h2 {
     font-weight: normal;
@@ -30,7 +25,7 @@ permalink: /manual/mainsite.html
   }
 </style>
 
-<img src="/manual/asset/images/mib64_banner.png" alt="MiB64 Banner" />
+<img class="banner" src="/manual/asset/images/mib64_banner.png" alt="MiB64 Banner" />
 <h2>Off to MiB64 Homepage!</h2>
 
 <!-- ClauseEcho: Instant External Redirect -->
