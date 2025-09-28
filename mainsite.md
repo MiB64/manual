@@ -14,5 +14,5 @@ permalink: /manual/mainsite.html
 <script>
   setTimeout(function() {
     window.location.href = "https://www.mib64.net/";
-  }, 800); // 800ms delay to allow image to load
+  }, 400); // 400ms delay to allow image to load
 </script>
