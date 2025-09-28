@@ -22,6 +22,8 @@ We hope you have as much fun using MiB64 as [we](credits.html) had making it :)
 
 ## Section Links
 
+- [MiB64 Homepage](mainsite.md)
+- [MiB64 User Manual](index.md)
 - [Introduction](introduction.md)
   - [What is MiB64](what_is_mib64.md)
   - [What's included](whats_included.md)
