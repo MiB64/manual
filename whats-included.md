@@ -4,7 +4,9 @@ nav_order: 2
 parent: Introduction
 ---
 
-## What's Included in MiB64
+
+## <center>What's Included in MiB64</center>
+
 
 MiB64 1.0 is an inclusive archive. We recommend downloading MiB64 from the [MiB64 Releases](web-links#mib64-releases) for an official download from releases to ensure you have the complete and unaltered package.
 

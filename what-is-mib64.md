@@ -63,6 +63,8 @@ parent: Introduction
 }
 </style>
 
+## <center>What is MiB64</center>
+
 MiB64 (hereon also referred to as simply "the emulator" or "the software") is a software package  
 designed to emulate the Nintendo64 video game system on a Microsoft Windows based PC.  
 This means that it creates an environment on your PC under which real N64 software can run  

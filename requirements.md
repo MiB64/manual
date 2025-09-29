@@ -22,14 +22,15 @@ has_children: true
 }
 </style>
 
-# MiB64 System Requirements
-
+## <center>MiB64 System Requirements</center>
+<b>
 <div style="text-align: center;">
 <div class="zoom-on-hover">
   <img src="/manual/asset/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 </div>
+</b>
 <!-- ClauseEcho: Interactive Image -->
 
 This section explains the system requirements for MiB64. Please select a topic:
