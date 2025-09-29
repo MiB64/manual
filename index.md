@@ -24,8 +24,10 @@ has_children: true
 </style>
 
 <div style="text-align: center;">
-## Welcome to the MiB64 User Manual.
+<p><strong>Welcome to the MiB64 User Manual.
+</strong></p>
 </div>
+
 
 <div style="text-align: center;">
 <div class="zoom-on-hover">
