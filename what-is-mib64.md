@@ -162,7 +162,7 @@ from the graphics plugin.
       <a href="introduction.md">Introduction</a>
     </td>
     <td class="auto-style3" style="width: 150px">
-      <a href="whats_included.md">What's included</a>
+      <a href="whats-included.md">What's included</a>
     </td>
     <td></td>
   </tr>
