@@ -25,7 +25,6 @@ has_children: true
 </style>
 
 ## <center>Introduction.</center>
-</div>
 <b>
 <div style="text-align: center;">
 <div class="zoom-on-hover">
