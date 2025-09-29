@@ -24,7 +24,7 @@ has_children: true
 }
 </style>
 
-## <center>Introduction.</strong></center>
+## <center>Introduction.</center>
 </div>
 <b>
 <div style="text-align: center;">
