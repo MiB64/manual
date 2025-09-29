@@ -24,16 +24,16 @@ has_children: true
 }
 </style>
 
-<div style="text-align: center;">
-<p><strong>Introduction.</strong></p>
+## <center>Introduction.</strong></center>
 </div>
-
+<b>
 <div style="text-align: center;">
 <div class="zoom-on-hover">
   <img src="/manual/asset/images//main.png" alt="MiB64 Main Browser" width="300" height="260" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 </div>
+
 <!-- ClauseEcho: Interactive Image -->
 
 This section will take you through the basics – things that everyone should be aware of  

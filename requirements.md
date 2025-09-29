@@ -30,7 +30,7 @@ has_children: true
 </div>
 <p><strong>Hover to zoom</strong></p>
 </div>
-</b>
+
 <!-- ClauseEcho: Interactive Image -->
 
 This section explains the system requirements for MiB64. Please select a topic:
