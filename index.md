@@ -5,7 +5,34 @@ nav_order: 1
 has_children: true
 ---
 
-Welcome to the MiB64 User Manual.
+<style>
+.zoom-on-hover {
+  display: inline-block;
+  position: relative;
+}
+.zoom-on-hover img {
+  width: 300px;
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+  transform-origin: left center;
+  display: block;
+}
+.zoom-on-hover:hover img {
+  transform: scale(1.5);
+  z-index: 10;
+}
+</style>
+
+## Welcome to the MiB64 User Manual.
+
+<div style="text-align: center;">
+<div class="zoom-on-hover">
+  <img src="/manual/asset/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
+</div>
+<p><strong>Hover to zoom</strong></p>
+</div>
+<!-- ClauseEcho: Interactive Image -->
+
 
 New users are encouraged to read through this document (or as much of it as you can stomach) before using the program.  
 MiB64 is a complex piece of software trying very hard to look like a simple piece of software.  
