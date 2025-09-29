@@ -23,10 +23,7 @@ has_children: true
 }
 </style>
 
-<div style="text-align: center;">
-<p><strong>Welcome to the MiB64 User Manual.
-</strong></p>
-</div>
+## <center> <h1>Welcome to the MiB64 User Manual.</h1> </center>
 
 
 <div style="text-align: center;">
