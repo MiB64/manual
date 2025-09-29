@@ -28,10 +28,10 @@ has_children: true
 <div style="text-align: center;">
 <div class="zoom-on-hover">
   <img src="/manual/asset/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
-</div>
+</div></b>
 <p><strong>Hover to zoom</strong></p>
 </div>
-</b>
+
 <!-- ClauseEcho: Interactive Image -->
 
 
