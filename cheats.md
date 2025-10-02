@@ -1,7 +1,7 @@
 ---
 title: Using Cheats
-nav_order: 0
-permalink: /manual/mainsite.html
+nav_order: 7
+permalink: /manual/manual/cheats
 ---
 
 <p align="center">
