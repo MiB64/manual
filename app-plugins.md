@@ -1,6 +1,6 @@
 ---
 title: Plugins
-nav_order: 2
+nav_order: 1
 parent: Application Settings
 ---
 
@@ -39,7 +39,7 @@ parent: Application Settings
 }
 </style>
 
-# Selecting Plugins
+## <center>Selecting Plugins</center>
 
 <div class="zoom-pair">
   <div class="zoom-on-hover">
