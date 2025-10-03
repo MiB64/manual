@@ -54,9 +54,12 @@ nav_order: 9
 
 Options > Configure Audio Plugin
 
+<h3><a name="Settings Tab"><strong>Settings Tab</strong></a></h3>
+<b>
+
 <div style="text-align: center;">
   <div class="zoom-on-hover">
-  <img src="/manual/asset/images/azi2.png" alt="Advanced Tab" width="300" height="214" />
+  <img src="/manual/asset/images/azi1.png" alt="Settings Tab" width="300" height="214" />
   </div>
   <p><strong>Hover to zoom</strong></p>
 </div>
@@ -127,12 +130,13 @@ If you mute and then click OK and close, when you next load and un-check, it wil
 
 <h3><a name="Advanced_Tab"><strong>Advanced Tab</strong></a></h3>
 <b>
-<div class="zoom-on-hover" style="text-align: center;">
+<div style="text-align: center;">
+  <div class="zoom-on-hover">
   <img src="/manual/asset/images/azi3.png" alt="Advanced Tab" width="300" height="214" />
-  <p><strong>Hover to zoom</strong></p>
-</div>
-
-<!-- ClauseEcho: Interactive Image -->
+  </div>
+  <p><strong>Hover to zoom</strong></p></div>
+  </div>
+<!-- ClauseEcho: Interactive Images -->
 
 <a href="#Buffer_Options:">Buffer Options:</a>
 
