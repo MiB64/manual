@@ -162,7 +162,7 @@ If you mute and then click OK and close, when you next load and un-check, it wil
 </ul>
 
 <div style="text-align: center;">
-<h3 class="auto-style1"><a name="Buffer_Options:">Buffer Options</a></h3>
+<h2 class="auto-style1"><a name="Buffer_Options:">Buffer Options</a></h2>
 </div>
 
 <a name="Prevent_Buffer_Overruns"><strong>"Prevent Buffer Overruns (Checkbox)"</strong></a>
@@ -185,13 +185,17 @@ The number of milliseconds (frames) to buffer audio in the primary buffer (API l
 
 The number of buffers available to buffer the audio.
 
-<h3><a name="Emulation_Options"><strong><em>Emulation Options</em></strong></a></h3>
+<div style="text-align: center;">
+<h2 class="auto-style1"><a name="Emulation_Options">Emulation Options</a></h2>
+</div>
 
 <a name="Emulate Audio Interface"><strong>"Emulate Audio Interface (Checkbox)"</strong></a>
 
 This setting is disabled (greyed out) and serves no function currently. Emulate Audio Interface will always be enabled and will only be skipped when the emulator does its own audio emulation.
 
-<h3><a name="Playback_Tweaks"><strong><em>Playback Tweaks</em></strong></a></h3>
+<div style="text-align: center;">
+<h2 class="auto-style1"><a name="Playback_Tweaks">Playback Tweaks</a></h2>
+</div>
 
 <a name="Frequency"><strong>"Frequency (Greyedout)"</strong></a>
 
