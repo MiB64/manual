@@ -78,20 +78,21 @@ All settings of the main MiB64 application (the executable) are explained here.
 Before you go any further, please read the [Beginners](beginners) section.  
 After you have, please select a topic:
 
+
 <table align="center">
   <tr>
-    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
-    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
-    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
-    <td style="text-align: center;"><a href="app_options">Options</a></td>
-    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+    <td style="text-align: center;"><a href="app-settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app-plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app-directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app-options">Options</a></td>
+    <td style="text-align: center;"><a href="app-game-selection">Game Selection</a></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
-    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
-    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
-    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
-    <td style="text-align: center;">&nbsp;</td> <!-- Empty cell for symmetry -->
+    <td style="text-align: center;"><a href="app-advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app-game-settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app-game-information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app-language">Language Selection</a></td>
+    <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>
 
