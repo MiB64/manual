@@ -54,9 +54,7 @@ nav_order: 9
 
 Options > Configure Audio Plugin
 
-<div style="text-align: center;">
-<h3 class="auto-style1"><strong>Settings Tab</strong></a></h3>
-</div>
+## <center>Settings Tab</center>
 <b>
 <div style="text-align: center;">
   <div class="zoom-on-hover">
