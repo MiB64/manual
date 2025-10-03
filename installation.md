@@ -20,35 +20,31 @@ Please select a topic.
 
 ---
 
-<table align="center" style="width: 100%">
+<table align="center">
   <tr>
-    <td class="auto-style3" style="width: 145px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="installation">Installation</a>
     </td>
-    <td class="auto-style3" style="width: 136px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="preparing">Preperation</a>
     </td>
-    <td class="auto-style3" style="width: 145px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="standard-install">Standard Install</a>
     </td>
-    <td class="auto-style3" style="width: 145px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="installing-games">Installing Games</a>
     </td>
-  </tr>
-  <tr>
-    <td class="auto-style3" style="width: 145px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="updating-files">Keeping Current</a>
     </td>
-    <td class="auto-style3" style="width: 136px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="additional-plugins">Adding Plugins</a>
     </td>
-    <td class="auto-style3" style="width: 145px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="backing-up">Backing up</a>
     </td>
-    <td></td>
   </tr>
 </table>
-
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
