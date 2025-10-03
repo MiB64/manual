@@ -116,20 +116,20 @@ If disabled, the cheat code selection is lost as soon as you load a new ROM, or 
 ### <a name="o4"></a>“Disable AboutBox Audio”
 
 - default setting: disabled  
-- generally recommended setting: user prefference
+- generally recommended setting: user preference
 
-If enabled, The MiB64 'Epic Music' will not play! This option is available as a user prefference to enable / disable the audio in any way they wish to ....
+If enabled, The MiB64 'Epic Music' will not play! This option is available as a user preference to enable / disable the audio in any way they wish to ....
 
-If disabled, The MiB64 'Epic Music' will play in all its glory! This option again is available as a user prefference to enable / disable the audio in any way they wish to ....
+If disabled, The MiB64 'Epic Music' will play in all its glory! This option again is available as a user preference to enable / disable the audio in any way they wish to ....
 
 ---
 
 ### <a name="o5"></a>“Hide Advanced Settings”
 
-- default setting: enabled  
-- generally recommended setting: beginners should keep this enabled, advanced users should disable it.
+- default setting: disabled 
+- generally recommended setting: user preference.
 
-This is a very important control and new in v1.5. When enabled, most of MiB64's other controls are hidden from the user. This is because casual fiddling by inexperienced users tends to result in people getting themselves into a mess. It is therefore highly recommended that new users, people with low technical/emulator expertise, and young children, to give a few examples, use the application with this option enabled - the emulator runs just as well will this on or off!
+When enabled, most of MiB64's other controls are hidden from the user. This is because casual fiddling by inexperienced users tends to result in people getting themselves into a mess. It is therefore highly recommended that new users, people with low technical/emulator expertise, and young children, to give a few examples, use the application with this option enabled - the emulator runs just as well will this on or off!
 
 ---
 
