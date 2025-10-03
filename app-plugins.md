@@ -40,7 +40,8 @@ parent: Settings (Application)
 </style>
 
 ## <center>Selecting Plugins</center>
-
+<b>
+<div style="text-align: center;">
 <div class="zoom-pair">
   <div class="zoom-on-hover">
     <img src="/manual/asset/images//config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
@@ -50,6 +51,7 @@ parent: Settings (Application)
   </div>
 </div>
 <p><strong>Hover to zoom</strong></p>
+</div>
 
 Options → Settings
 
