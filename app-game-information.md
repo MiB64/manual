@@ -16,12 +16,10 @@ parent: Settings (Application)
   width: max-content;
   text-align: left;
 }
-
 .zoom-on-hover {
   display: inline-block;
   position: relative;
 }
-
 .zoom-on-hover img {
   display: block;
   cursor: zoom-in;
@@ -30,21 +28,18 @@ parent: Settings (Application)
   position: relative;
   z-index: 1;
 }
-
 .zoom-on-hover:hover img {
   transform: scale(1.5);
 }
-
 .zoom-pair .zoom-on-hover:first-child:hover img {
   z-index: 9999;
 }
-
 .zoom-pair .zoom-on-hover:last-child:hover img {
   z-index: 100;
 }
 </style>
 
-## <center>Configuring Game Information</center>
+## <center>Configuration: Game Information</center>
 <b>
 <div style="text-align: center;">
   <div class="zoom-pair">
@@ -58,81 +53,99 @@ parent: Settings (Application)
   <p><strong>Hover to zoom</strong></p>
 </div>
 
+<p style="text-align: center;">This tab is only available if <a href="app-options">Hide Advanced Settings</a> is unchecked!</p>
+
 <!-- ClauseEcho: Interactive Images -->
 
-This tab is only available if [Hide Advanced Settings](app_options) is unchecked!
+---
+
+Options > Settings > Game Information
 
 ---
 
-Options → Settings → Game Information
+### Controls available:
 
----
-
-### Controls Available
-
-1. <a name="o1">Game Status</a> (drop-down menu)  
-2. <a name="o2">Players</a> (drop-down menu)  
-3. <a name="o3">Force Feedback</a> (drop-down menu)  
-4. <a name="o4">Core Note</a> (text box)  
-5. <a name="o5">Plugin Note</a> (text box)  
-6. <a name="o6">Game Language</a> (text box)  
-7. <a name="o7">User Note</a> (text box)
+1. [Game Status](#o1) (drop-down menu)  
+2. [Players](#o2) (drop-down menu)  
+3. [Force Feedback](#o3) (drop-down menu)  
+4. [Core Note](#o4) (text box)  
+5. [Plugin Note](#o5) (text box)  
+6. [Game Language](#o6) (text box)  
+7. [User Note](#o7) (text box)
 
 ---
 
 ### Points
 
-- Changes made here affect the MiB64 Game Database Settings (`MiB64.rds`)  
-- You may edit this file directly in a text editor (advanced users only)  
-- To restore defaults, replace `MiB64.rdb` from the original archive  
-- There is no “reset to defaults” button
+- When you make changes here, you are actually editing the MiB64 Game Database Settings (the file `MiB64.rds`). You can also edit this file directly in a text editor – advanced users only!  
+- If you get in a mess, the only way to go back to the supplied settings is to replace `MiB64.rdb` (from the original downloaded archive).  
+- There is no "reset to defaults" button or similar.
 
 ---
 
-### Field Descriptions
+## "Game Status" <a name="o1"></a>
 
-**<a name="o1">Game Status</a>**  
-Drop-down menu listing all status categories from the RDS. To add/edit, modify the RDS manually.
+This drop-down menu shows a list of all the status categories found in the RDS. You may choose any of these you find correct for a particular game. To add or edit categories, you must edit the RDS in a text editor.
 
-**<a name="o2">Players</a>**  
-Drop-down menu showing supported player counts from the RDI. To add/edit, modify the RDI manually.
+---
 
-**<a name="o3">Force Feedback</a>**  
-Drop-down menu with Yes/No for rumble support.
+## "Players" <a name="o2"></a>
 
-**<a name="o4">Core Note</a>**  
-Text field editing `Core Note=` for the current game in the RDS.
+This drop-down menu shows a list of the amount of players a game supports found in the RDI. You may choose any of these. To add or edit categories, you must edit the RDI in a text editor.
 
-**<a name="o5">Plugin Note</a>**  
-Text field editing `Plugin Note=` for the current game in the RDS.
+---
 
-**<a name="o6">Game Language</a>**  
-Text field editing `GameLanguage=` in the RDI. Recommended format: English, French, German, etc.
+## "Force Feedback" <a name="o3"></a>
 
-**<a name="o7">User Note</a>**  
-Text field for personal notes stored in the RDN. Displayed in the Game Browser if enabled.
+This drop-down menu shows a choice of Yes or No for if a game supports Force Feedback (Rumble).
 
-> You must refresh the Game Browser for changes to take effect.
+---
+
+## "Core Note" <a name="o4"></a>
+
+This is simply a text field which edits the line `Core Note=` for the current game in the RDS.
+
+---
+
+## "Plugin Note" <a name="o5"></a>
+
+This is simply a text field which edits the line `Plugin Note=` for the current game in the RDS.
+
+---
+
+## "Game Language" <a name="o6"></a>
+
+This is simply a text field which edits the line `GameLanguage=` for the current game in the RDI. It is best to write and display them like: English, French, German etc.
+
+---
+
+## "User Note" <a name="o7"></a>
+
+This is simply a text field which adds and displays a personal note (`User Note`) for the current game in the RDN. It is purely for you the user to make notes to display in the Game Browser if you choose to do so.
+
+---
+
+You must refresh the Game Browser for any changes to any of these fields to take effect.
 
 ---
 
 <table align="center">
   <tr>
-    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
-    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
-    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
-    <td style="text-align: center;"><a href="app_options">Options</a></td>
-    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+    <td style="text-align: center;"><a href="app-settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app-plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app-directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app-options">Options</a></td>
+    <td style="text-align: center;"><a href="app-game-selection">Game Selection</a></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
-    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
-    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
-    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;"><a href="app-advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app-game-settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app-game-information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app-language">Language Selection</a></td>
     <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Game Information Node Complete -->
+<!-- ClauseEcho: app-game-information.md Anchor Fidelity Restored -->
