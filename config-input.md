@@ -84,21 +84,24 @@ To access all tabs, you must uncheck the **Hide Advanced Settings** checkbox.
 
 ---
 
-## <center>Navigation</center>
-<b>
-
-<table align="center">
+<table align="center" style="border-collapse: collapse; border: 1px solid #ccc;">
   <tr>
     <td style="text-align: center;"><a href="config_nrage_controls.html">Controls</a></td>
     <td style="text-align: center;"><a href="config_nrage_devices.html">Devices</a></td>
     <td style="text-align: center;"><a href="config_nrage_mod.html">Modifiers</a></td>
     <td style="text-align: center;"><a href="config_nrage_controller_pak.html">Controller Pak</a></td>
     <td style="text-align: center;"><a href="config_nrage_trouble_rumble.html">Rumble Troubleshoot</a></td>
+  </tr>
+  <tr>
     <td style="text-align: center;"><a href="config_nrage_faq.html">General FAQ</a></td>
     <td style="text-align: center;"><a href="config_nrage_shortcuts.html">Shortcuts</a></td>
+    <td style="text-align: center;">&nbsp;</td>
+    <td style="text-align: center;">&nbsp;</td>
+    <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: config_input.md Anchor Fidelity Restored -->
+<!-- ClauseEcho: config-input.md Navigation Table Fidelity Restored -->
+
