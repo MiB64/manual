@@ -44,7 +44,7 @@ parent: Settings (Application)
 <div style="text-align: center;">
 <div class="zoom-pair">
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images//config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    <img src="/manual/asset/images//config-settings.png" alt="Config Settings Dialog" width="300" height="207" />
   </div>
   <div class="zoom-on-hover">
     <img src="/manual/asset/images//plugins.png" alt="Plugins Dialog" width="155" />
@@ -77,10 +77,10 @@ You’ll need to read about other plugins, try them, ask knowledgeable users onl
 MiB64 supports one plugin of each type at a time.  
 Plugins cannot be assigned per-game.
 
-1. [Video plugin](#video_plugin_selection)
-2. [Audio plugin](#audio_plugin_selection)
-3. [Input plugin](#input_plugin_selection)
-4. [RSP plugin](#rsp_plugin_selection)
+1. [Video plugin](#video-plugin-selection)
+2. [Audio plugin](#audio-plugin-selection)
+3. [Input plugin](#input-plugin-selection)
+4. [RSP plugin](#rsp-plugin-selection)
 
 If none of the reasons to change plugins apply to you, stick with the defaults.
 
@@ -90,12 +90,12 @@ If not, the button will be greyed out. Same applies to configuration dialogs.
 
 ---
 
-## <a name="video_plugin_selection"></a>Video Plugin Selection
+## <a name="video-plugin-selection"></a>Video Plugin Selection
 
 **Points:**
 
 1. The video plugin interfaces with MiB64’s RSP.  
-   You must have the correct [RSP configuration](config_rsp) for the plugin type (HLE or LLE).  
+   You must have the correct [RSP configuration](config-rsp) for the plugin type (HLE or LLE).  
    Even with HLE, the RSP may pre-process graphics (e.g. Zelda backdrops).  
    At the time of writing, all N64 emulators use HLE video—true LLE is not available.
 
@@ -107,14 +107,14 @@ If not, the button will be greyed out. Same applies to configuration dialogs.
 
 ---
 
-## <a name="audio_plugin_selection"></a>Audio Plugin Selection
+## <a name="audio-plugin-selection"></a>Audio Plugin Selection
 
 **Points:**
 
 1. The audio plugin interfaces with MiB64’s RSP.  
-   You must have the correct [RSP configuration](config_rsp) for the plugin type (HLE or LLE).
+   You must have the correct [RSP configuration](config-rsp) for the plugin type (HLE or LLE).
 
-Open the [audio plugin configuration dialog](config_audio) from the Options menu.
+Open the [audio plugin configuration dialog](config-audio) from the Options menu.
 
 **Choose the No Audio plugin if:**
 
@@ -128,14 +128,14 @@ For compatibility, it’s better to turn volume down.
 
 ---
 
-## <a name="input_plugin_selection"></a>Input Plugin Selection
+## <a name="input-plugin-selection"></a>Input Plugin Selection
 
 **Points:**
 
 1. The input plugin interfaces directly with the emulator core.
 2. It handles input, MemPak (if supported), and other accessories like Transfer Pak or Voice Pak.
 
-Open the [input plugin configuration dialog](config_input) from the Options menu.
+Open the [input plugin configuration dialog](config-input) from the Options menu.
 
 **Choose a non-default input plugin if:**
 
@@ -148,7 +148,7 @@ Open the [input plugin configuration dialog](config_input) from the Options menu
 
 ---
 
-## <a name="rsp_plugin_selection"></a>RSP Plugin Selection
+## <a name="rsp-plugin-selection"></a>RSP Plugin Selection
 
 **Points:**
 
@@ -156,7 +156,7 @@ Open the [input plugin configuration dialog](config_input) from the Options menu
 2. MiB64 includes an internal RSP with two cores.
 3. The RSP interfaces with the core, audio, and video plugins (three-stage system).
 
-Open the [RSP plugin configuration dialog](config_rsp) from the Options menu.
+Open the [RSP plugin configuration dialog](config-rsp) from the Options menu.
 
 ---
 
@@ -173,17 +173,17 @@ If any plugin fails to initialize, you’ll receive an error—consult plugin do
 
 <table align="center">
   <tr>
-    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
-    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
-    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
-    <td style="text-align: center;"><a href="app_options">Options</a></td>
-    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+    <td style="text-align: center;"><a href="app-settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app-plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app-directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app-options">Options</a></td>
+    <td style="text-align: center;"><a href="app-game-selection">Game Selection</a></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
-    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
-    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
-    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;"><a href="app-advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app-game-settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app-game-information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app-language">Language Selection</a></td>
     <td style="text-align: center;">&nbsp;</td> <!-- Empty cell for symmetry -->
   </tr>
 </table>
