@@ -1,7 +1,8 @@
 ---
-title: Application Settings
-nav_order: 1
-parent: Settings (Application)
+title: Settings (Application)
+nav_order: 5
+parent: MiB64 User Manual
+has_children: true
 ---
 
 <style>
@@ -36,15 +37,44 @@ All settings of the main MiB64 application (the executable) are explained here.
 Before you go any further, please read the [Beginners](beginners) section.  
 After you have, please select a topic:
 
-- [Settings](app_settings)
-- [Plugins](app_plugins)
-- [Directories](app_directories)
-- [Options](app_options)
-- [Game Selection](app_game_selection)
-- [Advanced](app_advanced)
-- [Game Settings](app_game_settings)
-- [Game Information](app_game_information)
-- [Language Selection](app_language)
+<table align="center">
+  <tr>
+    <td style="text-align: center;">
+      <a href="app_settings">Settings</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_plugins">Plugins</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_directories">Directories</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_options">Options</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <a href="app_game_selection">Game Selection</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_advanced">Advanced</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_game_settings">Game Settings</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_game_information">Game Information</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <a href="app_language">Language Selection</a>
+    </td>
+    <td style="text-align: center;">&nbsp;</td>
+    <td style="text-align: center;">&nbsp;</td>
+    <td style="text-align: center;">&nbsp;</td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
