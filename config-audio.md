@@ -127,7 +127,7 @@ This checkbox is a simple toggle to mute or unmute sound.
 
 If you mute and then click OK and close, when you next load and un-check, it will still be on zero. Use the volume slider to adjust the volume once again to your desired setting.
 
-## <center>Advanced_Tab</center>
+## <center>Advanced Tab</center>
 <b>
 <div style="text-align: center;">
   <div class="zoom-on-hover">
@@ -162,7 +162,7 @@ If you mute and then click OK and close, when you next load and un-check, it wil
 </ul>
 
 <div style="text-align: center;">
-<h2 class="auto-style1"><a name="Buffer_Options:">Buffer Options</a></h2>
+<h3 class="auto-style1"><a name="Buffer_Options:">Buffer Options</a></h3>
 </div>
 
 <a name="Prevent_Buffer_Overruns"><strong>"Prevent Buffer Overruns (Checkbox)"</strong></a>
@@ -186,7 +186,7 @@ The number of milliseconds (frames) to buffer audio in the primary buffer (API l
 The number of buffers available to buffer the audio.
 
 <div style="text-align: center;">
-<h2 class="auto-style1"><a name="Emulation_Options">Emulation Options</a></h2>
+<h3 class="auto-style1"><a name="Emulation_Options">Emulation Options</a></h3>
 </div>
 
 <a name="Emulate Audio Interface"><strong>"Emulate Audio Interface (Checkbox)"</strong></a>
@@ -194,7 +194,7 @@ The number of buffers available to buffer the audio.
 This setting is disabled (greyed out) and serves no function currently. Emulate Audio Interface will always be enabled and will only be skipped when the emulator does its own audio emulation.
 
 <div style="text-align: center;">
-<h2 class="auto-style1"><a name="Playback_Tweaks">Playback Tweaks</a></h2>
+<h3 class="auto-style1"><a name="Playback_Tweaks">Playback Tweaks</a></h3>
 </div>
 
 <a name="Frequency"><strong>"Frequency (Greyedout)"</strong></a>
