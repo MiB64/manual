@@ -161,7 +161,7 @@ If you mute and then click OK and close, when you next load and un-check, it wil
   <li><a href="#Disallow Thread  Yielding XA2">Disallow Thread Yielding XA2 (Checkbox)</a></li>
 </ul>
 
-<center><a name="Buffer_Options:"><em>Buffer Options</em></a></h3></center>
+<center><a name="Buffer_Options:"><em>Buffer Options</em></a></center>
 <b>   
 <a name="Prevent_Buffer_Overruns"><strong>"Prevent Buffer Overruns (Checkbox)"</strong></a>
 
