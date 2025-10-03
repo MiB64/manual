@@ -4,7 +4,7 @@ nav_order: 1
 parent: Installation
 ---
 
-# Preparing Your System for MiB64
+<h1 style="text-align:center">Preparing Your System for MiB64</h1>
 
 Ideally do this *before* you start using MiB64.  
 If you haven't, please read this page now anyway.
@@ -22,6 +22,32 @@ If you know your PC is not stable generally—maybe it locks up occasionally whi
 
 The emulator pushes system components hard.  
 Although it will not *cause* any damage, any existing stability problems your PC may have are likely to show up when you start using the emulator.
+
+<table align="center">
+  <tr>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="installation">Installation</a>
+    </td>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="preparing">Preperation</a>
+    </td>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="standard-install">Standard Install</a>
+    </td>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="installing-games">Installing Games</a>
+    </td>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="updating-files">Keeping Current</a>
+    </td>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="additional-plugins">Adding Plugins</a>
+    </td>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="backing-up">Backing up</a>
+    </td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
