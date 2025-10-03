@@ -1,7 +1,7 @@
 ---
 title: Plugins
 nav_order: 1
-parent: Application Settings
+parent: Settings (Application)
 ---
 
 <style>
@@ -168,6 +168,40 @@ If a game is running, you’ll be prompted to reset it—plugins cannot be chang
 
 Your plugin selection is saved until changed again.  
 If any plugin fails to initialize, you’ll receive an error—consult plugin documentation for help.
+
+<table align="center">
+  <tr>
+    <td style="text-align: center;">
+      <a href="app_settings">Settings</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_plugins">Plugins</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_directories">Directories</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_options">Options</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_game_selection">Game Selection</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <a href="app_advanced">Advanced</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_game_settings">Game Settings</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_game_information">Game Information</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="app_language">Language Selection</a>
+    </td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
