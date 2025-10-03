@@ -49,7 +49,7 @@ parent: Settings (Application)
 
 <div style="text-align: center;">
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/lang_4.png" alt="Language Selection Prompt" width="220" />
+    <img src="/manual/asset/images/lang_4.png" alt="Language Selection Prompt" width="300" />
   </div>
   <p><strong>Hover to zoom</strong></p>
 </div>
