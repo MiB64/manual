@@ -261,7 +261,7 @@ Possible settings: checked or unchecked
 - default setting: unchecked
 - generally recommended setting: unchecked (to avoid failure)
 
-This option was added in v1.5 simply as a performance feature - enabling it gives typically 5% more speed from the core, however a large numbe of games will not be stable with it enabled, therefore it's not set often. Try it if you are desperate for speed, but for most people most of the time it's recommended you leave it off.
+This is simply as a performance feature - enabling it gives typically 5% more speed from the core, however a large numbe of games will not be stable with it enabled, therefore it's not set often. Try it if you are desperate for speed, but for most people most of the time it's recommended you leave it off.
 
 ---
 
