@@ -34,7 +34,7 @@ Please select a topic.
     <td class="auto-style3" style="width: 145px">
       <a href="installing-games">Installing Games</a>
     </td>
-    <td style="width: 51px"></td>
+    <td></td>
   </tr>
   <tr>
     <td class="auto-style3" style="width: 145px">
@@ -46,7 +46,8 @@ Please select a topic.
     <td class="auto-style3" style="width: 145px">
       <a href="backing-up">Backing up</a>
     </td>
-    <td style="width: 51px"></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
