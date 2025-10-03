@@ -65,7 +65,7 @@ On load, if `/Lang` folder is present in the root directory:
 
 The first time MiB64 is started, it asks you to choose a language if the `/Lang` folder is present. The choices available depend on the contents of that folder.
 
-MiB64 v1.0 shipped with a reasonable—but incomplete—set of translations (thanks to all contributors!). If your desired language is missing, you can [seek an updated file](updating_files) or [create/edit one yourself](language_files).
+MiB64 v1.0 shipped with a reasonable—but incomplete—set of translations (thanks to all contributors!). If your desired language is missing, you can [seek an updated file](updating-files) or [create/edit one yourself](language-files).
 
 ---
 
@@ -84,17 +84,17 @@ To change languages later, use the Language menu under the File menu in MiB64. C
 
 <table align="center">
   <tr>
-    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
-    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
-    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
-    <td style="text-align: center;"><a href="app_options">Options</a></td>
-    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+    <td style="text-align: center;"><a href="app-settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app-plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app-directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app-options">Options</a></td>
+    <td style="text-align: center;"><a href="app-game-selection">Game Selection</a></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
-    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
-    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
-    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;"><a href="app-advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app-game-settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app-game-information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app-language">Language Selection</a></td>
     <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>
