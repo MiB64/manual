@@ -39,7 +39,8 @@ nav_order: 8
 </style>
 
 ## <center>Configuration: Icepir8's Legacy LLE Graphics plugin</center>
-
+<b>  
+<div style="text-align: center;">  
 <div class="zoom-pair">
   <div class="zoom-on-hover">
     <img src="/manual/asset/images/config_gfx2.png" alt="Config Video Dialog" width="300" height="217" />
@@ -48,7 +49,8 @@ nav_order: 8
     <img src="/manual/asset/images/Icepir8sMiBLLE.png" alt="Config Icepir8s MiB LLE Plugin" width="150" />
   </div>
 </div>
-<p style="text-align: center;"><strong>Hover to zoom</strong></p>
+<p><strong>Hover to zoom</strong></p>
+</div>
 
 <!-- ClauseEcho: Interactive Images -->
 
@@ -198,8 +200,6 @@ When Enable VSync is checked, rendering speed can be impacted. If a frame finish
 
 Settings from the plugin are saved globally, in the Icepir8LLE-config.ini file.
 
-<a href="#">Return to the top</a>
-
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: MiB64 Config Video Protocol Complete -->
+<!-- ClauseEcho: Config Video Protocol Complete -->
