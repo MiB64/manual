@@ -134,7 +134,7 @@ If you mute and then click OK and close, when you next load and un-check, it wil
   <img src="/manual/asset/images/azi3.png" alt="Advanced Tab" width="300" height="214" />
   </div>
   <p><strong>Hover to zoom</strong></p></div>
-  </div>
+
 <!-- ClauseEcho: Interactive Images -->
 
 <a href="#Buffer_Options:">Buffer Options:</a>
