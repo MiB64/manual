@@ -92,18 +92,18 @@ The following customisations can be made from within the browser itself:
 
 <table align="center">
   <tr>
-    <td class="auto-style3"><a href="app_plugins">Plugins</a></td>
-    <td class="auto-style3"><a href="app_directories">Directories</a></td>
-    <td class="auto-style3"><a href="app_options">Options</a></td>
-    <td class="auto-style3"><a href="app_game_selection">Game Selection</a></td>
-    <td class="auto-style3"><a href="app_advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app_options">Options</a></td>
+    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
   </tr>
   <tr>
-    <td class="auto-style3"><a href="app_game_settings">Game Settings</a></td>
-    <td class="auto-style3"><a href="app_game_information">Game Information</a></td>
-    <td class="auto-style3"><a href="app_language">Language Selection</a></td>
-    <td class="auto-style3">&nbsp;</td>
-    <td class="auto-style3">&nbsp;</td>
+    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;">&nbsp;</td> <!-- Empty cell for symmetry -->
   </tr>
 </table>
 
