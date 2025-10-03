@@ -120,7 +120,8 @@ This checkbox is a simple toggle to mute or unmute sound.
 If you mute and then click OK and close, when you next load and un-check, it will still be on zero. Use the volume slider to adjust the volume once again to your desired setting.
 
 <h3><a name="Advanced_Tab"><strong>Advanced Tab</strong></a></h3>
-
+<b>    
+<div style="text-align: center;">
 <div class="zoom-on-hover" style="text-align: center;">
   <img src="/manual/asset/images/azi3.png" alt="Advanced Tab" width="300" height="214" />
   <p><strong>Hover to zoom</strong></p>
