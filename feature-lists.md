@@ -4,23 +4,23 @@ nav_order: 2
 parent: System Requirements
 ---
 
-# Feature Lists
+## <center>Feature Lists</center>
 
-This page is intended for more advanced or curious users.  
-If you meet the [system requirements](min_specs), then you already have everything covered and don't need to worry about this.
+This page is intended for more advanced or curious users only.  
+If you meet the [minimum specs](min-specs), you already have everything covered and don’t need to worry about this!
 
 MiB64 is compiled with Microsoft Visual Studio 19.
 
-MiB64 uses the following extended CPU instruction sets if they are detected on your system:
+MiB64 uses the following extended CPU instruction sets if detected on your system:
 
-- MMX
-- SSE
-- 3Dnow!
-- SSE2
-- SSSE3
-- SSE4.1
-- AVX
-- AVX2
+- MMX  
+- SSE  
+- 3Dnow!  
+- SSE2  
+- SSSE3  
+- SSE4.1  
+- AVX  
+- AVX2  
 - LZCNT
 
 These are mostly used in the video plugin and RSP.  
@@ -28,85 +28,90 @@ The emulator is tested to run without any of these instructions, but a minimum o
 
 ---
 
-## Jabo's Direct3D Plugin TextureOpCaps
+Jabo’s Direct3D plugins use the following **TextureOpCaps**.  
+Your hardware and drivers must support **all** of these features for good quality emulation.  
+Which ones are used varies from game to game:
 
-Your hardware and drivers must support **all** of the following features for good quality emulation.  
-Exactly which are used varies from game to game.
-
-- DISABLE
-- SELECTARG1
-- SELECTARG2
-- MODULATE
-- MODULATE2X
-- MODULATE4X
-- ADD
-- ADDSIGNED
-- ADDSIGNED2X
-- SUBTRACT
-- ADDSMOOTH
-- BLENDDIFFUSEALPHA
-- BLENDTEXTUREALPHA
-- BLENDFACTORALPHA
-- BLENDTEXTUREALPHAPM
-- BLENDCURRENTALPHA
-- MODULATEALPHA_ADDCOLOR
-- MODULATECOLOR_ADDALPHA
-- MODULATEINVALPHA_ADDCOLOR
+- DISABLE  
+- SELECTARG1  
+- SELECTARG2  
+- MODULATE  
+- MODULATE2X  
+- MODULATE4X  
+- ADD  
+- ADDSIGNED  
+- ADDSIGNED2X  
+- SUBTRACT  
+- ADDSMOOTH  
+- BLENDDIFFUSEALPHA  
+- BLENDTEXTUREALPHA  
+- BLENDFACTORALPHA  
+- BLENDTEXTUREALPHAPM  
+- BLENDCURRENTALPHA  
+- MODULATEALPHA_ADDCOLOR  
+- MODULATECOLOR_ADDALPHA  
+- MODULATEINVALPHA_ADDCOLOR  
 - MODULATEINVCOLOR_ADDALPHA
 
-We no longer recommend the use of Jabo Plugins as they are outdated.  
+We no longer recommend the use of Jabo Plugins—they are outdated.  
 Watch this space for updated Ice-related specs.
 
-You can see which features your hardware supports by downloading and running the Microsoft DirectX Caps Viewer.  
-These features were not present in a large number of installed systems at the time of release.
+You can check your hardware support by downloading and running the **Microsoft DirectX Caps Viewer**.  
+These features were not present in many systems at the time of release.
 
 ---
 
-## Graphics Plugin Requirements
+Most other graphics plugin requirements are fairly standard, such as:
 
-Most requirements are already fairly standard, such as the ability to do at least two textures per pass.  
-Multipass was removed in v1.2 because it's not possible to render fog properly with it.
-
-- Texture memory usage is efficient; at least 16MB graphics RAM is suggested.
-- The internal geometry pipeline makes extensive use of SSE and some use of 3Dnow!
-- Hardware clipping support is important if using the internal pipeline.
-- Lighting is always done internally regardless of pipeline.
-
----
-
-## Framebuffer Performance
-
-Primary framebuffer emulation performance depends on how fast your hardware handles memory copy operations.  
-These are not commonly used by computer games.
-
-- Matrox cards are unusually fast at this (despite poor 3D feature set).
-- nVidia cards are relatively slow.
-- A very fast system is required for framebuffer use to be viable.
+- Ability to do at least two textures per pass  
+  (Multipass was removed in v1.2 due to fog rendering issues)  
+- Efficient texture memory usage (16MB graphics RAM suggested)  
+- Internal geometry pipeline uses SSE and some 3Dnow!  
+- Hardware clipping support is important if using the internal pipeline  
+- Lighting is always done internally
 
 ---
 
-## OpenGL Plugin Notes
-
-The OpenGL plugin (not included in v1.4+) requires an nVidia TNT or higher card.  
-It uses proprietary extensions not part of the OGL 1.2/1.3 spec.
-
-This plugin is mostly experimental and rarely superior to Direct3D.  
-This is due to development path, not inherent API differences.
+**Framebuffer Emulation Performance**  
+This depends heavily on your system’s memory copy speed.  
+Matrox cards were unusually fast (despite poor 3D features), while nVidia was relatively slow at the time.  
+A very fast system is required for viable framebuffer emulation.
 
 ---
 
-## Input Plugin Notes
-
-- Secondary video devices (e.g. 3dfx Voodoo1/2) are not supported.
-- The default input plugin uses DirectInput and is generally flexible.
-- N-Rage Legacy plugin supports more controls than the default.
+**OpenGL Plugin Notes**  
+(Not included in v1.4+)  
+Requires an nVidia TNT or higher card due to proprietary extensions.  
+This plugin is experimental and rarely superior to Direct3D.  
+This is due to development path—not API superiority.
 
 ---
 
-## Navigation
+**Unsupported Devices**  
+Secondary video devices (e.g. 3dfx Voodoo1/2) are not supported.
 
-- [Back to Requirements](requirements)
-- [Next: Minimum Specs](min_specs)
+**Input Plugin Notes**  
+The default input plugin uses DirectInput and is generally flexible.  
+However, it doesn’t support all DX controls.  
+The **N-Rage Legacy plugin** supports more control types.
+
+---
+
+<table align="left" style="width: 100%">
+  <tr>
+    <td></td>
+    <td class="auto-style3" style="width: 145px">
+      <a href="requirements">Requirements</a>
+    </td>
+    <td class="auto-style3" style="width: 136px">
+      <a href="feature-lists">Feature Lists</a>
+    </td>
+    <td class="auto-style3" style="width: 145px">
+      <a href="min-specs">Minimum Specs</a>
+    </td>
+    <td></td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
