@@ -47,7 +47,7 @@ parent: Settings (Application)
     <img src="/manual/asset/images//config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
   </div>
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images//plugins_png" alt="Plugins Dialog" width="155" />
+    <img src="/manual/asset/images//plugins.png" alt="Plugins Dialog" width="155" />
   </div>
 </div>
 <p><strong>Hover to zoom</strong></p>
@@ -90,7 +90,7 @@ If not, the button will be greyed out. Same applies to configuration dialogs.
 
 ---
 
-## <a name="video-plugin-selection"></a>Video Plugin Selection
+## <a name="video_plugin_selection"></a>Video Plugin Selection
 
 **Points:**
 
@@ -107,7 +107,7 @@ If not, the button will be greyed out. Same applies to configuration dialogs.
 
 ---
 
-## <a name="audio-plugin-selection"></a>Audio Plugin Selection
+## <a name="audio_plugin_selection"></a>Audio Plugin Selection
 
 **Points:**
 
@@ -128,7 +128,7 @@ For compatibility, it’s better to turn volume down.
 
 ---
 
-## <a name="input-plugin-selection"></a>Input Plugin Selection
+## <a name="input_plugin_selection"></a>Input Plugin Selection
 
 **Points:**
 
@@ -148,7 +148,7 @@ Open the [input plugin configuration dialog](config-input) from the Options menu
 
 ---
 
-## <a name="rsp-plugin-selection"></a>RSP Plugin Selection
+## <a name="rsp_plugin_selection"></a>RSP Plugin Selection
 
 **Points:**
 
