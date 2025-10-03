@@ -92,11 +92,11 @@ After you have, please select a topic:
     <td style="text-align: center;">
       <a href="app_options">Options</a>
     </td>
-  </tr>
-  <tr>
     <td style="text-align: center;">
       <a href="app_game_selection">Game Selection</a>
     </td>
+  </tr>
+  <tr>
     <td style="text-align: center;">
       <a href="app_advanced">Advanced</a>
     </td>
@@ -106,14 +106,9 @@ After you have, please select a topic:
     <td style="text-align: center;">
       <a href="app_game_information">Game Information</a>
     </td>
-  </tr>
-  <tr>
     <td style="text-align: center;">
       <a href="app_language">Language Selection</a>
     </td>
-    <td style="text-align: center;">&nbsp;</td>
-    <td style="text-align: center;">&nbsp;</td>
-    <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>
 
