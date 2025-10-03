@@ -80,7 +80,6 @@ Options > Configure Controller Plugin
 This page covers configuration of the N-Rage MiB64 Input plugin.
 
 Because the input plugin has so many options, they have been divided by the plugin’s tabs in the config dialog.  
-To access all tabs, you must uncheck the **Hide Advanced Settings** checkbox.
 
 ---
 
