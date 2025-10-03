@@ -54,9 +54,8 @@ nav_order: 9
 
 Options > Configure Audio Plugin
 
-<h3><a name="Settings Tab"><strong>Settings Tab</strong></a></h3>
+## <center>Settings Tab</center>
 <b>
-
 <div style="text-align: center;">
   <div class="zoom-on-hover">
   <img src="/manual/asset/images/azi1.png" alt="Settings Tab" width="300" height="214" />
