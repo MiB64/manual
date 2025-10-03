@@ -35,9 +35,22 @@ has_children: true
 
 This section explains the system requirements for MiB64. Please select a topic:
 
-- [Requirements](requirements)
-- [Feature Lists](feature_lists)
-- [Minimum Specs](min_specs)
+<table align="left" style="width: 100%">
+  <tr>
+    <td></td>
+    <td class="auto-style3" style="width: 150px">
+      <a href="requirements">Requirements</a>
+    </td>
+    <td class="auto-style3" style="width: 150px">
+      <a href="feature-lists">Feature Lists</a>
+    </td>
+    <td class="auto-style3" style="width: 150px">
+      <a href="min-specs">Minimum Specs</a>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
