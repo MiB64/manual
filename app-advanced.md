@@ -53,9 +53,9 @@ parent: Settings (Application)
   <p><strong>Hover to zoom</strong></p>
 </div>
 
-<!-- ClauseEcho: Interactive Images -->
-
 <p style="text-align: center;">This tab is only available if <a href="app-options">Hide Advanced Settings</a> is unchecked!</p>
+
+<!-- ClauseEcho: Interactive Images -->
 
 ---
 
@@ -63,7 +63,7 @@ Options → Settings → Advanced
 
 ---
 
-### <a name="Upper_tab"></a>Upper Tab – Core Defaults (drop-down menus)
+### <a name="upper-tab"></a>Upper Tab – Core Defaults (drop-down menus)
 
 1. [CPU core style](#b1)  
 2. [Self-mod code method](#b2)  
@@ -75,7 +75,7 @@ Options → Settings → Advanced
 
 - Default: Recompiler  
 - Recommended: Recompiler  
-- Can be overridden per-ROM via [ROM Settings](app_rom_settings)  
+- Can be overridden per-ROM via [ROM Settings](app-rom-settings)  
 - Interpreter may cause compatibility issues  
 - MiB64 was tested primarily with Recompiler; Interpreter is fallback only
 
@@ -86,7 +86,7 @@ Options → Settings → Advanced
 - Default: Check Memory Advance  
 - Recommended: Check Memory Advance  
 - Usually set by RDS; rarely adjusted manually  
-- Can be overridden per-ROM via [ROM Settings](app_rom_settings)  
+- Can be overridden per-ROM via [ROM Settings](app-rom-settings)  
 - If RDS author couldn’t determine the correct value, manual adjustment may be needed
 
 ---
@@ -103,7 +103,7 @@ Options → Settings → Advanced
 
 ---
 
-### <a name="Lower_tab"></a>Lower Tab – Checkboxes
+### <a name="lower-tab"></a>Lower Tab – Checkboxes
 
 1. [Start emulation when ROM is opened](#o1)  
 2. [Automatically compress instant saves](#o2)  
@@ -164,21 +164,21 @@ Options → Settings → Advanced
 
 <table align="center">
   <tr>
-    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
-    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
-    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
-    <td style="text-align: center;"><a href="app_options">Options</a></td>
-    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+    <td style="text-align: center;"><a href="app-settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app-plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app-directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app-options">Options</a></td>
+    <td style="text-align: center;"><a href="app-game-selection">Game Selection</a></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
-    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
-    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
-    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;"><a href="app-advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app-game-settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app-game-information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app-language">Language Selection</a></td>
     <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: app_advanced.md Anchor Fidelity Restored -->
+<!-- ClauseEcho: app-advanced.md Anchor Fidelity Restored -->
