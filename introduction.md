@@ -41,13 +41,13 @@ Please select a topic.
 
 <table align="center" style="width: 100%">
   <tr>
-    <td class="auto-style3" style="width: 115px; text-align: center;">
+    <td class="auto-style3" style="width: 105px; text-align: center;">
       <a href="what-is-mib64">What is MiB64</a>
     </td>
-    <td class="auto-style3" style="width: 130px; text-align: center;">
+    <td class="auto-style3" style="width: 120px; text-align: center;">
       <a href="whats-included">What's included</a>
     </td>
-    <td class="auto-style3" style="width: 105px; text-align: center;">
+    <td class="auto-style3" style="width: 95px; text-align: center;">
       <a href="installation">Installation</a>
     </td>
   </tr>
