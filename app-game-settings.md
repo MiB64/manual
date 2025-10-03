@@ -60,7 +60,7 @@ parent: Settings (Application)
 
 <!-- ClauseEcho: Interactive Images -->
 
-This tab is only available if [Hide Advanced Settings](app_options) is unchecked!
+<p style="text-align: center;">This tab is only available if <a href="app-options">Hide Advanced Settings</a> is unchecked!</p>
 
 ---
 
@@ -114,17 +114,17 @@ Each setting includes default and recommended values, compatibility notes, and p
 
 <table align="center">
   <tr>
-    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
-    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
-    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
-    <td style="text-align: center;"><a href="app_options">Options</a></td>
-    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+    <td style="text-align: center;"><a href="app-settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app-plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app-directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app-options">Options</a></td>
+    <td style="text-align: center;"><a href="app-game-selection">Game Selection</a></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
-    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
-    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
-    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;"><a href="app-advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app-game-settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app-game-information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app-language">Language Selection</a></td>
     <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>
