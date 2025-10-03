@@ -60,7 +60,7 @@ parent: Settings (Application)
 
 <!-- ClauseEcho: Interactive Images -->
 
-This tab is only available if [Hide Advanced Settings](app_options) is unchecked!
+<p style="text-align: center;">This tab is only available if <a href="app-options">Hide Advanced Settings</a> is unchecked!</p>
 
 ---
 
