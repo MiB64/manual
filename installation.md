@@ -19,7 +19,7 @@ If you do not have an archiver installed, we recommend [7-Zip](https://www.7-zip
 Please select a topic.
 
 ---
-<center>
+
 <table align="center" style="width: 100%">
   <tr>
     <td class="auto-style3" style="width: 145px">
@@ -47,7 +47,7 @@ Please select a topic.
     </td>
     <td></td>
   </tr>
-</table></center>
+</table>
 
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
