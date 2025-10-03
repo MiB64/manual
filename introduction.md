@@ -1,7 +1,6 @@
 ---
 title: Introduction
 nav_order: 2
-parent: MiB64 User Manual
 has_children: true
 ---
 

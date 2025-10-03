@@ -1,7 +1,6 @@
 ---
 title: System Requirements
 nav_order: 3
-parent: MiB64 User Manual
 has_children: true
 ---
 

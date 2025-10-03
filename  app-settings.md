@@ -1,7 +1,6 @@
 ---
 title: Settings (Application)
 nav_order: 5
-parent: MiB64 User Manual
 has_children: true
 ---
 
