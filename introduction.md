@@ -39,7 +39,7 @@ This section will take you through the basics – things that everyone should be
 before they start to use MiB64, and before reading further into this file.  
 Please select a topic.
 
-<table align="center" style="table-layout: auto;">
+<table align="center">
   <tr>
     <td class="auto-style3" style="text-align: center;">
       <a href="introduction">Introduction</a>
