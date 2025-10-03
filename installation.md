@@ -34,6 +34,8 @@ Please select a topic.
     <td class="auto-style3" style="text-align: center;">
       <a href="installing-games">Installing Games</a>
     </td>
+  </tr>
+  <tr>
     <td class="auto-style3" style="text-align: center;">
       <a href="updating-files">Keeping Current</a>
     </td>
