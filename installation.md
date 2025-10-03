@@ -42,9 +42,10 @@ Please select a topic.
     <td class="auto-style3" style="text-align: center;">
       <a href="additional-plugins">Adding Plugins</a>
     </td>
-	<td class="auto-style3" style="text-align: center; vertical-align: middle;">
-	<a href="backing-up">Backing up</a>
-	</td>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="backing-up">Backing up</a>
+    </td>
+    <td class="auto-style3" style="text-align: center;"> </td> <!-- Structural blank -->
   </tr>
 </table>
 
