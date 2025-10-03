@@ -42,17 +42,17 @@ Please select a topic.
 <table align="center" style="width: 100%">
   <tr>
     <td class="auto-style3" style="width: 145px">
-      <a href="introduction">Introduction</a>
-    </td>
-    <td class="auto-style3" style="width: 136px">
       <a href="what-is-mib64">What is MiB64</a>
     </td>
     <td class="auto-style3" style="width: 145px">
       <a href="whats-included">What's included</a>
     </td>
-    <td></td>
+    <td class="auto-style3" style="width: 145px">
+      <a href="installation">Installation</a>
+    </td>
   </tr>
 </table>
+
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
