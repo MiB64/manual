@@ -76,76 +76,76 @@ Options → Settings → Options
 
 ### <a name="o1"></a>“Pause emulation when window is not active”
 
-- **Default:** Enabled  
-- **Recommended:** User preference
+- default setting: enabled  
+- generally recommended setting: user preference!
 
-If enabled, MiB64 pauses when it loses focus—ideal for multitasking.  
-If disabled, it continues running in the background. Performance may drop when unfocused due to Windows resource handling.
+If enabled, the emulator will pause when it detects that it no longer has focus in Windows. This is useful if you are multitasking and want the emulator to pause whenever you go to another application.
+
+If disabled, the emulator will carry on running regardless of whether or not it has focus. Use this if you want MiB64 to carry on running in the background while you do something else (you can still keep it always on top with the Always on Top option!). Note that if this option is unchecked the peformance of MiB64 will probably be lower while focus is lost because of the way Windows handles resources. This is normal and not a fault of MiB64.
 
 ---
 
 ### <a name="o2"></a>“On loading a ROM go to full screen”
 
-- **Default:** Disabled  
-- **Recommended:** Disabled
+- default setting: disabled  
+- generally recommended setting: disabled
 
-If enabled, MiB64 switches to fullscreen automatically after loading a ROM.  
-If disabled, games start windowed and you manually toggle fullscreen.
+If enabled, MiB64 will automatically instruct the video plugin to switch to fullscreen once after loading each ROM. This is good (saves you a key press) if you know a game works and doesn't need any configuration changes. You can still return to windowed mode in the usual ways (Escape, ALT+ENTER).
+
+If disabled, games will start windowed. You can switch to fullscreen mode yourself in the usuall ways (Escape, ALT+ENTER, Options menu). This is a little more work (one key press) but recommended, because you can make sure your configuration (particularly graphics plugin tabs) is correct before getting into your game.
 
 **Notes:**
 
-- Fullscreen activates *before* emulation starts—required for some plugins/hardware.  
-- Avoid enabling this if “Start emulation after ROMs are opened” is disabled.  
-- The RDB may override this setting for games marked “Unsupported.”
+- The emulator actually goes fullscreen *before* starting emulation. This is so that plugins/hardware that *only* work in fullscreen can be supported. If you have such a plugin or hardware then you *must* enable this option!
+- Don't enable this option with "Start emulation after ROMs are opened" ([Advanced](app_advanced.html)) disabled! It will go fullscreen but you your games won't start, which could be confusing...
+- The RDB can override this option and prevent automatic fullscreen on a defined status (by default, games with status "Unsupported"). Hopefully it's obvious why this is done; if you don't like it you can either edit the RDB to remove the line from the status definition, or you could change the status of the game(s).
 
 ---
 
 ### <a name="o3"></a>“Remember selected cheats”
 
-- **Default:** Disabled  
-- **Recommended:** Disabled
+- default setting: disabled  
+- generally recommended setting: disabled
 
-If enabled, cheat selections persist across sessions.  
-If disabled, cheat selections reset when loading a new ROM or quitting.  
-Recommended to disable—cheats often cause instability.
+If enabled, MiB64 will save your cheat code selection between sessions. This is for your convenience, and it means that if you close the emulator and go away, then play some hours/weeks/anytime later, the same cheat codes will be applied as before... this is important to keep in mind if your games are acting strangely!
+
+If disabled, the cheat code selection is lost as soon as you load a new ROM, or quit the application, whichever happens first. This is recommended because cheat codes tend to cause problems...
 
 ---
 
 ### <a name="o4"></a>“Disable AboutBox Audio”
 
-- **Default:** Disabled  
-- **Recommended:** User preference
+- default setting: disabled  
+- generally recommended setting: user prefference
 
-If enabled, MiB64’s “Epic Music” won’t play.  
-If disabled, the music plays in full.  
-This is purely aesthetic—choose freely.
+If enabled, The MiB64 'Epic Music' will not play! This option is available as a user prefference to enable / disable the audio in any way they wish to ....
+
+If disabled, The MiB64 'Epic Music' will play in all its glory! This option again is available as a user prefference to enable / disable the audio in any way they wish to ....
 
 ---
 
 ### <a name="o5"></a>“Hide Advanced Settings”
 
-- **Default:** Enabled  
-- **Recommended:** Enabled for beginners; disabled for advanced users
+- default setting: enabled  
+- generally recommended setting: beginners should keep this enabled, advanced users should disable it.
 
-Introduced in v1.5. When enabled, most advanced controls are hidden.  
-Recommended for new users, children, or those unfamiliar with emulator settings.  
-MiB64 runs identically with this on or off.
+This is a very important control and new in v1.5. When enabled, most of MiB64's other controls are hidden from the user. This is because casual fiddling by inexperienced users tends to result in people getting themselves into a mess. It is therefore highly recommended that new users, people with low technical/emulator expertise, and young children, to give a few examples, use the application with this option enabled - the emulator runs just as well will this on or off!
 
 ---
 
 <table align="center">
   <tr>
-    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
-    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
-    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
-    <td style="text-align: center;"><a href="app_options">Options</a></td>
-    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+    <td style="text-align: center;"><a href="app_settings.html">Settings</a></td>
+    <td style="text-align: center;"><a href="app_plugins.html">Plugins</a></td>
+    <td style="text-align: center;"><a href="app_directories.html">Directories</a></td>
+    <td style="text-align: center;"><a href="app_options.html">Options</a></td>
+    <td style="text-align: center;"><a href="app_game_selection.html">Game Selection</a></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
-    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
-    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
-    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;"><a href="app_advanced.html">Advanced</a></td>
+    <td style="text-align: center;"><a href="app_game_settings.html">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app_game_information.html">Game Information</a></td>
+    <td style="text-align: center;"><a href="app_language.html">Language Selection</a></td>
   </tr>
 </table>
 
