@@ -1,7 +1,7 @@
 ---
 title: Language Selection
-nav_order: 9
-parent: Application Settings
+nav_order: 8
+parent: Settings (Application)
 ---
 
 <style>
@@ -11,10 +11,12 @@ parent: Application Settings
   align-items: flex-start;
   position: relative;
 }
+
 .zoom-on-hover {
   display: inline-block;
   position: relative;
 }
+
 .zoom-on-hover img {
   display: block;
   cursor: zoom-in;
@@ -23,78 +25,80 @@ parent: Application Settings
   position: relative;
   z-index: 1;
 }
+
 .zoom-on-hover:hover img {
   transform: scale(1.5);
 }
+
 .zoom-pair .zoom-on-hover:first-child:hover img {
   z-index: 9999;
 }
+
 .zoom-pair .zoom-on-hover:last-child:hover img {
   z-index: 100;
 }
 </style>
 
-# Configuration: Language
-
-Options → File → Language
-
----
-
-## <a name="Lang_Folder_Absent"></a>When No `/Lang` Folder Is Present
-
-<div class="zoom-on-hover">
-  <img src="/manual/asset/images//lang_1.png" alt="No Lang Folder Present" style="width:220px;" />
+## <center>Configuration: Language</center>
+<b>
+<div style="text-align: center;">
+  <div class="zoom-on-hover">
+    <img src="/manual/asset/images/lang_1.png" alt="Language Dialog (No Lang Folder)" style="width: 220px;" />
+  </div>
+  <p><strong>Hover to zoom</strong></p>
 </div>
-<p><strong>Hover to zoom</strong></p>
 
-If no `/Lang` folder is present in the root directory, MiB64 will not prompt for language selection on first launch.
+<!-- ClauseEcho: Interactive Image -->
+
+File → Language (No `/Lang` folder present)
 
 ---
 
-## <a name="Lang_Folder_Present"></a>When `/Lang` Folder Is Present
+On load, if `/Lang` folder is present in the root directory:
 
-<div class="zoom-on-hover">
-  <img src="/manual/asset/images//lang_4.png" alt="Lang Folder Present" style="width:220px;" />
+<div style="text-align: center;">
+  <div class="zoom-on-hover">
+    <img src="/manual/asset/images/lang_4.png" alt="Language Prompt on First Launch" style="width: 220px;" />
+  </div>
+  <p><strong>Hover to zoom</strong></p>
 </div>
-<p><strong>Hover to zoom</strong></p>
 
-On first launch, MiB64 will prompt you to choose a language if the `/Lang` folder is present.  
-Available choices depend on the contents of that folder.
+The first time MiB64 is started, it asks you to choose a language if the `/Lang` folder is present. The choices available depend on the contents of that folder.
 
-MiB64 v1.0 shipped with a reasonable—but incomplete—set of translations.  
-If your preferred language is missing:
-
-- [Seek updated or alternative files](updating_files)
-- [Create or edit your own language file](language_files)
+MiB64 v1.0 shipped with a reasonable—but incomplete—set of translations (thanks to all contributors!). If your desired language is missing, you can [seek an updated file](updating_files) or [create/edit one yourself](language_files).
 
 ---
 
-## <a name="Change_Language_Later"></a>Changing Language Later
+File → Language (Lang folder present)
 
-File → Language (when `/Lang` folder is present)
-
-<div class="zoom-on-hover">
-  <img src="/manual/asset/images//lang_3.png" alt="Language Menu" style="width:220px;" />
+<div style="text-align: center;">
+  <div class="zoom-on-hover">
+    <img src="/manual/asset/images/lang_3.png" alt="Language Selection Menu" style="width: 220px;" />
+  </div>
+  <p><strong>Hover to zoom</strong></p>
 </div>
-<p><strong>Hover to zoom</strong></p>
 
-To change languages later, use the Language menu under File.  
-Click an entry in the list and the GUI text will update immediately.
+To change languages later, use the Language menu under the File menu in MiB64. Click an entry in the list and the GUI text will update immediately.
 
 ---
 
-## Navigation Footer
+<table align="center">
+  <tr>
+    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app_options">Options</a></td>
+    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;">&nbsp;</td>
+  </tr>
+</table>
 
-```markdown
-- [Settings](app_settings)
-- [Plugins](app_plugins)
-- [Directories](app_directories)
-- [Options](app_options)
-- [Game Selection](app_game_selection)
-- [Advanced](app_advanced)
-- [Game Settings](app_game_settings)
-- [Game Notes](app_game_notes)
-- [Shell Integration](app_shell_integration)
-- [Language Selection](app_language)
+<p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Language Selection Protocol Complete -->
+<!-- ClauseEcho: Language Selection Node Complete -->

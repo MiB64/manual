@@ -1,7 +1,7 @@
 ---
 title: Game Information
-nav_order: 8
-parent: Application Settings
+nav_order: 7
+parent: Settings (Application)
 ---
 
 <style>
@@ -16,10 +16,12 @@ parent: Application Settings
   width: max-content;
   text-align: left;
 }
+
 .zoom-on-hover {
   display: inline-block;
   position: relative;
 }
+
 .zoom-on-hover img {
   display: block;
   cursor: zoom-in;
@@ -28,105 +30,109 @@ parent: Application Settings
   position: relative;
   z-index: 1;
 }
+
 .zoom-on-hover:hover img {
   transform: scale(1.5);
 }
+
 .zoom-pair .zoom-on-hover:first-child:hover img {
   z-index: 9999;
 }
+
 .zoom-pair .zoom-on-hover:last-child:hover img {
   z-index: 100;
 }
 </style>
 
-# Configuring Game Information
-
-<div class="zoom-pair">
-  <div class="zoom-on-hover">
-    <img src="/manual/asset/images//config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+## <center>Configuring Game Information</center>
+<b>
+<div style="text-align: center;">
+  <div class="zoom-pair">
+    <div class="zoom-on-hover">
+      <img src="/manual/asset/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    </div>
+    <div class="zoom-on-hover">
+      <img src="/manual/asset/images/game_information.png" alt="Game Information Dialog" width="155" />
+    </div>
   </div>
-  <div class="zoom-on-hover">
-    <img src="/manual/asset/images//game_information.png" alt="Game Information Dialog" width="155" />
-  </div>
+  <p><strong>Hover to zoom</strong></p>
 </div>
-<p><strong>Hover to zoom</strong></p>
+
+<!-- ClauseEcho: Interactive Images -->
+
+This tab is only available if [Hide Advanced Settings](app_options) is unchecked!
+
+---
 
 Options → Settings → Game Information
 
 ---
 
-**Note:** This tab is only available if [Hide Advanced Settings](app_options#o5) is unchecked.
+### Controls Available
+
+1. <a name="o1">Game Status</a> (drop-down menu)  
+2. <a name="o2">Players</a> (drop-down menu)  
+3. <a name="o3">Force Feedback</a> (drop-down menu)  
+4. <a name="o4">Core Note</a> (text box)  
+5. <a name="o5">Plugin Note</a> (text box)  
+6. <a name="o6">Game Language</a> (text box)  
+7. <a name="o7">User Note</a> (text box)
 
 ---
 
-## Controls Available
+### Points
 
-1. [Game Status](#o1) (drop-down menu)  
-2. [Players](#o2) (drop-down menu)  
-3. [Force Feedback](#o3) (drop-down menu)  
-4. [Core Note](#o4) (text box)  
-5. [Plugin Note](#o5) (text box)  
-6. [Game Language](#o6) (text box)  
-7. [User Note](#o7) (text box)
+- Changes made here affect the MiB64 Game Database Settings (`MiB64.rds`)  
+- You may edit this file directly in a text editor (advanced users only)  
+- To restore defaults, replace `MiB64.rdb` from the original archive  
+- There is no “reset to defaults” button
 
 ---
 
-## Points
+### Field Descriptions
 
-- Changes here edit the MiB64 Game Database Settings (`MiB64.rds`)  
-- You may also edit the file directly in a text editor (advanced users only)  
-- There is no “reset to defaults” button—restore by replacing `MiB64.rds` from the original archive
+**<a name="o1">Game Status</a>**  
+Drop-down menu listing all status categories from the RDS. To add/edit, modify the RDS manually.
 
----
+**<a name="o2">Players</a>**  
+Drop-down menu showing supported player counts from the RDI. To add/edit, modify the RDI manually.
 
-### <a name="o1"></a>"Game Status"
+**<a name="o3">Force Feedback</a>**  
+Drop-down menu with Yes/No for rumble support.
 
-Drop-down menu listing all status categories from the RDS.  
-To add or edit categories, manually edit the RDS file.
+**<a name="o4">Core Note</a>**  
+Text field editing `Core Note=` for the current game in the RDS.
 
----
+**<a name="o5">Plugin Note</a>**  
+Text field editing `Plugin Note=` for the current game in the RDS.
 
-### <a name="o2"></a>"Players"
+**<a name="o6">Game Language</a>**  
+Text field editing `GameLanguage=` in the RDI. Recommended format: English, French, German, etc.
 
-Drop-down menu listing supported player counts from the RDI.  
-To add or edit categories, manually edit the RDI file.
+**<a name="o7">User Note</a>**  
+Text field for personal notes stored in the RDN. Displayed in the Game Browser if enabled.
 
----
-
-### <a name="o3"></a>"Force Feedback"
-
-Drop-down menu with Yes/No options for Rumble support.
-
----
-
-### <a name="o4"></a>"Core Note"
-
-Text field that edits the `Core Note=` line for the current game in the RDS.
+> You must refresh the Game Browser for changes to take effect.
 
 ---
 
-### <a name="o5"></a>"Plugin Note"
-
-Text field that edits the `Plugin Note=` line for the current game in the RDS.
-
----
-
-### <a name="o6"></a>"Game Language"
-
-Text field that edits the `GameLanguage=` line for the current game in the RDI.  
-Recommended format: English, French, German, etc.
-
----
-
-### <a name="o7"></a>"User Note"
-
-Text field that adds and displays a personal `User Note` for the current game in the RDN.  
-Used for personal notes in the Game Browser.
-
----
-
-You must refresh the Game Browser for any changes to take effect.
+<table align="center">
+  <tr>
+    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app_options">Options</a></td>
+    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;">&nbsp;</td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Game Information Protocol Complete -->
+<!-- ClauseEcho: Game Information Node Complete -->

@@ -1,7 +1,7 @@
 ---
 title: Game Settings
-nav_order: 7
-parent: Application Settings
+nav_order: 6
+parent: Settings (Application)
 ---
 
 <style>
@@ -16,10 +16,12 @@ parent: Application Settings
   width: max-content;
   text-align: left;
 }
+
 .zoom-on-hover {
   display: inline-block;
   position: relative;
 }
+
 .zoom-on-hover img {
   display: block;
   cursor: zoom-in;
@@ -28,217 +30,105 @@ parent: Application Settings
   position: relative;
   z-index: 1;
 }
+
 .zoom-on-hover:hover img {
   transform: scale(1.5);
 }
+
 .zoom-pair .zoom-on-hover:first-child:hover img {
   z-index: 9999;
 }
+
 .zoom-pair .zoom-on-hover:last-child:hover img {
   z-index: 100;
 }
 </style>
 
-# Configuring Game Settings
-
-<div class="zoom-pair">
-  <div class="zoom-on-hover">
-    <img src="/manual/asset/images//config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+## <center>Configuring Game Settings</center>
+<b>
+<div style="text-align: center;">
+  <div class="zoom-pair">
+    <div class="zoom-on-hover">
+      <img src="/manual/asset/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    </div>
+    <div class="zoom-on-hover">
+      <img src="/manual/asset/images/game_settings.png" alt="Game Settings Dialog" width="155" />
+    </div>
   </div>
-  <div class="zoom-on-hover">
-    <img src="/manual/asset/images//game_settings.png" alt="Game Settings Dialog" width="155" />
-  </div>
+  <p><strong>Hover to zoom</strong></p>
 </div>
-<p><strong>Hover to zoom</strong></p>
 
-Options → Settings → <a name="ROM_Settings">ROM Settings</a>
+<!-- ClauseEcho: Interactive Images -->
 
----
-
-**Note:** This tab is only available if [Hide Advanced Settings](app_options#o5) is unchecked.
-
-This page configures the core for each individual ROM.  
-Some settings also appear under the General tab, but here they apply per-ROM.
+This tab is only available if [Hide Advanced Settings](app_options) is unchecked!
 
 ---
 
-## Sections
-
-- [General Settings](#General_Settings)
-- [Recompiler Settings](#Recompiler_Settings)
+Options → Settings → ROM Settings
 
 ---
 
-## <a name="General_Settings"></a>General Settings
-
-### <a name="o1"></a>"CPU core style"
-
-- Options: *use general setting, Interpreter, Recompiler, Synchronise Cores (debug only)  
-- Default: *use general setting (Recompiler)  
-- Recommended: Recompiler if stable
-
-Recompiler = faster, less compatible  
-Interpreter = slower, more compatible
-
-If using Interpreter, the following are ignored:
-
-- [Self-mod code method](#r1)  
-- [Advanced Block Linking](#r2)  
-- [Larger Compiler Buffer](#r3)  
-- [Register Caching](#r5)
+This page covers configuration of the core for each individual ROM. Some of these settings are also available under the General tab, but here they apply per-ROM.
 
 ---
 
-### <a name="o2"></a>"Memory size"
+### <a name="General_Settings">General Settings</a>
 
-- Options: *use general setting, 4MB, 8MB  
-- Default: *use general setting (8MB)  
-- Recommended: 4MB unless required
-
-8MB = Expansion Pak.  
-Most games don’t benefit and may suffer performance or aspect ratio issues.  
-Some games require it (e.g. Zelda2), others use it optionally (e.g. Perfect Dark).
-
----
-
-### <a name="o3"></a>"Default save type"
-
-- Options: *detect first used type, 4kbit EEPROM, 16kbit EEPROM, 32kbyte SRAM, 128kbyte FlashRAM  
-- Default: *detect first used type  
-- Recommended: *detect, unless game uses 16kbit EEPROM or copy protection
-
-MemPak works in addition to this setting.
+1. <a name="o1">CPU core style</a>  
+2. <a name="o2">Memory size</a>  
+3. <a name="o3">Default save type</a>  
+4. <a name="o4">Counter Factor</a>  
+5. <a name="o5">Vertical Interrupts per Second</a>  
+6. <a name="o6">Emulate AI</a>  
+7. <a name="o7">Use TLB</a>  
+8. <a name="o8">RSP Audio Signal</a>  
+9. <a name="o9">Delay SI interrupt</a>
 
 ---
 
-### <a name="o4"></a>"Counter Factor"
+### <a name="Recopiler_Settings">Recopiler Settings</a>
 
-- Options: *use default (2), 1–6  
-- Default: *use default (2)  
-- Recommended: 1 or 2 (possibly 3)
-
-Controls core timing.  
-- 2 = best speed without issues  
-- 1 = prevents flicker, improves smoothness  
-- 3 = may improve performance  
-- >3 = likely unstable
+1. <a name="r1">Self-mod. code method</a>  
+2. <a name="r2">Advanced Block Linking</a>  
+3. <a name="r3">Larger Compiler Buffer</a>  
+4. <a name="r4">SP Hack</a>  
+5. <a name="r5">Register Caching</a>  
+6. <a name="r7">Unalign DMA</a>
 
 ---
 
-### <a name="o5"></a>"Vertical Interrupts per Second"
+### Points
 
-- Default: 1500  
-- Recommended: 1500 unless required
-
-Controls emulated refresh rate.  
-Originally locked, now user-accessible.
-
----
-
-### <a name="o6"></a>"Emulate AI"
-
-- Default: Unchecked  
-- Recommended: Unchecked unless needed
-
-Added in v1.6.1 to fix sound/speech issues in games like Hydro Thunder, Tarzan, Top Gear Rally, RE2, TWINE.
+- Do not change these settings unless you fully understand them  
+- Changes affect the MiB64 ROM Database (`MiB64.rds`)  
+- To restore defaults, replace `MiB64.rds` from the original archive  
+- No “reset to defaults” button exists
 
 ---
 
-### <a name="o7"></a>"Use TLB"
+### Field Descriptions
 
-- Default: Checked  
-- Recommended: Checked if needed, unchecked otherwise
-
-Required by some games (e.g. Goldeneye, Mario).  
-Disabling may improve performance if not needed.
+Each setting includes default and recommended values, compatibility notes, and performance tradeoffs. Interpreter disables recompiler-only settings like `r1`, `r2`, `r3`, `r5`.
 
 ---
 
-### <a name="o8"></a>"RSP Audio Signal"
-
-- Default: Unchecked  
-- Recommended: Unchecked unless needed
-
-Enables Musyx support for games like Hydro Thunder, NBA Showtime, Tarzan, TWINE, RE2.
-
----
-
-### <a name="o9"></a>"Delay SI interrupt"
-
-- Default: Unchecked  
-- Recommended: Unchecked unless needed
-
-Added in v1.5 to fix broken games from v1.4 (e.g. Cruis'N USA).  
-Usually not required.
-
----
-
-## <a name="Recopiler_Settings"></a>Recompiler Settings
-
-### <a name="r1"></a>"Self-mod code method"
-
-- Options: *use general setting, None, Cache, Check Memory & Cache, Check Memory Advance, Change Memory & Cache, Protect Memory  
-- Default: *use general setting (Check Memory Advance)  
-- Recommended: Game-dependent
-
-Used to handle games with self-modifying code.  
-Methods range from fast to secure:
-
-`None < Cache < Check Memory & Cache < Check Memory Advance < Change Memory & Cache < Protect Memory`
-
----
-
-### <a name="r2"></a>"Advanced Block Linking"
-
-- Options: *use general setting, Off, On  
-- Default: *use general setting (On)  
-- Recommended: Game-dependent
-
-Speed vs. smoothness tradeoff.  
-On = faster, Off = smoother.  
-Some games require specific setting.
-
----
-
-### <a name="r3"></a>"Larger Compiler Buffer"
-
-- Default: Unchecked  
-- Recommended: Unchecked unless needed
-
-Increases buffer from 20MB to 50MB.  
-Helps games with complex code structures.  
-Most games don’t need it.
-
----
-
-### <a name="r4"></a>"SP Hack"
-
-- Default: Unchecked  
-- Recommended: Unchecked
-
-Added in v1.5 for performance.  
-May give 5% speed boost but causes instability in many games.
-
----
-
-### <a name="r5"></a>"Register Caching"
-
-- Default: Checked  
-- Recommended: Checked unless unstable
-
-Major optimization.  
-Can cause obscure errors—disable if recompiler is unstable.
-
----
-
-### <a name="r7"></a>"Unalign DMA"
-
-- Default: Unchecked  
-- Recommended: Unchecked unless using old SM64 ROM hacks
-
-Supports faulty alignment in old hacks.  
-Should be off for normal games.
+<table align="center">
+  <tr>
+    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app_options">Options</a></td>
+    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;">&nbsp;</td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Game Settings Protocol Complete -->
+<!-- ClauseEcho: Game Settings Node Complete -->

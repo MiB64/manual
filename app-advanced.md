@@ -1,7 +1,7 @@
 ---
 title: Advanced
-nav_order: 6
-parent: Application Settings
+nav_order: 5
+parent: Settings (Application)
 ---
 
 <style>
@@ -16,10 +16,12 @@ parent: Application Settings
   width: max-content;
   text-align: left;
 }
+
 .zoom-on-hover {
   display: inline-block;
   position: relative;
 }
+
 .zoom-on-hover img {
   display: block;
   cursor: zoom-in;
@@ -28,143 +30,154 @@ parent: Application Settings
   position: relative;
   z-index: 1;
 }
+
 .zoom-on-hover:hover img {
   transform: scale(1.5);
 }
+
 .zoom-pair .zoom-on-hover:first-child:hover img {
   z-index: 9999;
 }
+
 .zoom-pair .zoom-on-hover:last-child:hover img {
   z-index: 100;
 }
 </style>
 
-# Configuration: Advanced
-
-<div class="zoom-pair">
-  <div class="zoom-on-hover">
-    <img src="/manual/asset/images//config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+## <center>Configuration: Advanced</center>
+<b>
+<div style="text-align: center;">
+  <div class="zoom-pair">
+    <div class="zoom-on-hover">
+      <img src="/manual/asset/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    </div>
+    <div class="zoom-on-hover">
+      <img src="/manual/asset/images/advanced.png" alt="Advanced Dialog" width="155" />
+    </div>
   </div>
-  <div class="zoom-on-hover">
-    <img src="/manual/asset/images//advanced.png" alt="Advanced Dialog" width="155" />
-  </div>
+  <p><strong>Hover to zoom</strong></p>
 </div>
-<p><strong>Hover to zoom</strong></p>
+
+<!-- ClauseEcho: Interactive Images -->
+
+This tab is only available if [Hide Advanced Settings](app_options) is unchecked!
+
+---
 
 Options → Settings → Advanced
 
 ---
 
-**Note:** This tab is only available if [Hide Advanced Settings](app_options#o5) is unchecked.
+### <a name="Upper_tab">Upper tab – Core Defaults (drop-down menus)</a>
+
+1. <a name="b1">CPU core style</a>  
+2. <a name="b2">Self-mod code method</a>  
+3. <a name="Advanced_Block_Linking">Advanced Block Linking</a> ← Important control, read this!
 
 ---
 
-## <a name="Upper_tab"></a>Upper Tab – Core Defaults (Dropdowns)
-
-### <a name="b1"></a>"CPU core style"
+#### <a name="b1">CPU core style</a>
 
 - Default: Recompiler  
-- Recommended: Recompiler (should not matter if using RDS)
-
-Can be overridden per-ROM via [ROM Settings](app_game_settings#o1) if RDS is enabled.  
-MiB64 was tested primarily with Recompiler. Interpreter may cause issues in some games.
+- Recommended: Recompiler (should not matter if using RDS)  
+- Can be overridden per-ROM via [ROM Settings](app_rom_settings) if RDS is enabled  
+- MiB64 was tested primarily with Recompiler; Interpreter may cause issues
 
 ---
 
-### <a name="b2"></a>"Self-mod code method"
+#### <a name="b2">Self-mod code method</a>
 
 - Default: Check Memory Advance  
-- Recommended: Check Memory Advance (should not matter if using RDS)
-
-Also overridden via [ROM Settings](app_game_settings#r1) if RDS is enabled.  
-Usually set by the RDS author. If not, you may need to determine the correct value manually.
+- Recommended: Same  
+- Usually set by RDS; rarely adjusted manually  
+- Can be overridden per-ROM via [ROM Settings](app_rom_settings)
 
 ---
 
-### <a name="b3"></a>"Advanced Block Linking"
+#### <a name="Advanced_Block_Linking">Advanced Block Linking</a>
 
 - Default: On  
-- Recommended: Off (unless you need speed)
-
-ABL is a speed optimization for the recompiler.  
-- On = higher speed, more variation  
-- Off = smoother performance, less variation
-
-Most noticeable in racing games like Diddy Kong Racing and Mario Kart.
-
-Can be overridden via [ROM Settings](app_game_settings#r2) if RDS is enabled.  
-MiB64 was tested with ABL enabled. Turning it off may require adjusting other settings.
-
-**Notes:**
-
-- Some games may not work with ABL off—be prepared to re-enable it per-ROM.
-- ABL was always present in MiB64; version 1.4+ simply lets you disable it.
+- Recommended: Off (unless speed is needed)  
+- Affects recompiler performance:  
+  - On = faster but less smooth  
+  - Off = smoother but slower  
+- Most noticeable in racing games  
+- Not normally set by RDS—this control is usually active
 
 ---
 
-## <a name="Lower_tab"></a>Lower Tab – Checkboxes
+### <a name="Lower_tab">Lower tab – Checkboxes</a>
 
-### <a name="o1"></a>"Start emulation after ROMs are opened"
+1. <a name="o1">Start emulation when ROM is opened</a>  
+2. <a name="o2">Automatically compress instant saves</a>  
+3. <a name="o3">Clear Memory at Start Of Emulation</a>  
+4. <a name="o4">Enable Debugger (forces CPU Interpreter)</a>  
+5. <a name="o5">Show More Error Messages</a>
+
+---
+
+#### <a name="o1">Start emulation when ROM is opened</a>
 
 - Default: Enabled  
-- Recommended: Enabled (unless you want to edit RDS before boot)
-
-If enabled, emulation starts immediately after ROM load.  
-If disabled, you must manually start emulation—useful for editing settings before boot.
-
-Changes take effect on next ROM boot.
+- Recommended: Enabled  
+- If disabled, allows editing ROM settings before boot  
+- Changes take effect at next ROM boot
 
 ---
 
-### <a name="o2"></a>"Automatically compress instant saves"
+#### <a name="o2">Automatically compress instant saves</a>
 
 - Default: Enabled  
-- Recommended: Enabled
-
-If enabled, state saves are compressed (Slots and Save As).  
-Saves space but may take longer to complete.
-
-If disabled, saves are uncompressed—faster but larger (4MB or 8MB depending on Expansion Pak).
-
-**Notes:**
-
-- Loading is unaffected—you can load compressed saves even if disabled.
-- Compression level is fixed.
-- Native saves are not compressed (too small to justify).
-
-Changes take effect immediately or on next save.
+- Recommended: Enabled  
+- Compresses state saves to reduce disk usage  
+- No effect on loading saves  
+- Compression level is fixed  
+- Native saves are not compressed
 
 ---
 
-### <a name="o3"></a>"Clear Memory at Start Of Emulation"
+#### <a name="o3">Clear Memory at Start Of Emulation</a>
 
 - Default: Enabled  
-- Recommended: Enabled
-
-Clears memory on every new ROM load.  
-Older versions left junk in memory—this prevents that.
+- Recommended: Enabled  
+- Clears memory on each ROM load to prevent leftover junk
 
 ---
 
-### <a name="o4"></a>"Enable Debugger (forces CPU Interpreter)"
+#### <a name="o4">Enable Debugger (forces CPU Interpreter)</a>
 
 - Default: Disabled  
-- Recommended: Disabled
-
-Previously required a registry file and debug build.  
-Now available directly for advanced users.
-
-When enabled, emulator runs in interpreter mode—much slower.
+- Recommended: Disabled  
+- Enables debugging mode using Interpreter (slower)  
+- Previously required registry hacks; now exposed for advanced users
 
 ---
 
-### <a name="o5"></a>"Show More Error Messages"
+#### <a name="o5">Show More Error Messages</a>
 
 - Default: Disabled  
-- Recommended: Disabled
+- Recommended: Disabled  
+- Displays additional debug messages when enabled
 
-Displays additional error messages in debug mode.
+---
+
+<table align="center">
+  <tr>
+    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app_options">Options</a></td>
+    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;">&nbsp;</td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Advanced Configuration Protocol Complete -->
+<!-- ClauseEcho: Advanced Node Complete -->
