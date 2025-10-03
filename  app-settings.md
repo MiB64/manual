@@ -63,7 +63,7 @@ has_children: true
 
 <div style="text-align: center;">
   <div class="zoom-on-hover">
-    <img src="/manual/images/config_settings.png" alt="Advanced Tab" width="300" height="214" />
+    <img src="/manual/asset/images/config_settings.png" alt="Advanced Tab" width="300" height="214" />
   </div>
   <p><strong>Hover to zoom</strong></p>
 </div>
