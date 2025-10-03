@@ -135,17 +135,18 @@ This is a very important control and new in v1.5. When enabled, most of MiB64's 
 
 <table align="center">
   <tr>
-    <td style="text-align: center;"><a href="app_settings.html">Settings</a></td>
-    <td style="text-align: center;"><a href="app_plugins.html">Plugins</a></td>
-    <td style="text-align: center;"><a href="app_directories.html">Directories</a></td>
-    <td style="text-align: center;"><a href="app_options.html">Options</a></td>
-    <td style="text-align: center;"><a href="app_game_selection.html">Game Selection</a></td>
+    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app_options">Options</a></td>
+    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="app_advanced.html">Advanced</a></td>
-    <td style="text-align: center;"><a href="app_game_settings.html">Game Settings</a></td>
-    <td style="text-align: center;"><a href="app_game_information.html">Game Information</a></td>
-    <td style="text-align: center;"><a href="app_language.html">Language Selection</a></td>
+    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;">&nbsp;</td> <!-- Empty cell for symmetry -->
   </tr>
 </table>
 

@@ -118,6 +118,7 @@ Press OK to confirm and save your changes.
     <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
     <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
     <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+    <td style="text-align: center;">&nbsp;</td> <!-- Empty cell for symmetry -->
   </tr>
 </table>
 
