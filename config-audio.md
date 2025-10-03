@@ -161,8 +161,10 @@ If you mute and then click OK and close, when you next load and un-check, it wil
   <li><a href="#Disallow Thread  Yielding XA2">Disallow Thread Yielding XA2 (Checkbox)</a></li>
 </ul>
 
-<h3><center><a name="Buffer_Options"<strong><em>Buffer Options</em></a></strong></a>/center></h3>
-<b>   
+<div style="text-align: center;">
+<h3 class="auto-style1"><a name="Buffer_Options:">Buffer Options</a></h3>
+</div>
+
 <a name="Prevent_Buffer_Overruns"><strong>"Prevent Buffer Overruns (Checkbox)"</strong></a>
 
 This will cause the emulation thread to slow down when the audio buffer overruns. It will pause the thread until the buffer isn't full.
