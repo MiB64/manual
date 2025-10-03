@@ -194,7 +194,7 @@ The number of buffers available to buffer the audio.
 This setting is disabled (greyed out) and serves no function currently. Emulate Audio Interface will always be enabled and will only be skipped when the emulator does its own audio emulation.
 
 <div style="text-align: center;">
-<h3 class="auto-style1"><a name="Playback_Tweaks"><strong>Playback Tweaks<strong></a></h3>
+<h3 class="auto-style1"><a name="Playback_Tweaks"><strong>Playback Tweaks</strong></a></h3>
 </div>
 
 <a name="Frequency"><strong>"Frequency (Greyedout)"</strong></a>
