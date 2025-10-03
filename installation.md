@@ -34,23 +34,20 @@ Please select a topic.
     <td class="auto-style3" style="width: 145px">
       <a href="installing-games">Installing Games</a>
     </td>
-    <td></td>
   </tr>
   <tr>
-    <td class="auto-style3">
+    <td class="auto-style3" style="width: 145px">
       <a href="updating-files">Keeping Current</a>
     </td>
-    <td class="auto-style3">
+    <td class="auto-style3" style="width: 136px">
       <a href="additional-plugins">Adding Plugins</a>
     </td>
-    <td class="auto-style3">
+    <td class="auto-style3" style="width: 145px">
       <a href="backing-up">Backing up</a>
     </td>
     <td></td>
-    <td></td>
   </tr>
 </table>
-
 
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
