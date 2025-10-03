@@ -1,7 +1,7 @@
 ---
 title: Options
-nav_order: 4
-parent: Application Settings
+nav_order: 3
+parent: Settings (Application)
 ---
 
 <style>
@@ -16,10 +16,12 @@ parent: Application Settings
   width: max-content;
   text-align: left;
 }
+
 .zoom-on-hover {
   display: inline-block;
   position: relative;
 }
+
 .zoom-on-hover img {
   display: block;
   cursor: zoom-in;
@@ -28,116 +30,125 @@ parent: Application Settings
   position: relative;
   z-index: 1;
 }
+
 .zoom-on-hover:hover img {
   transform: scale(1.5);
 }
+
 .zoom-pair .zoom-on-hover:first-child:hover img {
   z-index: 9999;
 }
+
 .zoom-pair .zoom-on-hover:last-child:hover img {
   z-index: 100;
 }
 </style>
 
-# Configuration: Options
-
-<div class="zoom-pair">
-  <div class="zoom-on-hover">
-    <img src="/manual/asset/images//config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+## <center>Configuration: Options</center>
+<b>
+<div style="text-align: center;">
+  <div class="zoom-pair">
+    <div class="zoom-on-hover">
+      <img src="/manual/asset/images/config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    </div>
+    <div class="zoom-on-hover">
+      <img src="/manual/asset/images/app_options_defuult.png" alt="Options Dialog" width="155" />
+    </div>
   </div>
-  <div class="zoom-on-hover">
-    <img src="/manual/asset/images//app_options_defuult.png" alt="Options Dialog" width="155" />
-  </div>
+  <p><strong>Hover to zoom</strong></p>
 </div>
-<p><strong>Hover to zoom</strong></p>
+
+<!-- ClauseEcho: Interactive Images -->
 
 Options → Settings → Options
 
 ---
 
-## Available Options
+## Option Toggles
 
-1. ["Pause emulation when window is not active"](#o1)
-2. ["On loading a ROM go to full screen"](#o2)
-3. ["Remember selected cheats"](#o3)
-4. ["Disable AboutBox Audio"](#o4)
-5. ["Hide Advanced Settings"](#o5)
-
----
-
-## <a name="o1"></a>"Pause emulation when window is not active"
-
-- Default: Enabled  
-- Recommended: User preference
-
-If enabled, MiB64 pauses when it loses focus.  
-Useful for multitasking.
-
-If disabled, MiB64 continues running in the background.  
-Performance may drop while unfocused—this is normal.
+1. [“Pause emulation when window is not active”](#o1)  
+2. [“On loading a ROM go to full screen”](#o2)  
+3. [“Remember selected cheats”](#o3)  
+4. [“Disable AboutBox Audio”](#o4)  
+5. [“Hide Advanced Settings”](#o5)
 
 ---
 
-## <a name="o2"></a>"On loading a ROM go to full screen"
+### <a name="o1"></a>“Pause emulation when window is not active”
 
-- Default: Disabled  
-- Recommended: Disabled
+- **Default:** Enabled  
+- **Recommended:** User preference
 
-If enabled, MiB64 switches to fullscreen after loading a ROM.  
-Useful if you know the game works and don’t need to adjust settings.
+If enabled, MiB64 pauses when it loses focus—ideal for multitasking.  
+If disabled, it continues running in the background. Performance may drop when unfocused due to Windows resource handling.
 
-If disabled, games start windowed.  
-Recommended so you can verify configuration before playing.
+---
+
+### <a name="o2"></a>“On loading a ROM go to full screen”
+
+- **Default:** Disabled  
+- **Recommended:** Disabled
+
+If enabled, MiB64 switches to fullscreen automatically after loading a ROM.  
+If disabled, games start windowed and you manually toggle fullscreen.
 
 **Notes:**
 
-- Fullscreen occurs *before* emulation starts—required for some plugins/hardware.
-- Don’t enable this if “Start emulation after ROMs are opened” ([Advanced](app_advanced#o1)) is disabled.
-- The RDB may override this for games marked “Unsupported.”  
-  You can edit the RDB or change the game’s status if needed.
+- Fullscreen activates *before* emulation starts—required for some plugins/hardware.  
+- Avoid enabling this if “Start emulation after ROMs are opened” is disabled.  
+- The RDB may override this setting for games marked “Unsupported.”
 
 ---
 
-## <a name="o3"></a>"Remember selected cheats"
+### <a name="o3"></a>“Remember selected cheats”
 
-- Default: Disabled  
-- Recommended: Disabled
+- **Default:** Disabled  
+- **Recommended:** Disabled
 
-If enabled, MiB64 remembers your cheat selections between sessions.  
-Useful for convenience, but may cause strange behavior if forgotten.
-
+If enabled, cheat selections persist across sessions.  
 If disabled, cheat selections reset when loading a new ROM or quitting.  
-Recommended due to cheat instability.
+Recommended to disable—cheats often cause instability.
 
 ---
 
-## <a name="o4"></a>"Disable AboutBox Audio"
+### <a name="o4"></a>“Disable AboutBox Audio”
 
-- Default: Disabled  
-- Recommended: User preference
+- **Default:** Disabled  
+- **Recommended:** User preference
 
-If enabled, MiB64’s “Epic Music” will not play.  
-If disabled, it will play in full glory.  
-This is purely a personal choice.
+If enabled, MiB64’s “Epic Music” won’t play.  
+If disabled, the music plays in full.  
+This is purely aesthetic—choose freely.
 
 ---
 
-## <a name="o5"></a>"Hide Advanced Settings"
+### <a name="o5"></a>“Hide Advanced Settings”
 
-- Default: Enabled  
-- Recommended: Enabled for beginners, disabled for advanced users
+- **Default:** Enabled  
+- **Recommended:** Enabled for beginners; disabled for advanced users
 
-New in v1.5. When enabled, most advanced controls are hidden.  
-Prevents confusion and misconfiguration.
+Introduced in v1.5. When enabled, most advanced controls are hidden.  
+Recommended for new users, children, or those unfamiliar with emulator settings.  
+MiB64 runs identically with this on or off.
 
-Recommended for:
+---
 
-- New users
-- Low technical expertise
-- Young children
-
-MiB64 runs equally well with this on or off.
+<table align="center">
+  <tr>
+    <td style="text-align: center;"><a href="app_settings">Settings</a></td>
+    <td style="text-align: center;"><a href="app_plugins">Plugins</a></td>
+    <td style="text-align: center;"><a href="app_directories">Directories</a></td>
+    <td style="text-align: center;"><a href="app_options">Options</a></td>
+    <td style="text-align: center;"><a href="app_game_selection">Game Selection</a></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><a href="app_advanced">Advanced</a></td>
+    <td style="text-align: center;"><a href="app_game_settings">Game Settings</a></td>
+    <td style="text-align: center;"><a href="app_game_information">Game Information</a></td>
+    <td style="text-align: center;"><a href="app_language">Language Selection</a></td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Options Configuration Protocol Complete -->
+<!-- ClauseEcho: Options Node Complete -->
