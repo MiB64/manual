@@ -11,25 +11,25 @@ You may experience performance issues and won’t be able to use all emulator op
 
 ---
 
-### 🖥️ Operating System  
+### Operating System  
 (No support for Windows Vista and below)
 
 - Microsoft Windows 7 and up
 
-### 🧠 CPU
+### CPU
 
 - Intel or AMD processor with at least SSE2 support
 
-### 🧮 RAM
+### RAM
 
 - 512MB or more
 
-### 🎮 Graphics Card
+### Graphics Card
 
 - DirectX 8 capable (Icepir8s-MiB64-LLE)  
 - OpenGL 3.3 capable (Icepir8s-MiB64-LLE)
 
-> Note: The plugins contain SSE optimizations. Early Athlons did not have SSE.
+The plugins contain SSE optimisations. Early Athlons did not have SSE.
 
 ---
 
@@ -44,17 +44,17 @@ Required features vary per game.
 
 ---
 
-### ✅ Suggested Minimum Video Hardware
+### Suggested Minimum Video Hardware
 
-- *nVidia GeForce256*  
-- *ATI Radeon* (early models)
+- nVidia GeForce256  
+- ATI Radeon (early models)
 
 These cards, paired with good drivers, meet the required feature set.  
 Newer cards mainly improve resolution, filtering, and anti-aliasing.
 
 ---
 
-### ❌ Below Minimum Specification
+### Below Minimum Specification
 
 The following chipsets (and all cards based on them) are considered **below minimum spec**:
 
