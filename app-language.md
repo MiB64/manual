@@ -57,7 +57,7 @@ parent: Settings (Application)
 The first time MiB64 is started, it asks you to choose a language if the Lang Folder is present.  
 The choices available depend on the contents of the `/Lang` folder. MiB64 v1.0 shipped with a reasonable—but of course far from complete—set of translations included (thanks to everyone who made them!).
 
-If the language you want is not in the list, [seek an updated/alternative file](updating_files) or [make/edit one yourself](language_files)!
+If the language you want is not in the list, [seek an updated/alternative file](updating-files) or [make/edit one yourself](language-files)!
 
 ---
 
