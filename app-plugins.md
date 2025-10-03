@@ -44,10 +44,10 @@ parent: Settings (Application)
 <div style="text-align: center;">
 <div class="zoom-pair">
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images//config-settings.png" alt="Config Settings Dialog" width="300" height="207" />
+    <img src="/manual/asset/images//config_settings.png" alt="Config Settings Dialog" width="300" height="207" />
   </div>
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images//plugins.png" alt="Plugins Dialog" width="155" />
+    <img src="/manual/asset/images//plugins_png" alt="Plugins Dialog" width="155" />
   </div>
 </div>
 <p><strong>Hover to zoom</strong></p>
