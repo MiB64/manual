@@ -4,7 +4,7 @@ nav_order: 2
 parent: Installation
 ---
 
-<h1 style="text-align:center">Standard Installation (portable and self contained)</h1>
+## <center>Standard Installation (portable and self contained)</center>
 
 MiB64 from the [MiB64 Releases](https://mib64.github.io/web-links#mib64-releases) is a Portable Emulator.  
 Always make sure to get it from there for an official download to ensure you have the complete and unaltered package.  

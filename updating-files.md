@@ -4,7 +4,7 @@ nav_order: 4
 parent: Installation
 ---
 
-# Updating MiB64 Files
+## <center>Updating MiB64 Files</center>
 
 The first thing, of course, is to check you have the **latest version of MiB64** by visiting the official site—see [Web Links](web_links).
 
@@ -101,6 +101,37 @@ Before installing any file:
 
 - Compare the version number with the one you're currently using via `Help > About INI Files`.
 - After updating, confirm the new file is being used via `Help > About INI Files`.
+
+---
+
+<table align="center">
+  <tr>
+    <td style="text-align: center;">
+      <a href="installation">Installation</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="preparing">Preperation</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="standard-install">Standard Install</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="installing-games">Installing Games</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <a href="updating-files">Keeping Current</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="additional-plugins">Adding Plugins</a>
+    </td>
+    <td style="text-align: center;">
+      <a href="backing-up">Backing up</a>
+    </td>
+    <td style="text-align: center;">&nbsp;</td>
+  </tr>
+</table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

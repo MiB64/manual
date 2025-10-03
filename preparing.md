@@ -4,7 +4,7 @@ nav_order: 1
 parent: Installation
 ---
 
-<h1 style="text-align:center">Preparing Your System for MiB64</h1>
+## <center>Preparing Your System for MiB64</center>
 
 Ideally do this *before* you start using MiB64.  
 If you haven't, please read this page now anyway.

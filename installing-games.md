@@ -4,7 +4,7 @@ nav_order: 3
 parent: Installation
 ---
 
-<h1 style="text-align:center">Installing Games</h1>
+## <center>Installing Games</center>
 
 N. B. There are no games supplied with MiB64. It is your responsibility to acquire games.  
 The MiB64 team cannot help you find commercial games, for legal reasons.  
