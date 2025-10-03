@@ -35,22 +35,19 @@ has_children: true
 
 This section explains the system requirements for MiB64. Please select a topic:
 
-<table align="left" style="width: 100%">
+<table align="center">
   <tr>
-    <td></td>
-    <td class="auto-style3" style="width: 150px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="requirements">Requirements</a>
     </td>
-    <td class="auto-style3" style="width: 150px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="feature-lists">Feature Lists</a>
     </td>
-    <td class="auto-style3" style="width: 150px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="min-specs">Minimum Specs</a>
     </td>
-    <td></td>
   </tr>
 </table>
-
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 

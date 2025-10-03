@@ -97,19 +97,17 @@ The **N-Rage Legacy plugin** supports more control types.
 
 ---
 
-<table align="left" style="width: 100%">
+<table align="center">
   <tr>
-    <td></td>
-    <td class="auto-style3" style="width: 145px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="requirements">Requirements</a>
     </td>
-    <td class="auto-style3" style="width: 136px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="feature-lists">Feature Lists</a>
     </td>
-    <td class="auto-style3" style="width: 145px">
+    <td class="auto-style3" style="text-align: center;">
       <a href="min-specs">Minimum Specs</a>
     </td>
-    <td></td>
   </tr>
 </table>
 
