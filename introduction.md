@@ -39,16 +39,16 @@ This section will take you through the basics – things that everyone should be
 before they start to use MiB64, and before reading further into this file.  
 Please select a topic.
 
-<table align="center" style="width: 100%">
+<table align="center">
   <tr>
-    <td class="auto-style3" style="width: 130px; text-align: center;">
-      <a href="introduction" style="display: inline-block; width: 130px;">Introduction</a>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="introduction">Introduction</a>
     </td>
-    <td class="auto-style3" style="width: 160px; text-align: center;">
-      <a href="what-is-mib64" style="display: inline-block; width: 160px;">What is MiB64</a>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="what-is-mib64">What is MiB64</a>
     </td>
-    <td class="auto-style3" style="width: 170px; text-align: center;">
-      <a href="whats-included" style="display: inline-block; width: 170px;">What's included</a>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="whats-included">What's included</a>
     </td>
   </tr>
 </table>
