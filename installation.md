@@ -20,7 +20,7 @@ Please select a topic.
 
 ---
 
-<table align="left" style="width: 100%">
+<table align="center" style="width: 100%">
   <tr>
     <td class="auto-style3" style="width: 145px">
       <a href="installation">Installation</a>
@@ -50,6 +50,7 @@ Please select a topic.
     <td></td>
   </tr>
 </table>
+
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
