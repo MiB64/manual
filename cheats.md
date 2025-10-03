@@ -1,6 +1,7 @@
 ---
 title: Using Cheats
 nav_order: 7
+parent: Using MiB64
 permalink: /manual/manual/cheats.html
 ---
 
