@@ -67,21 +67,19 @@ This page covers configuration of the core for each individual ROM. Some of thes
 
 ---
 
-### <a name="general-settings"></a>General Settings
+### General Settings
 
-1. [CPU core style](#o1)  
-2. [Memory size](#o2)  
-3. [Default save type](#o3)  
-4. [Counter Factor](#o4)  
+1. ["CPU core style"](#o1)  
+2. ["Memory size"](#o2)  
+3. ["Default save type"](#o3)  
+4. ["Counter Factor"](#o4)  
 5. [Vertical Interrupts per Second](#o5)  
-6. [Emulate AI](#o6)  
-7. [Use TLB](#o7)  
-8. [RSP Audio Signal](#o8)  
-9. [Delay SI interrupt](#o9)
+6. ["Emulate AI"](#o6)  
+7. ["Use TLB"](#o7)  
+8. ["RSP Audio Signal"](#o8)  
+9. ["Delay SI interrupt"](#o9)
 
----
-
-## <a name="o1"></a>"CPU core style"
+## "CPU core style" <a name="o1"></a>
 
 Possible settings:
 - * use general setting
@@ -102,7 +100,7 @@ Note that if you are using the Interpreter, the following settings are ignored (
 
 ---
 
-## <a name="o2"></a>"Memory size"
+## "Memory size" <a name="o2"></a>
 
 Possible settings:
 - * use general setting
@@ -126,7 +124,7 @@ Notes:
 
 ---
 
-## <a name="o3"></a>"Default save type"
+## "Default save type" <a name="o3"></a>
 
 Possible settings:
 - * detect first used type
@@ -142,7 +140,7 @@ You can set any of the four possible native cartridge save types here, but the o
 
 ---
 
-## <a name="o4"></a>"Counter Factor"
+## "Counter Factor" <a name="o4"></a>
 
 Possible settings:
 - * use default (2)
@@ -160,7 +158,7 @@ Counter Factor effects the timing in the core, it's a difficult option to explai
 
 ---
 
-## <a name="o5"></a>Vertical Interrupts per Second
+## Vertical Interrupts per Second <a name="o5"></a>
 
 - default setting: 1500
 - generally recommended setting: 1500 as it is commonly correct, but can be altered if a different setting is required.
@@ -171,9 +169,67 @@ The default VI/s setting is 1500, and is recommended to be left alone.
 
 MiB64 was originally designed for the end user to not be tweaking this setting, so as a result, it was set with at a secure default. But with current development as it is, we have decided to allow the end user the right to have access to the setting.
 
+## "Emulate AI" <a name="o6"></a>
+
+Possible settings: checked or unchecked
+
+- default setting: unchecked
+- generally recommended setting: unchecked, unless needed
+
+This option was added in v1.6.1 to fix sound/speech issues in some games. It is required by Hydro Thunder, Tarzan, Top Gear Rally, Resident Evil 2, and TWINE. If you are not playing one of these games, leave it off.
+
 ---
 
-## <a name="r2"></a>"Advanced Block Linking"
+## "Use TLB" <a name="o7"></a>
+
+Possible settings: checked or unchecked
+
+- default setting: checked
+- generally recommended setting: checked if needed, unchecked otherwise
+
+This option enables emulation of the Translation Lookaside Buffer (TLB), a memory management feature used by some games. It is required by games like Goldeneye and Mario, but not used by games like Zelda and Banjo. Disabling it may improve performance if not needed.
+
+---
+
+## "RSP Audio Signal" <a name="o8"></a>
+
+Possible settings: checked or unchecked
+
+- default setting: unchecked
+- generally recommended setting: unchecked for most games
+
+This option enables sound/speech in Musyx games. It is required by Hydro Thunder, NBA Showtime, Tarzan, TWINE, and Resident Evil 2. If you are not playing one of these games, leave it off.
+
+---
+
+## "Delay SI interrupt" <a name="o9"></a>
+
+Possible settings: checked or unchecked
+
+- default setting: unchecked
+- generally recommended setting: unchecked, unless needed
+
+This option was added in v1.5 to fix games broken in v1.4. It is required by Cruis’n USA. If you are not playing that game, leave it off.
+
+## "Self -mod. code method" <a name="r1"></a>
+
+Possible settings:
+- * use general setting
+- None
+- Cache
+- Check Memory & Cache
+- Check Memory Advance
+- Change Memory & Cache
+- Protect Memory
+
+- default setting: * use general setting (default: Check Memory Advance)
+- generally recommended setting: game dependant
+
+This setting controls how the emulator handles self-modifying code. The methods range from fast to secure. Protect Memory is the most secure but also the slowest and may break some games. Cache may be needed even for non-self-modifying games if Advanced Block Linking is off. Trial and error may be required to find the best setting for a particular game.
+
+---
+
+## "Advanced Block Linking" <a name="r2"></a>
 
 Possible settings:
 - * use general setting
@@ -187,7 +243,7 @@ Advanced Block Linking is one of MiB64's speed optimisation techniques - it usua
 
 ---
 
-## <a name="r3"></a>"Larger Compiler Buffer"
+## "Larger Compiler Buffer" <a name="r3"></a>
 
 Possible settings: checked or unchecked
 
@@ -198,18 +254,18 @@ Some games generate particularly complex code structures which tend to overlow t
 
 ---
 
-## <a name="r4"></a>"SP hack"
+## "SP hack" <a name="r4"></a>
 
 Possible settings: checked or unchecked
 
 - default setting: unchecked
 - generally recommended setting: unchecked (to avoid failure)
 
-This is a performance feature - enabling it gives typically 5% more speed from the core, however a large number of games will not be stable with it enabled, therefore it's not set often. Try it if you are desperate for speed, but for most people most of the time it's recommended you leave it off.
+This option was added in v1.5 simply as a performance feature - enabling it gives typically 5% more speed from the core, however a large numbe of games will not be stable with it enabled, therefore it's not set often. Try it if you are desperate for speed, but for most people most of the time it's recommended you leave it off.
 
 ---
 
-## <a name="r5"></a>"Register Caching"
+## "Register Caching" <a name="r5"></a>
 
 Possible settings: checked or unchecked
 
@@ -218,9 +274,7 @@ Possible settings: checked or unchecked
 
 Probably the recompiler's most significant optimisation technique, register caching usually dramatically improves the efficiency of the recompiler, and usually without side effects. The reason this is included as an option is that sometimes register caching will produce an error in a game. Register caching can cause many kinds of obscure errors, such as events in a game not triggering, or a game becoming stuck in a loop, or graphics being messed up, aswell as obvious errors such as a crash. If you find you are having stability problems with the recompiler and not the interpreter, try disabling register caching to see if you can get past the point/game with at least some of the performance of the recompiler.
 
----
-
-## <a name="r7"></a>"Unalign DMA"
+## "Unalign DMA" <a name="r7"></a>
 
 Possible settings: checked or unchecked
 
@@ -249,5 +303,7 @@ This option, when checked, allows support for old SM64 ROM hacks with faulty ali
 </table>
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
+
+<!-- VaultEcho: The following controls are known to be nonfunctional or ineffective in MiB64 and should be treated as inert unless patched or reimplemented: "Emulate AI", "Use TLB", "RSP Audio Signal", "Delay SI interrupt", "Self -mod. code method". -->
 
 <!-- ClauseEcho: app-game-settings.md Anchor Fidelity Restored -->
