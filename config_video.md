@@ -39,8 +39,8 @@ nav_order: 8
 </style>
 
 ## <center>Configuration: Icepir8's Legacy LLE Graphics plugin</center>
-<b>  
-<div style="text-align: center;">  
+<b>
+
 <div class="zoom-pair">
   <div class="zoom-on-hover">
     <img src="/manual/asset/images/config_gfx2.png" alt="Config Video Dialog" width="300" height="217" />
@@ -49,8 +49,7 @@ nav_order: 8
     <img src="/manual/asset/images/Icepir8sMiBLLE.png" alt="Config Icepir8s MiB LLE Plugin" width="150" />
   </div>
 </div>
-<p><strong>Hover to zoom</strong></p>
-</div>
+<p style="text-align: center;"><strong>Hover to zoom</strong></p>
 
 <!-- ClauseEcho: Interactive Images -->
 
@@ -58,12 +57,12 @@ Options > Configure Graphics Plugin
 
 Below all the tabs are three buttons, OK, Cancel and Apply. Hopefully the first two are self-explanatory - cancel closes discarding changes, OK closes keeping changes (but they aren't acutally written to file until you close MiB64. The Apply button is to allow you to see the effects of changes to graphics configuration in real time, while a game is running. This button does not save changes to file - saving to file is done on application exit. Therefore its a good idea to restart MiB64 once after making a lot of changes that you want to keep, just in case anything crashes.
 
-<a href="#General:">General</a>
-
-1. <a href="#g1">"Multithread rendering [Checkbox]"</a>  
-2. <a href="#g2">"Threads - (0=auto)"</a>  
-3. <a href="#g3">"Compatibilty"</a>  
-4. <a href="#g4">"Capture Format"</a>
+<ol>
+  <li><a href="#g1">"Multithread rendering [Checkbox]"</a></li>
+  <li><a href="#g2">"Threads - (0=auto)"</a></li>
+  <li><a href="#g3">"Compatibilty"</a></li>
+  <li><a href="#g4">"Capture Format"</a></li>
+</ol>
 
 <a name="General:">General</a>
 
@@ -116,6 +115,16 @@ It is really up to the user to decide which format they prefer for Screenshots, 
 <a name="Bitmap">Bitmap</a> (.bmp) Bit Map Image file is developed by Microsoft for windows. It is same as TIFF due to lossless, no compression property. Due to BMP being a proprietary format, it is generally recommended to use TIFF files.
 
 <a name="JPEG">JPEG</a> (.jpg, .jpeg) Joint Photographic Experts Group is a loss-prone (lossy) format in which data is lost to reduce the size of the image. Due to compression, some data is lost but that loss is very less. It is a very common format and is good for digital cameras, nonprofessional prints, E-Mail, Powerpoint, etc., making it ideal for web use.
+
+<ol>
+  <li><a href="#vi1">"Window mode resolution"</a></li>
+  <li><a href="#vi2">"Output mode"</a></li>
+  <li><a href="#vi3">"Interpolation"</a></li>
+  <li><a href="#vi4">"16:9 widescreen" [Checkbox]</a></li>
+  <li><a href="#vi5">"Hide Overscans" [Checkbox]</a></li>
+  <li><a href="#vi6">"Exclusive fullscreen" [Checkbox]</a></li>
+  <li><a href="#vi7">"Enable VSync" [Checkbox]</a></li>
+</ol>
 
 <a name="Video_Interface:">Video Interface:</a>
 
