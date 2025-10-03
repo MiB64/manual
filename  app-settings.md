@@ -23,7 +23,7 @@ has_children: true
 }
 </style>
 
-# Application Settings
+## <center>Settings (Application)</center>
 
 <div class="zoom-on-hover">
   <img src="/manual/asset/images//config_settings.png" alt="Application Settings Screenshot" />
