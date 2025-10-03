@@ -16,12 +16,10 @@ parent: Settings (Application)
   width: max-content;
   text-align: left;
 }
-
 .zoom-on-hover {
   display: inline-block;
   position: relative;
 }
-
 .zoom-on-hover img {
   display: block;
   cursor: zoom-in;
@@ -30,15 +28,12 @@ parent: Settings (Application)
   position: relative;
   z-index: 1;
 }
-
 .zoom-on-hover:hover img {
   transform: scale(1.5);
 }
-
 .zoom-pair .zoom-on-hover:first-child:hover img {
   z-index: 9999;
 }
-
 .zoom-pair .zoom-on-hover:last-child:hover img {
   z-index: 100;
 }
@@ -68,64 +63,67 @@ Options → Settings → Advanced
 
 ---
 
-### <a name="Upper_tab">Upper tab – Core Defaults (drop-down menus)</a>
+### <a name="Upper_tab"></a>Upper Tab – Core Defaults (drop-down menus)
 
-1. <a name="b1">CPU core style</a>  
-2. <a name="b2">Self-mod code method</a>  
-3. <a name="Advanced_Block_Linking">Advanced Block Linking</a> ← Important control, read this!
+1. [CPU core style](#b1)  
+2. [Self-mod code method](#b2)  
+3. [Advanced Block Linking](#b3)
 
 ---
 
-#### <a name="b1">CPU core style</a>
+## <a name="b1"></a>CPU Core Style
 
 - Default: Recompiler  
-- Recommended: Recompiler (should not matter if using RDS)  
-- Can be overridden per-ROM via [ROM Settings](app_rom_settings) if RDS is enabled  
-- MiB64 was tested primarily with Recompiler; Interpreter may cause issues
+- Recommended: Recompiler  
+- Can be overridden per-ROM via [ROM Settings](app_rom_settings)  
+- Interpreter may cause compatibility issues  
+- MiB64 was tested primarily with Recompiler; Interpreter is fallback only
 
 ---
 
-#### <a name="b2">Self-mod code method</a>
+## <a name="b2"></a>Self-mod Code Method
 
 - Default: Check Memory Advance  
-- Recommended: Same  
+- Recommended: Check Memory Advance  
 - Usually set by RDS; rarely adjusted manually  
-- Can be overridden per-ROM via [ROM Settings](app_rom_settings)
+- Can be overridden per-ROM via [ROM Settings](app_rom_settings)  
+- If RDS author couldn’t determine the correct value, manual adjustment may be needed
 
 ---
 
-#### <a name="Advanced_Block_Linking">Advanced Block Linking</a>
+## <a name="b3"></a>Advanced Block Linking
 
 - Default: On  
-- Recommended: Off (unless speed is needed)  
-- Affects recompiler performance:  
-  - On = faster but less smooth  
-  - Off = smoother but slower  
+- Recommended: Off unless speed is needed  
+- On = faster but less smooth  
+- Off = smoother but slower  
 - Most noticeable in racing games  
-- Not normally set by RDS—this control is usually active
+- Not normally set by RDS—this control is usually active  
+- Introduced as toggle in MiB64 v1.4+
 
 ---
 
-### <a name="Lower_tab">Lower tab – Checkboxes</a>
+### <a name="Lower_tab"></a>Lower Tab – Checkboxes
 
-1. <a name="o1">Start emulation when ROM is opened</a>  
-2. <a name="o2">Automatically compress instant saves</a>  
-3. <a name="o3">Clear Memory at Start Of Emulation</a>  
-4. <a name="o4">Enable Debugger (forces CPU Interpreter)</a>  
-5. <a name="o5">Show More Error Messages</a>
+1. [Start emulation when ROM is opened](#o1)  
+2. [Automatically compress instant saves](#o2)  
+3. [Clear Memory at Start Of Emulation](#o3)  
+4. [Enable Debugger (forces CPU Interpreter)](#o4)  
+5. [Show More Error Messages](#o5)
 
 ---
 
-#### <a name="o1">Start emulation when ROM is opened</a>
+## <a name="o1"></a>Start Emulation When ROM Is Opened
 
 - Default: Enabled  
 - Recommended: Enabled  
 - If disabled, allows editing ROM settings before boot  
+- Saves you from manually starting emulation each time  
 - Changes take effect at next ROM boot
 
 ---
 
-#### <a name="o2">Automatically compress instant saves</a>
+## <a name="o2"></a>Automatically Compress Instant Saves
 
 - Default: Enabled  
 - Recommended: Enabled  
@@ -136,28 +134,31 @@ Options → Settings → Advanced
 
 ---
 
-#### <a name="o3">Clear Memory at Start Of Emulation</a>
+## <a name="o3"></a>Clear Memory at Start Of Emulation
 
 - Default: Enabled  
 - Recommended: Enabled  
-- Clears memory on each ROM load to prevent leftover junk
+- Clears memory on each ROM load to prevent leftover junk  
+- Prevents graphical glitches and data residue
 
 ---
 
-#### <a name="o4">Enable Debugger (forces CPU Interpreter)</a>
+## <a name="o4"></a>Enable Debugger (forces CPU Interpreter)
 
 - Default: Disabled  
 - Recommended: Disabled  
 - Enables debugging mode using Interpreter (slower)  
-- Previously required registry hacks; now exposed for advanced users
+- Previously required registry hacks; now exposed for advanced users  
+- When enabled, performance drops significantly
 
 ---
 
-#### <a name="o5">Show More Error Messages</a>
+## <a name="o5"></a>Show More Error Messages
 
 - Default: Disabled  
 - Recommended: Disabled  
-- Displays additional debug messages when enabled
+- Displays additional debug messages when enabled  
+- Useful for plugin developers or advanced troubleshooting
 
 ---
 
@@ -180,4 +181,4 @@ Options → Settings → Advanced
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Advanced Node Complete -->
+<!-- ClauseEcho: app_advanced.md Anchor Fidelity Restored -->
