@@ -41,13 +41,13 @@ Please select a topic.
 
 <table align="center" style="table-layout: auto; border-collapse: collapse;">
   <tr>
-    <td class="auto-style3" style="text-align: center; padding: 0.2em 0; white-space: nowrap;">
+    <td style="text-align: center; padding: 0.1em 0; white-space: nowrap; width: 1%;">
       <a href="introduction">Introduction</a>
     </td>
-    <td class="auto-style3" style="text-align: center; padding: 0.2em 0; white-space: nowrap;">
+    <td style="text-align: center; padding: 0.1em 0; white-space: nowrap; width: 1%;">
       <a href="what-is-mib64">What is MiB64</a>
     </td>
-    <td class="auto-style3" style="text-align: center; padding: 0.2em 0; white-space: nowrap;">
+    <td style="text-align: center; padding: 0.1em 0; white-space: nowrap; width: 1%;">
       <a href="whats-included">What's included</a>
     </td>
   </tr>
