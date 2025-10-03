@@ -104,8 +104,8 @@ If disabled, games will start windowed. You can switch to fullscreen mode yourse
 
 ### <a name="o3"></a>“Remember selected cheats”
 
-- default setting: disabled  
-- generally recommended setting: disabled
+- default setting: Enabled  
+- generally recommended setting: user preference.
 
 If enabled, MiB64 will save your cheat code selection between sessions. This is for your convenience, and it means that if you close the emulator and go away, then play some hours/weeks/anytime later, the same cheat codes will be applied as before... this is important to keep in mind if your games are acting strangely!
 
