@@ -155,16 +155,17 @@ At the bottom right, the FPS counter… note that this displays current VI/s or 
 can think of it as "Fields Per Second" of the CPU core, **not** Frames Per Second  
 from the graphics plugin.
 
-<table align="left" style="width: 100%">
+<table align="center">
   <tr>
-    <td></td>
-    <td class="auto-style3" style="width: 150px">
-      <a href="introduction.md">Introduction</a>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="introduction">Introduction</a>
     </td>
-    <td class="auto-style3" style="width: 150px">
-      <a href="whats-included.md">What's included</a>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="what-is-mib64">What is MiB64</a>
     </td>
-    <td></td>
+    <td class="auto-style3" style="text-align: center;">
+      <a href="whats-included">What's included</a>
+    </td>
   </tr>
 </table>
 
