@@ -1,7 +1,7 @@
 ---
 title: What is MiB64
-nav_order: 1
-parent: Introduction
+nav_order: 3
+parent: MiB64 User Manual
 ---
 
 <style>

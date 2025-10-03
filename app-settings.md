@@ -1,6 +1,6 @@
 ---
 title: Settings (Application)
-nav_order: 5
+nav_order: 7
 has_children: true
 ---
 
@@ -61,6 +61,7 @@ has_children: true
 
 ## <center>Settings (Application)</center>
 
+<b>
 <div style="text-align: center;">
   <div class="zoom-on-hover">
     <img src="/manual/asset/images/config_settings.png" alt="Advanced Tab" width="300" height="214" />

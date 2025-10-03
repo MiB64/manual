@@ -1,7 +1,7 @@
 ---
 title: What's included
-nav_order: 2
-parent: Introduction
+nav_order: 4
+parent: MiB64 User Manual
 ---
 
 
