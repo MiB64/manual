@@ -39,7 +39,7 @@ parent: Settings (Application)
 <div style="text-align: center;">
   <p><strong>File > Language (No /Lang Folder present)</strong></p>
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/lang_1.png" alt="Language Dialog - No Lang Folder" width="220" />
+    <img src="/manual/asset/images/lang_1.png" alt="Language Dialog - No Lang Folder" width="300" height="260" />
   </div>
   <p><strong>Hover to zoom</strong></p>
   <p>On load if /Lang Folder is present in Root /Lang</p>
@@ -67,7 +67,7 @@ If the language you want is not in the list, [seek an updated/alternative file](
 
 <div style="text-align: center;">
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/lang_3.png" alt="Language Menu" width="220" />
+    <img src="/manual/asset/images/lang_3.png" alt="Language Menu" width="300" height="260" />
   </div>
   <p><strong>Hover to zoom</strong></p>
 </div>
