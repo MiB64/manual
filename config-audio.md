@@ -40,7 +40,6 @@ nav_order: 9
 
 ## <center>Configuration: Azimer's Legacy Audio Plugin</center>
 <b>
-
 <div class="zoom-pair">
   <div class="zoom-on-hover">
     <img src="/manual/asset/images/config_audio.png" alt="Config Audio Dialog" width="300" height="214" />
@@ -80,9 +79,12 @@ This enables you to output the sound to whatever device may be listed in the dro
 
 <a name="o3"><strong>"Backend Sound Driver"</strong></a>
 
-<div class="zoom-on-hover" style="text-align: center;">
+<b>    
+<div style="text-align: center;">
+<div class="zoom-on-hover">
   <img src="/manual/asset/images/azi2.png" alt="Advanced Tab" width="300" height="214" />
-  <p><strong>Hover to zoom</strong></p>
+</div>
+<p><strong>Hover to zoom</strong></p>
 </div>
 
 <ul>
