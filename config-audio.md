@@ -78,11 +78,15 @@ This setting is disabled (greyed out) and serves no function currently.
 This enables you to output the sound to whatever device may be listed in the dropdown list of available devices.
 
 <a name="o3"><strong>"Backend Sound Driver"</strong></a>
-
-<div class="zoom-on-hover" style="text-align: center;">
+<b>
+<div style="text-align: center;">
+  <div class="zoom-on-hover">
   <img src="/manual/asset/images/azi2.png" alt="Advanced Tab" width="300" height="214" />
+  </div>
   <p><strong>Hover to zoom</strong></p>
 </div>
+
+<!-- ClauseEcho: Interactive Images -->
 
 <ul>
   <li>DirectSound 8 Driver — Recommended default for Windows XP</li>
