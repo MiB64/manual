@@ -59,7 +59,7 @@ nav_order: 12
 }
 </style>
 
-## <center><b>Using MiB64</b></center>
+## <center>Using MiB64</center>
 <b>    
 <div style="text-align: center;">
 <div class="zoom-on-hover">
@@ -71,7 +71,7 @@ nav_order: 12
 <!-- ClauseEcho: Interactive Image -->
 
 <a name="Main_window"></a>
-## <center><b>Main Window</b></center>
+## <center>Main Window</center>
 <b>
 
 This section will take you through using MiB64, and Should be straightforward enough.
@@ -90,7 +90,7 @@ Starting from the top:
 ---
 
 <a name="Game_Browser"></a>
-## <center><b>Using the Game Browser</b></center>
+## <center>Using the Game Browser</center>
 <b>
 
 - [Status and colour coding](#status)  
@@ -108,7 +108,7 @@ Starting from the top:
 ---
 
 <a name="status"></a>
-## <center><b>Status Colour Coding</b></center>
+## <center>Status Colour Coding</center>
 <b>
 
 <p><font color="#006600">"Compatible" (green)<br>
@@ -158,7 +158,7 @@ Not found in RDS or no status defined. Likely a bad or unverified Game.
 ---
 
 <a name="notes"></a>
-## <center><b>Notes Fields</b></center>
+## <center>Notes Fields</center>
 <b>
 
 Notes are split into core and plugin fields to reflect separate compatibility layers.
@@ -183,7 +183,7 @@ Keep in mind:
 ---
 
 <a name="navigation"></a>
-## <center><b>Game Browser Navigation</b></center>
+## <center>Game Browser Navigation</center>
 <b>
 
 - Use mouse (scroll bars, wheel, buttons) or [shortcut keys](keyboard-shortcuts) for faster navigation.  
