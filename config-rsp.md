@@ -68,7 +68,7 @@ nav_order: 11
     <img src="/manual/asset/images/config_rsp.png" alt="RSP Config Dialog" width="300" height="214" />
   </div>
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/Internal_RSP_small.png" alt="Internal RSP" width="300" height="214" />
+    <img src="/manual/asset/images/Internal_RSP.png" alt="Internal RSP" width="155" />
   </div>
 </div>
 <p style="text-align: center;"><strong>Hover to zoom</strong></p>
