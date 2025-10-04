@@ -93,7 +93,7 @@ This is the generally recommended method of starting games, for many reasons [re
 <b>
 
 It is possible to use a standard Windows file open dialogue to start games.  
-Go File > Open Game, browse to your game file and double click the file—with the default settings the game will load and emulation will start automatically.
+Go File > Open Game, browse to your game file and double click the file with the default settings the game will load and emulation will start automatically.
 
 If you are using this method, you won't have the feedback provided by the Browser, so you should be sure that you are opening a supported game and be aware of possible issues etc.
 
@@ -123,7 +123,7 @@ By default the list shows only the 4 most recently added game directories, but t
 ## <center><b>Stopping & Changing Games</b></center>
 <b>
 
-If you are finished playing and want to leave MiB64 you can simply close the emulator like any normal Windows application (use the X, or File > Exit—see [shortcut](keyboard-shortcuts)).
+If you are finished playing and want to leave MiB64 you can simply close the emulator like any normal Windows application (use the X, or File > Exit (see [shortcut](keyboard-shortcuts))).
 
 There is no need to End Emulation before you quit.  
 If you are going to be away for a short period of time you could leave the emulator paused (by [default](app-options), losing window focus or minimizing the window will automatically pause for you).
@@ -134,24 +134,24 @@ You'll probably want to make a named save, so go System > Save As ([shortcut](ke
 
 If you want to play a different game, you can go back to the Game Browser to make your selection by choosing File > End Emulation, or you can go ahead and load it directly from File > Open or the Recent Game menu, even while the old game is running.
 
-MiB64 will automatically End Emulation of the old game and load and start the new one (without any prompts—be careful!).
+MiB64 will automatically End Emulation of the old game and load and start the new one (without any prompts be careful!).
 
 <a name="resetting-games"></a>
 ## <center><b>Resetting Games</b></center>
 <b>
 
 In case you are not familiar with the N64 console, it has a reset button.  
-Pressing this is equivalent to turning the power off and back on—it's just smoother and quicker.
+Pressing this is equivalent to turning the power off and back on it's just smoother and quicker.
 
-Of course there is no direct power button equivalent on MiB64, but the reset is emulated—go System > Reset.  
+Of course there is no direct power button equivalent on MiB64, but the reset is emulated go System > Reset.  
 Keyboard shortcut: **F1**
 
 ### Points to note:
-1. There is no prompt to reset, so be careful—it happens instantly. Make sure you save your game if you want to, there is no way to go back (undo).  
+1. There is no prompt to reset, so be careful it happens instantly. Make sure you save your game if you want to, there is no way to go back (undo).  
 2. On reset, MiB64 checks all core settings, so if you have made any changes to the RDS or general options they will take effect now.  
 3. After resetting, MiB64 has no memory of any state loads before the reset.  
    In other words, the RDRAM (the game's memory space) is totally wiped clean.  
-   This is significant if you are using hacks/cheat codes or have core errors—do a native save, reset the game, and load through the game menus.  
+   This is significant if you are using hacks/cheat codes or have core errors do a native save, reset the game, and load through the game menus.  
    This is a smart dodge that can save you when your states go bad or a combination of cheat codes ruins your game.
 
 <!-- Footer Navigation Block -->
