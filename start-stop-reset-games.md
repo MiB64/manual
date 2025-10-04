@@ -143,8 +143,8 @@ MiB64 will automatically End Emulation of the old game and load and start the ne
 In case you are not familiar with the N64 console, it has a reset button.  
 Pressing this is equivalent to turning the power off and back on it's just smoother and quicker.
 
-Of course there is no direct power button equivalent on MiB64, but the reset is emulated go System > Reset.  
-Keyboard shortcut: **F1**
+Of course there is no direct power button equivalent on MiB64, but the reset is emulated and availble at
+System > Reset or Keyboard shortcut: **F1**
 
 ### Points to note:
 1. There is no prompt to reset, so be careful it happens instantly. Make sure you save your game if you want to, there is no way to go back (undo).  
