@@ -124,7 +124,7 @@ By default the list shows only the 4 most recently added game directories, but t
 ## <center><b>Stopping & Changing Games</b></center>
 <b>
 
-If you are finished playing and want to leave MiB64 you can simply close the emulator like any normal Windows application (use the X, or File > Exit (see [shortcut](keyboard-shortcuts))).
+If you are finished playing and want to leave MiB64 you can simply close the emulator like any normal Windows application (use the X, or File > Exit (see [shortcut](keyboard-shortcuts)).
 
 There is no need to End Emulation before you quit.  
 If you are going to be away for a short period of time you could leave the emulator paused (by [default](app-options), losing window focus or minimizing the window will automatically pause for you).
