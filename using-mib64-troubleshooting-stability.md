@@ -125,8 +125,6 @@ Check problem is not being caused by one of your plugins – plugins can stall t
 
 ---
 
----
-
 <!-- Footer Navigation Block -->
 
 <table align="center" style="width: 80%">
