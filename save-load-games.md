@@ -137,7 +137,7 @@ See your existing save folder for the correct file name if you are not sure what
     <td style="text-align: center"><a href="using-mib64">Using MiB64</a></td>
     <td style="text-align: center"><a href="start-stop-reset-games">Start, Stop, Reset Games</a></td>
     <td style="text-align: center"><a href="save-load-games">Save & Load Games</a></td>
-    <td style="text-align: center"><a href="/manual/manual/manual/cheats.html">Using Cheats</a></td>
+    <td style="text-align: center"><a href="/manual/manual/manual/cheats">Using Cheats</a></td>
   </tr>
   <tr>
     <td style="text-align: center"><a href="taking-screenshots">Taking Screenshots</a></td>
