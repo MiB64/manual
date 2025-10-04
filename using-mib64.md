@@ -87,7 +87,7 @@ Should be straightforward enough—starting from the top:
 
 ---
 
-<a name="ROM_Browser"></a>
+<a name="Game_Browser"></a>
 ## <center><b>Using the Game Browser</b></center>
 <b>
 
@@ -151,7 +151,7 @@ Status unknown—test manually.
 </p>
 
 <p><font color="#444444">"Unknown" (grey)<br>
-Not found in RDS or no status defined. Likely a bad or unverified ROM.
+Not found in RDS or no status defined. Likely a bad or unverified Game.
 </font></p>
 
 ---
@@ -187,7 +187,7 @@ Keep in mind:
 
 - Use mouse (scroll bars, wheel, buttons) or [shortcut keys](keyboard-shortcuts) for faster navigation.  
 - Click column headers to sort—click again to reverse direction.  
-- The browser is highly [configurable](#ROM_Browser).
+- The browser is highly [configurable](#Game_Browser).
 
 ---
 
