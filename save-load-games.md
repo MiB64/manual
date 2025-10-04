@@ -50,7 +50,7 @@ parent: Using MiB64
 
 <!-- ClauseEcho: Interactive Image -->
 
-This section will take you through <b>saving & loading game progress</b> in MiB64.
+This section will take you through saving & loading game progress in MiB64.
 
 - [native saves](#native)  
 - [state saves](#state)  
