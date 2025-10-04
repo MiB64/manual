@@ -39,7 +39,7 @@ parent: Using MiB64
 }
 </style>
 
-## <center><b>Keyboard Shortcuts</b></center>
+## <center>Keyboard Shortcuts</center>
 <b>
 <div style="text-align: center;">
 <div class="zoom-on-hover">
