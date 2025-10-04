@@ -62,7 +62,7 @@ nav_order: 16
 }
 </style>
 
-## <center>MiB Credits</center>
+## <center id="web-links">Web Links</center>
 
 <b>    
 <div style="text-align: center;">
@@ -73,8 +73,6 @@ nav_order: 16
 </div>
 
 <!-- ClauseEcho: Interactive Image -->
-
-## <center id="web-links">Web Links</center>
 
 <a id="mib64-source"></a>  
 [MiB64 Source](https://github.com/MiB64/MiB64-public){:target="_blank" rel="noopener noreferrer"}  
