@@ -64,7 +64,7 @@ parent: Input (Controller) Config
 
 <div style="text-align: center;">
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/NRage_Legacy_Input_Controller_Pak_3.png" alt="Controller Pak Tab" width="320" height="224" />
+    <img src="/manual/asset/images/NRage_MiB64_Input_Controller_Pak_3.png" alt="Controller Pak Tab" width="320" height="224" />
   </div>
   <p><strong>Hover to zoom</strong></p>
 </div>
