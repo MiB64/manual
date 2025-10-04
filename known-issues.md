@@ -18,7 +18,7 @@ Issues listed under "core" are problems within the `.exe`, and cannot be fixed e
 
 Issues listed under "plugin" (or "[video]") etc. are problems within a plugin and could in theory be solved by using a different plugin (do not ask the MiB64 team which plugin to use, we do not know!).
 
-On the other hand, if you have a solution or workaround to a problem that you want to share with fellow users (one that isn't already listed here, obviously!), please let us know via the [Discord Server](https://discord.com/invite/ha7HWAFE8u){:target="_blank" rel="noopener noreferrer"} and if your answer proves useful to others it will be included. Many thanks in advance.
+On the other hand, if you have a solution or workaround to a problem that you want to share with fellow users (one that isn't already listed here, obviously!), please let us know via the [MiB64 Discord Server](https://discord.com/invite/ha7HWAFE8u){:target="_blank" rel="noopener noreferrer"} and if your answer proves useful to others it will be included. Many thanks in advance.
 
 ---
 
