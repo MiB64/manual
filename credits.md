@@ -25,7 +25,7 @@ nav_order: 15
 <b>    
 <div style="text-align: center;">
 <div class="zoom-on-hover">
-  <img src="/manual/asset/images/mib64_banner.png" alt="MiB64 Banner" width="600" height="182" />
+  <img src="/manual/asset/images/mib64_banner.png" alt="MiB64 Banner" width="300" height="182" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 </div>
@@ -51,7 +51,7 @@ Core, Application programmer
 <b>    
 <div style="text-align: center;">
 <div class="zoom-on-hover">
-  <img src="/manual/asset/images/logo_leg._med.png" alt="Legacy Logo" width="433" height="142" />
+  <img src="/manual/asset/images/logo_leg._med.png" alt="Legacy Logo" width="300" height="142" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 </div>
