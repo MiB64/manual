@@ -50,13 +50,13 @@ parent: Using MiB64
 
 <!-- ClauseEcho: Interactive Image -->
 
-This section will take you through <b>multiple instances of MiB64</b>.
+This section will take you through multiple instances of MiB64.
 
 You can have more than one copy of MiB64 open and running at the same time!
 
 The ability to have multiple instances can be a good thing, if you want to compare two windows side by side for example, or a bad thing, if you don't understand that there can be complications, or do it accidently! (i.e. if you start another instance without noticing you already have one running).
 
-### Points:
+### <center><b>Points:</b></center>
 
 1. Only one instance can have access to a particular save file at a time. So if you try to open the same game twice, you can expect the second instance to be denied access to the save data.
 2. Plugins could act in unexpected ways, depending on how they are written, for example, an audio plugin may only give sound from the first instance, or an input plugin may only send keypresses to the instance that has focus. The default plugins should work with all instances.
