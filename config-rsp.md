@@ -62,15 +62,17 @@ nav_order: 11
 ## <center><b>Internal RSP (Reality Signal Processor)</b></center>
 <b>
 
+<b>
 <div class="zoom-pair">
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/config_rsp2.png" alt="RSP Config Dialog" width="300" />
+    <img src="/manual/asset/images/config_rsp2.png" alt="RSP Config Dialog" width="300" height="214" />
   </div>
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/Internal_RSP_small.png" alt="Internal RSP Icon" width="200" />
+    <img src="/manual/asset/images/Internal_RSP_small.png" alt="Internal RSP" width="300" height="214" />
   </div>
 </div>
-<p class="has-text-align-center"><strong>Hover to zoom</strong></p>
+<p style="text-align: center;"><strong>Hover to zoom</strong></p>
+
 <!-- ClauseEcho: Interactive Images -->
 
 Options > Configure Internal RSP
