@@ -39,7 +39,7 @@ parent: Using MiB64
 }
 </style>
 
-## <center><b>Save & Load Games</b></center>
+## <center>Save & Load Games</center>
 <b>
 <div style="text-align: center;">
 <div class="zoom-on-hover">
@@ -56,7 +56,7 @@ This section will take you through saving & loading game progress in MiB64.
 - [state saves](#state)  
 - [importing and exporting](#import)
 
-## <center><b>Points</b></center>
+## <center>Points</center>
 <b>
 
 1. It is highly recommended that you make regular native saves. Although state saves usually work OK, this is not guaranteed due to many things that can go wrong in the core and memory of the emulator. Native saves are more reliable (and smaller!) than state saves. By using both methods (rather than just state saves) you have a backup if anything goes wrong.  
@@ -64,7 +64,7 @@ This section will take you through saving & loading game progress in MiB64.
 3. Native save files must not be Read Only, games need to be able to read/write at any time. For example if you back up your save files to a CDR, when you copy them back to your harddrive they may still be marked read-only - you must change the attributes with Windows Explorer. MiB64 does not do this automatically, in case you don't want your file to be updated for any reason.
 
 <a name="native"></a>
-## <center><b>Native Saves</b></center>
+## <center>Native Saves</center>
 <b>
 
 To understand the game data saving and loading of MiB64, you must also understand the N64's own saving and loading systems (if you aren't already familiar with them), because MiB64 emulates all those systems.
@@ -93,7 +93,7 @@ The resulting save files will be compatible with both other N64 emulators and a 
 ** For example, you are playing the game Mario64. Mario 64 uses the EEPROM save type, and your Game has the internal name "SUPER MARIO 64". Therefore the save file automatically created and managed by MiB64 will be called "SUPER MARIO 64.eep" in your [configured folder](app_directories.html).
 
 <a name="state"></a>
-## <center><b>State Saves</b></center>
+## <center>State Saves</center>
 <b>
 
 In addition to emulating the native save types, MiB64 is also capable of saving the entire state of *itself*—everything that it needs to know to recreate an exact point in time during the emulation of a particular game.
@@ -121,7 +121,7 @@ Save As... just means you can choose a filename and location for your state save
 It is normal for the system to pause for a short while while generating, compressing and writing the save file. The quicker your system, the shorter the pause.
 
 <a name="import"></a>
-## <center><b>Importing and Exporting</b></center>
+## <center>Importing and Exporting</center>
 <b>
 
 - ...to and from other emulators  
