@@ -60,13 +60,14 @@ parent: Input (Controller) Config
 
 ## <center><b>N-Rage MiB64 Input Configuration — Controls Tab</b></center>
 <b>
-
 <div style="text-align: center;">
-  <div class="zoom-single">
-    <img src="/manual/asset/images/NRage_MiB64_Input_Controls.png" alt="Controls Tab" width="320" height="224" />
-    <p><strong>Hover to zoom</strong></p>
+  <div class="zoom-on-hover">
+<img src="/manual/asset/images/NRage_MiB64_Input_Controls.png" alt="Controls Tab" width="320" height="224" />
   </div>
+  <p><strong>Hover to zoom</strong></p>
 </div>
+
+<!-- ClauseEcho: Interactive Image -->
 
 ---
 
