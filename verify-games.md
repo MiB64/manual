@@ -54,4 +54,4 @@ Only `[!]` Games are supported by MiB64. If your Game is not good, find another.
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Reference Protocol Activated -->
+<!-- ClauseEcho: Verifying Games Protocol Activated -->

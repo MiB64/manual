@@ -41,4 +41,4 @@ On the other hand, if you have a solution or workaround to a problem that you wa
 
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
-<!-- ClauseEcho: Reference Protocol Activated -->
+<!-- ClauseEcho: Known Issues Protocol Activated -->
