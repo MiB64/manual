@@ -39,7 +39,7 @@ parent: Using MiB64
 }
 </style>
 
-## <center><b>Taking Screenshots</b></center>
+## <center>Taking Screenshots</center>
 <b>
 <div style="text-align: center;">
 <div class="zoom-on-hover">
@@ -58,7 +58,7 @@ This section will take you through taking screenshots in MiB64.
 - [Attribution](#credit)
 
 <a name="windows"></a>
-## <center><b>Windows Printscreen</b></center>
+## <center>Windows Printscreen</center>
 <b>
 
 You can use the standard Windows screenshot functions:
@@ -69,7 +69,7 @@ You can use the standard Windows screenshot functions:
 These keys copy the image to the clipboard. You must then paste it into an application like <i>Paint</i> or <i>Photoshop</i>. The clipboard typically holds only one image at a time, so taking another screenshot will overwrite the previous one. If MiB64 is windowed, `ALT+PRTSCRN` will include the GUI.
 
 <a name="internal"></a>
-## <center><b>MiB64 Screenshot Function</b></center>
+## <center>MiB64 Screenshot Function</center>
 <b>
 
 MiB64 includes an internal screenshot function:
@@ -85,13 +85,13 @@ Game Internal Name 0000.jpg, Game Internal Name 0001.jpg ... Game Internal Name 
 You can press the button as many times as you like (given enough storage space, up to 10,000 captures!) If you take shots in fullscreen, your shots will be of your native desktop resolution which depending on your settings can be very large. Screenshots taken while windowed will not include the MiB64 GUI.
 
 <a name="format"></a>
-## <center><b>Screenshot File Format</b></center>
+## <center>Screenshot File Format</center>
 <b>
 
 Some video plugins (e.g. Icepir8's LLE) allow you to choose between PNG, BMP, and JPG formats via a dropdown. The internal MiB64 function writes files in the format currently selected. All screenshots will match the current video colour depth.
 
 <a name="credit"></a>
-## <center><b>Attribution</b></center>
+## <center>Attribution</center>
 <b>
 
 All screenshots published from MiB64 or its video plugins should:
