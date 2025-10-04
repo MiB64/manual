@@ -60,7 +60,7 @@ This section will take you through <b>saving & loading game progress</b> in MiB6
 <b>
 
 1. It is highly recommended that you make regular native saves. Although state saves usually work OK, this is not guaranteed due to many things that can go wrong in the core and memory of the emulator. Native saves are more reliable (and smaller!) than state saves. By using both methods (rather than just state saves) you have a backup if anything goes wrong.  
-2. For state saving to work the ROMs must be identical - that is, the ROM that the game was saved from must match exactly the one that the state is loaded into. You may be able to share native saves between different versions of a game, but you cannot ever do this with state saves. MiB64 tags state files with ROM header information and will check for and prompt you on violation of this rule.  
+2. For state saving to work the Games must be identical - that is, the Game that the game was saved from must match exactly the one that the state is loaded into. You may be able to share native saves between different versions of a game, but you cannot ever do this with state saves. MiB64 tags state files with Game header information and will check for and prompt you on violation of this rule.  
 3. Native save files must not be Read Only, games need to be able to read/write at any time. For example if you back up your save files to a CDR, when you copy them back to your harddrive they may still be marked read-only - you must change the attributes with Windows Explorer. MiB64 does not do this automatically, in case you don't want your file to be updated for any reason.
 
 <a name="native"></a>
@@ -80,16 +80,17 @@ There are four types of save system used on the N64...
 
 ...which we will call the "native" N64 save systems (to differentiate them from state saving, which is something entirely different, see below).
 
-The cartridge save types use either non-volatile memory (EEPROM, FlashRAM) or a battery (SRAM) to keep a small amount of writeable memory intact inside the actual game cartridge, when the power to the console is off. Although it is on the same PCB, this save memory is physically separate from the game ROM chips—MiB64 does not write to the ROM file or anything like that. You don't have to worry about the difference between EEPROM, SRAM and FlashRAM, because all three are handled the same from your point of view. You should be aware that MemPaks, unlike the other save types, can be handled by input plugins, which is logical if you consider the original system again.
+The cartridge save types use either non-volatile memory (EEPROM, FlashRAM) or a battery (SRAM) to keep a small amount of writeable memory intact inside the actual game cartridge, when the power to the console is off. Although it is on the same PCB, this save memory is physically separate from the game chips.
+MiB64 does not write to the Game file or anything like that. You don't have to worry about the difference between EEPROM, SRAM and FlashRAM, because all three are handled the same from your point of view. You should be aware that MemPaks, unlike the other save types, can be handled by input plugins, which is logical if you consider the original system again.
 
-1. Whenever an N64 game would save to or load from its game cartridge, MiB64 automatically updates a file called `{internal ROM name}.{type}`** on your hard drive (you can [configure folders](app_directories.html) to choose the location). If this file does not exist, it is created as soon as the ROM is first booted, and is the only file MiB64 will use for this game.  
+1. Whenever an N64 game would save to or load from its game cartridge, MiB64 automatically updates a file called `{internal Game name}.{type}`** on your hard drive (you can [configure folders](app_directories.html) to choose the location). If this file does not exist, it is created as soon as the Game is first booted, and is the only file MiB64 will use for this game.  
 2. Whenever the N64 game would save to a Controller Pack (MemPak), either MiB64 creates a file on your hard drive, or the input plugin manages the saving process, depending on the capabilities and configuration of the input plugin (see [plugin selection](app_plugins.html)).
 
 The resulting save files will be compatible with both other N64 emulators and a real N64 system (if you possess the means to insert and extract them—see importing and exporting).
 
 *Mempak is required by some games to save, is an optional extra in some games, is not used at all in some games. Any particular game can use any one cartridge save type, and/or the Controller Pak. This is normally handled transparently by the emulator.
 
-** For example, you are playing the game Mario64. Mario 64 uses the EEPROM save type, and your ROM has the internal name "SUPER MARIO 64". Therefore the save file automatically created and managed by MiB64 will be called "SUPER MARIO 64.eep" in your [configured folder](app_directories.html).
+** For example, you are playing the game Mario64. Mario 64 uses the EEPROM save type, and your Game has the internal name "SUPER MARIO 64". Therefore the save file automatically created and managed by MiB64 will be called "SUPER MARIO 64.eep" in your [configured folder](app_directories.html).
 
 <a name="state"></a>
 ## <center><b>State Saves</b></center>
