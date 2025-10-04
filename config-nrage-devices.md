@@ -64,7 +64,7 @@ parent: Input (Controller) Config
 
 <div style="text-align: center;">
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/NRage_MiB64_Input_Devices.png" alt="Devices Tab" width="300" height="214" />
+    <img src="/manual/asset/images/NRage_MiB64_Input_Devices.png" alt="Devices Tab" width="320" height="224" />
   </div>	
     <p><strong>Hover to zoom</strong></p>
 </div>
@@ -96,16 +96,16 @@ Setting it too high sacrifices fine grain control, making it harder to sneak aro
 
 <table align="center">
   <tr>
-    <td><a href="config-nrage-controls">Controls</a></td>
-    <td><a href="config-nrage-devices">Devices</a></td>
-    <td><a href="config-nrage-mod">Modifiers</a></td>
-    <td><a href="config-nrage-controller-pak">Controller Pak</a></td>
+    <td style="text-align: center;"><a href="config_nrage_controls.html">Controls</a></td>
+    <td style="text-align: center;"><a href="config_nrage_devices.html">Devices</a></td>
+    <td style="text-align: center;"><a href="config_nrage_mod.html">Modifiers</a></td>
+    <td style="text-align: center;"><a href="config_nrage_controller_pak.html">Controller Pak</a></td>
   </tr>
   <tr>
-    <td><a href="config-nrage-trouble-rumble">Rumble Troubleshoot</a></td>
-    <td><a href="config-nrage-faq">General FAQ</a></td>
-    <td><a href="config-nrage-shortcuts">Shortcuts</a></td>
-    <td>&nbsp;</td>
+    <td style="text-align: center;"><a href="config_nrage_trouble_rumble.html">Rumble Troubleshoot</a></td>
+    <td style="text-align: center;"><a href="config_nrage_faq.html">General FAQ</a></td>
+    <td style="text-align: center;"><a href="config_nrage_shortcuts.html">Shortcuts</a></td>
+    <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>
 
