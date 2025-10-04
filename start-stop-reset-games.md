@@ -78,19 +78,15 @@ parent: Using MiB64
 
 There are several ways to start a game in MiB64:
 
-1. [The Game Browser](#game-browser)  
-2. File > Open Game  
-3. Recent Games menu
-
----
+    The Game Browser
+    File > Open Game
+    Recent Games menu
 
 <a name="game-browser"></a>
 ## <center><b>The Game Browser</b></center>
 <b>
 
 This is the generally recommended method of starting games, for many reasons [read about the Game Browser here](using-mib64#game-browser).
-
----
 
 <a name="file-open"></a>
 ## <center><b>File > Open Game</b></center>
@@ -100,8 +96,6 @@ It is possible to use a standard Windows file open dialogue to start games.
 Go File > Open Game, browse to your game file and double click the file—with the default settings the game will load and emulation will start automatically.
 
 If you are using this method, you won't have the feedback provided by the Browser, so you should be sure that you are opening a supported game and be aware of possible issues etc.
-
----
 
 <a name="recent-games"></a>
 ## <center><b>Recent Games Menu</b></center>
@@ -114,8 +108,6 @@ Every time a game is started (unless it's already the most recent), it's added t
 
 By default the list shows only the 4 most recently started games, but this is [adjustable](app-game-selection#max-remembered-games).
 
----
-
 <a name="recent-directories"></a>
 ## <center><b>Recent Directories Menu</b></center>
 <b>
@@ -126,8 +118,6 @@ To make it easy for you to access these games without wading through all your fo
 Every time a game directory is added (unless it's already the most recent), it's added to the top of the list, and the others are all pushed down one place.
 
 By default the list shows only the 4 most recently added game directories, but this is [adjustable](app-game-selection#max-remembered-dirs).
-
----
 
 <a name="stopping-games"></a>
 ## <center><b>Stopping & Changing Games</b></center>
@@ -146,8 +136,6 @@ If you want to play a different game, you can go back to the Game Browser to mak
 
 MiB64 will automatically End Emulation of the old game and load and start the new one (without any prompts—be careful!).
 
----
-
 <a name="resetting-games"></a>
 ## <center><b>Resetting Games</b></center>
 <b>
@@ -165,8 +153,6 @@ Keyboard shortcut: **F1**
    In other words, the RDRAM (the game's memory space) is totally wiped clean.  
    This is significant if you are using hacks/cheat codes or have core errors—do a native save, reset the game, and load through the game menus.  
    This is a smart dodge that can save you when your states go bad or a combination of cheat codes ruins your game.
-
----
 
 <!-- Footer Navigation Block -->
 
