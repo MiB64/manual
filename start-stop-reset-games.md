@@ -78,9 +78,9 @@ parent: Using MiB64
 
 There are several ways to start a game in MiB64:
 
-    The Game Browser
-    File > Open Game
-    Recent Games menu
+- [The Game Browser](#game-browser)  
+- [File > Open Game](#file-open)  
+- [Recent Games menu](#recent-games)
 
 <a name="game-browser"></a>
 ## <center><b>The Game Browser</b></center>
@@ -160,7 +160,7 @@ Keyboard shortcut: **F1**
   <tr>
     <td style="text-align: center"><a href="using-mib64">Using MiB64</a></td>
     <td style="text-align: center"><a href="start-stop-reset-games">Start, Stop, Reset Games</a></td>
-    <td style="text-align: center"><a href="save-load-games">Save &amp; Load Games</a></td>
+    <td style="text-align: center"><a href="save-load-games">Save & Load Games</a></td>
     <td style="text-align: center"><a href="/manual/manual/manual/cheats.html">Using Cheats</a></td>
   </tr>
   <tr>
