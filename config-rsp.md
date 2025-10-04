@@ -83,7 +83,7 @@ This page covers configuration of the Internal RSP.
 <b>
 <div style="text-align: center;">
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/Internal_RSP.png" alt="Internal RSP" width="195" />
+    <img src="/manual/asset/images/Internal_RSP.png" alt="Internal RSP" width="214" />
   </div>
   <p><strong>Hover to zoom</strong></p>
 </div>
