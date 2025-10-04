@@ -88,7 +88,7 @@ There are several ways to start a game in MiB64:
 ## <center><b>The Game Browser</b></center>
 <b>
 
-This is the generally recommended method of starting games, for many reasons—[read about the Game Browser here](using-mib64#game-browser).
+This is the generally recommended method of starting games, for many reasons [read about the Game Browser here](using-mib64#game-browser).
 
 ---
 
