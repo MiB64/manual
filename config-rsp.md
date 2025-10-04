@@ -79,7 +79,8 @@ Options > Configure Internal RSP
 
 This page covers configuration of the Internal RSP.
 
-### Available Options:
+## <center>Configure RSP</center>
+<b>
 1. [Enable HLE Audio (If plugin supports it)](#o1)  
 2. [Enable HLE Video (If plugin supports it)](#o2)  
 3. [CPU core style](#o3)
