@@ -74,6 +74,8 @@ nav_order: 12
 ## <center><b>Main Window</b></center>
 <b>
 
+This section will take you through using MiB64.
+
 Should be straightforward enough—starting from the top:
 
 - Title bar shows the internal name of the loaded game, followed by the app title and version number.  
