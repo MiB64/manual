@@ -50,7 +50,7 @@ parent: Using MiB64
 
 <!-- ClauseEcho: Interactive Image -->
 
-This section will take you through <b>keyboard shortcuts in MiB64</b>.
+This section will take you through keyboard shortcuts in MiB64.
 
 ### Notes:
 
