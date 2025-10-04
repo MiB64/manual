@@ -4,7 +4,7 @@ nav_order: 7
 parent: Using MiB64
 ---
 
-## <center>Using MiB64 – Troubleshooting stability problems</center>
+## <center>Troubleshooting stability problems</center>
 
 Stability problems can be broadly broken down into four categories, reflecting the complex nature of an emulator:
 
