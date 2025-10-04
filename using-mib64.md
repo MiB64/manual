@@ -64,9 +64,9 @@ nav_order: 12
 
 <div class="zoom-single">
   <div class="zoom-on-hover">
-    <img src="/manual/asset/images/browser.png" alt="Main Browser Window" width="380" />
+    <img src="/manual/asset/images/browser.png" alt="Main Browser Window" width="380" height="214" />
   </div>
-  <p><strong>Hover to zoom</strong></p>
+  <p style="text-align: center;"><strong>Hover to zoom</strong></p>
 </div>
 <!-- ClauseEcho: Interactive Image -->
 
@@ -156,8 +156,7 @@ Keep in mind:
 
 ---
 
-## <center><b>Navigation</b></center>
-<b>
+<!-- Footer Navigation Block -->
 
 <table align="center" style="width: 80%">
   <tr>
