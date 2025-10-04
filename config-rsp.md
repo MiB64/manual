@@ -81,6 +81,15 @@ This page covers configuration of the Internal RSP.
 
 ## <center>Configure RSP</center>
 <b>
+<div style="text-align: center;">
+  <div class="zoom-on-hover">
+    <img src="/manual/asset/images/Internal_RSP.png" alt="Internal RSP" width="195" />
+  </div>
+  <p><strong>Hover to zoom</strong></p>
+</div>
+
+<!-- ClauseEcho: Interactive Images -->
+
 1. [Enable HLE Audio (If plugin supports it)](#o1)  
 2. [Enable HLE Video (If plugin supports it)](#o2)  
 3. [CPU core style](#o3)
