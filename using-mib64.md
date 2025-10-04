@@ -60,14 +60,14 @@ nav_order: 12
 </style>
 
 ## <center><b>Using MiB64</b></center>
-<b>
-
-<div class="zoom-single">
-  <div class="zoom-on-hover">
-    <img src="/manual/asset/images/browser.png" alt="Main Browser Window" width="380" height="214" />
-  </div>
-  <p style="text-align: center;"><strong>Hover to zoom</strong></p>
+<b>    
+<div style="text-align: center;">
+<div class="zoom-on-hover">
+  <img src="/manual/asset/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
 </div>
+<p><strong>Hover to zoom</strong></p>
+</div>
+
 <!-- ClauseEcho: Interactive Image -->
 
 ## <center><b>Main Window</b></center>
