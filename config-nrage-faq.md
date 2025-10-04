@@ -95,7 +95,7 @@ But if you have a Voice Pak and an Adaptoid, it should work. In fact, if you hav
 
 **Q: How can I make a language pack?**  
 **A:** If you're a native speaker of a language other than English, and your language pack hasn't already been created, download the "NRage Language SDK" from this address:  
-[WayBack Machine Link: NRage_DInput8_Lang_SDK.zip](https://web.archive.org/web/20160405210449/http://www.randomwisdom.com/files/NRage_DInput8_Lang_SDK.zip)  
+[NRage_DInput8_Lang_SDK.zip (WayBack Machine Link)](https://web.archive.org/web/20160405210449/http://www.randomwisdom.com/files/NRage_DInput8_Lang_SDK.zip)  
 Follow the instructions in the included text file, and post the finished product back to the emutalk.net thread.  
 I'll make sure all the dialog boxes fit nicely and then update the front page post with your submission.  
 Don't forget to include a nickname or some way to give you credit!
