@@ -194,7 +194,7 @@ This does what it says on the tin to coin a phrase. To hide or not to hide? To h
 - default setting: disabled  
 - generally recommended setting: Users choice.
 
-Ice can explain this option in detail for advantages and benifits.
+Exclusive fullscreen is when in fullscreen other programs can't take control of the screen.
 
 <a name="vi7">"Enable VSync" [Checkbox]</a>
 
