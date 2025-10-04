@@ -155,6 +155,8 @@ System > Reset or Keyboard shortcut: **F1**
    This is significant if you are using hacks/cheat codes or have core errors do a native save, reset the game, and load through the game menus.  
    This is a smart dodge that can save you when your states go bad or a combination of cheat codes ruins your game.
 
+---
+
 <!-- Footer Navigation Block -->
 
 <table align="center" style="width: 80%">

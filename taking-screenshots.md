@@ -99,6 +99,8 @@ All screenshots published from MiB64 or its video plugins should:
 - Credit MiB64  
 - Include a link to the [MiB64 website](https://www.mib64.net){:target="_blank" rel="noopener noreferrer"}  
 
+---
+
 <!-- Footer Navigation Block -->
 
 <table align="center" style="width: 80%">

@@ -130,6 +130,8 @@ It is normal for the system to pause for a short while while generating, compres
 MiB64 is compatible with the N64 saves (not necessarily state saves) from other N64 emulators and a real N64 system, but you may need to byteswap the files (use e.g. [Azimer's saveswapper utility](http://www.apollo64.com/files/saveswap.zip)) and you will definitely need to rename the files to what MiB64 expects.
 See your existing save folder for the correct file name if you are not sure what the filename should be, save in the game anywhere a file will be created and you can use that name. The format is also explained under "native saves" above.
 
+---
+
 <!-- Footer Navigation Block -->
 
 <table align="center" style="width: 80%">

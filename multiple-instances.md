@@ -64,7 +64,7 @@ The ability to have multiple instances can be a good thing, if you want to compa
 4. Because the application uses a centralised database, you cannot keep configurations seperate for multiple instances of the same version of MiB64. (This was partly an intended effect).
 5. Clearly, running more than one instance of MiB64 increases the system requirements dramatically. Don't expect any instance to run as well as it would on its own, unless you pause the others (if you only have one instance actually running at a time, and have sufficient memory, you shouldn't notice performance problems).
 
-<!-- Footer Navigation Block -->
+---
 
 <!-- Footer Navigation Block -->
 
