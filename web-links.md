@@ -90,6 +90,9 @@ Official release builds available from GitHub.
 [MiB64 Discord Server](https://discord.com/invite/ha7HWAFE8u){:target="_blank" rel="noopener noreferrer"}  
 Join us for real-time updates, information, and community banter.
 
+---
+
 <p style="text-align:center"><a href="#">Return to the top</a></p>
 
 <!-- ClauseEcho: Web Links Protocol Activated -->
+
