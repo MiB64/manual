@@ -93,7 +93,6 @@ Starting from the top:
 ## <center><b>Using the Game Browser</b></center>
 <b>
 
-### Navigation Links:
 - [Status and colour coding](#status)  
 - [Notes fields](#notes)  
 - [Navigation, Sorting, Configuration](#navigation)
