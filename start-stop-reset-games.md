@@ -60,7 +60,7 @@ parent: Using MiB64
 }
 </style>
 
-## <center><b>Start, Stop, Reset Games</b></center>
+## <center>Start, Stop, Reset Games</center>
 <b>
 <div style="text-align: center;">
 <div class="zoom-on-hover">
@@ -72,7 +72,7 @@ parent: Using MiB64
 <!-- ClauseEcho: Interactive Image -->
 
 <a name="starting-games"></a>
-## <center><b>Starting Games</b></center>
+## <center>Starting Games</center>
 <b>
 <p>This section will take you through starting, stopping, changing & resetting games in MiB64.</p>
 
@@ -83,14 +83,14 @@ There are several ways to start a game in MiB64:
 - [Recent Games menu](#recent-games)
 
 <a name="game-browser"></a>
-## <center><b>The Game Browser</b></center>
+## <center>The Game Browser</center>
 <b>
 
 This is the generally recommended method of starting games, for many reasons and you can
 [read about the Game Browser here](using-mib64#game-browser).
 
 <a name="file-open"></a>
-## <center><b>File > Open Game</b></center>
+## <center>File > Open Game</center>
 <b>
 
 It is possible to use a standard Windows file open dialogue to start games.  
@@ -99,7 +99,7 @@ Go File > Open Game, browse to your game file and double click the file with the
 If you are using this method, you won't have the feedback provided by the Browser, so you should be sure that you are opening a supported game and be aware of possible issues etc.
 
 <a name="recent-games"></a>
-## <center><b>Recent Games Menu</b></center>
+## <center>Recent Games Menu</center>
 <b>
 
 Most users will have a small number of games that they play regularly.  
@@ -110,7 +110,7 @@ Every time a game is started (unless it's already the most recent), it's added t
 By default the list shows only the 4 most recently started games, but this is [adjustable](app-game-selection#max-remembered-games).
 
 <a name="recent-directories"></a>
-## <center><b>Recent Directories Menu</b></center>
+## <center>Recent Directories Menu</center>
 <b>
 
 Most users will have a small number of directories that they use regularly.  
@@ -121,7 +121,7 @@ Every time a game directory is added (unless it's already the most recent), it's
 By default the list shows only the 4 most recently added game directories, but this is [adjustable](app-game-selection#max-remembered-dirs).
 
 <a name="stopping-games"></a>
-## <center><b>Stopping & Changing Games</b></center>
+## <center>Stopping & Changing Games</center>
 <b>
 
 If you are finished playing and want to leave MiB64 you can simply close the emulator like any normal Windows application (use the X, or File > Exit or ALT+F4.
@@ -138,7 +138,7 @@ If you want to play a different game, you can go back to the Game Browser to mak
 MiB64 will automatically End Emulation of the old game and load and start the new one (without any prompts be careful!).
 
 <a name="resetting-games"></a>
-## <center><b>Resetting Games</b></center>
+## <center>Resetting Games</center>
 <b>
 
 In case you are not familiar with the N64 console, it has a reset button.  
