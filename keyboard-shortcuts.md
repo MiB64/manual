@@ -62,7 +62,7 @@ This section will take you through keyboard shortcuts in MiB64.
 ### Available in browser and during emulation:
 
 | Action                          | Shortcut     |
-|----------------------------------|--------------|
+|:---------------------------------|:-------------|
 | open Game dialog                 | CTRL+O       |
 | settings dialog                  | CTRL+T       |
 | quit application                 | ALT+F4       |
@@ -72,7 +72,7 @@ This section will take you through keyboard shortcuts in MiB64.
 ### Available during emulation:
 
 | Action                          | Shortcut     |
-|----------------------------------|--------------|
+|:---------------------------------|:-------------|
 | switch fullscreen/windowed       | ALT+ENTER / Escape |
 | reboot Game                      | F1           |
 | pause/resume emulation           | F2           |
@@ -97,7 +97,7 @@ This section will take you through keyboard shortcuts in MiB64.
 ### Available in Game Browser:
 
 | Action                          | Shortcut     |
-|----------------------------------|--------------|
+|:---------------------------------|:-------------|
 | refresh                          | F5           |
 | jump to top                      | Home         |
 | jump to bottom                   | End          |
