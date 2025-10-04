@@ -43,7 +43,7 @@ parent: Using MiB64
 <b>
 <div style="text-align: center;">
 <div class="zoom-on-hover">
-  <img src="/manual/asset/images/browser.png" alt="MiB64 Save Browser" width="380" />
+  <img src="/manual/asset/images/main.png" alt="MiB64 Main Browser" width="300" height="260" />
 </div>
 <p><strong>Hover to zoom</strong></p>
 </div>
