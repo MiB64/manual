@@ -46,8 +46,8 @@ Only `[!]` Games are supported by MiB64. If your Game is not good, find another.
   </tr>
   <tr>
     <td style="text-align: center"><a href="browser-data-sources">Browser Data Sources</a></td>
-    <td style="text-align: center"><a href="min-specs">Minimum Specs</a></td>
-    <td style="text-align: center"><a href="feature-lists">Feature Lists</a></td>
+    <td style="text-align: center"><a href="min-specs-system">Minimum Specs</a></td>
+    <td style="text-align: center"><a href="feature-lists-system">Feature Lists</a></td>
     <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>

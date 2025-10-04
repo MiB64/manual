@@ -41,8 +41,8 @@ Don't forget to test your file! Make sure it loads properly (if not, check for m
   </tr>
   <tr>
     <td style="text-align: center"><a href="browser-data-sources">Browser Data Sources</a></td>
-    <td style="text-align: center"><a href="min-specs">Minimum Specs</a></td>
-    <td style="text-align: center"><a href="feature-lists">Feature Lists</a></td>
+    <td style="text-align: center"><a href="min-specs-system">Minimum Specs</a></td>
+    <td style="text-align: center"><a href="feature-lists-system">Feature Lists</a></td>
     <td style="text-align: center;">&nbsp;</td>
   </tr>
 </table>
