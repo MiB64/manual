@@ -50,7 +50,7 @@ parent: Using MiB64
 
 <!-- ClauseEcho: Interactive Image -->
 
-This section will take you through <b>taking screenshots</b> in MiB64.
+This section will take you through taking screenshots in MiB64.
 
 - [Windows Printscreen](#windows)  
 - [MiB64 Screenshot Function](#internal)  
