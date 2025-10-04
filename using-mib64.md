@@ -70,6 +70,7 @@ nav_order: 12
 
 <!-- ClauseEcho: Interactive Image -->
 
+<a name="Main_window"></a>
 ## <center><b>Main Window</b></center>
 <b>
 
@@ -86,6 +87,7 @@ Should be straightforward enough—starting from the top:
 
 ---
 
+<a name="ROM_Browser"></a>
 ## <center><b>Using the Game Browser</b></center>
 <b>
 
@@ -104,25 +106,57 @@ Should be straightforward enough—starting from the top:
 
 ---
 
+<a name="status"></a>
 ## <center><b>Status Colour Coding</b></center>
 <b>
 
-MiB64 uses “Status” instead of “Playable” to avoid subjective ambiguity. Status is a defined category in the RDS and determines row colour in the Game Browser.
+<p><font color="#006600">"Compatible" (green)<br>
+The game is, to the best of our knowledge, fully playable, with no issues severe enough to seriously affect gameplay...
+</font></p>
 
-- **Compatible** (green): Fully playable, no major issues.  
-- **Issues (core/plugin/mixed)** (muddy yellow): Moderate to severe issues.  
-- **Needs video plugin** (turquoise): Core may be fine, but default plugin fails.  
-- **Needs audio plugin** (turquoise): Same as above, but for audio.  
-- **Use (named) plugin** (purple): Specific plugin recommended.  
-- **Unsupported** (dark red): Known to fail on MiB64 core.  
-- **Broken (core/plugin)** (brown): Use older MiB64 version or plugin.  
-- **Region issue** (blue): Another version of the game works.  
-- **Interpreter only** (medium green): Game only runs on interpreter core.  
-- **Uncertain** (black): Status unknown—test manually.  
-- **Unknown** (grey): Not found in RDS or no status defined.
+<p><font color="#827B00">"Issues (core)/Issues (plugin)" (muddy yellow)<br>
+These games can be played, but they have moderate to severe issues...
+</font></p>
+
+<p><font color="#00897C">"Needs video plugin" (turquoise)<br>
+These games are supported on the core but fail with default plugins...
+</font></p>
+
+<p><font color="#00897C">"Needs audio plugin" (turquoise)<br>
+Same as above, but for audio. Rare.
+</font></p>
+
+<p><font color="#800080">"Use (named) plugin" (purple)<br>
+Indicates the best plugin for this game.
+</font></p>
+
+<p><font color="#990000">"Unsupported" (dark red)<br>
+Known to fail on the core. No plugin or setting will help.
+</font></p>
+
+<p><font color="#603913">"Broken (core)/Broken (plugin)" (brown)<br>
+Use older MiB64 version or plugin. See Notes.
+</font></p>
+
+<p><font color="#000099">"Region issue" (blue)<br>
+Another version of the game works. Read the note.
+</font></p>
+
+<p><font color="#003300">"Interpreter only" (medium green)<br>
+Game only runs on interpreter core.
+</font></p>
+
+<p>"Uncertain" (black)<br>
+Status unknown—test manually.
+</p>
+
+<p><font color="#444444">"Unknown" (grey)<br>
+Not found in RDS or no status defined. Likely a bad or unverified ROM.
+</font></p>
 
 ---
 
+<a name="notes"></a>
 ## <center><b>Notes Fields</b></center>
 <b>
 
@@ -147,10 +181,11 @@ Keep in mind:
 
 ---
 
+<a name="navigation"></a>
 ## <center><b>Game Browser Navigation</b></center>
 <b>
 
-- Use mouse (scroll bars, wheel, buttons) or [shortcut keys](keyboard_shortcuts) for faster navigation.  
+- Use mouse (scroll bars, wheel, buttons) or [shortcut keys](keyboard-shortcuts) for faster navigation.  
 - Click column headers to sort—click again to reverse direction.  
 - The browser is highly [configurable](#ROM_Browser).
 
@@ -160,16 +195,16 @@ Keep in mind:
 
 <table align="center" style="width: 80%">
   <tr>
-    <td style="text-align: center"><a href="using_mib64.html">Using MiB64</a></td>
-    <td style="text-align: center"><a href="start_stop_reset_games.html">Start, Stop, Reset Games</a></td>
-    <td style="text-align: center"><a href="save_load_games.html">Save &amp; Load Games</a></td>
-    <td style="text-align: center"><a href="/cheats/">Using Cheats</a></td>
+    <td style="text-align: center"><a href="using-mib64">Using MiB64</a></td>
+    <td style="text-align: center"><a href="start-stop-reset-games">Start, Stop, Reset Games</a></td>
+    <td style="text-align: center"><a href="save-load-games">Save &amp; Load Games</a></td>
+    <td style="text-align: center"><a href="cheats">Using Cheats</a></td>
   </tr>
   <tr>
-    <td style="text-align: center"><a href="taking_screenshots.html">Taking Screenshots</a></td>
-    <td style="text-align: center"><a href="multiple_instances.html">Multiple Instances</a></td>
-    <td style="text-align: center"><a href="keyboard_shortcuts.html">Keyboard Shortcuts</a></td>
-    <td style="text-align: center"><a href="using_mib64_troubleshooting_stability.html">Troubleshooting Stability</a></td>
+    <td style="text-align: center"><a href="taking-screenshots">Taking Screenshots</a></td>
+    <td style="text-align: center"><a href="multiple-instances">Multiple Instances</a></td>
+    <td style="text-align: center"><a href="keyboard-shortcuts">Keyboard Shortcuts</a></td>
+    <td style="text-align: center"><a href="using-mib64-troubleshooting-stability">Troubleshooting Stability</a></td>
   </tr>
 </table>
 
