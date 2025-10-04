@@ -5,8 +5,10 @@ parent: Reference
 ---
 
 ## <center>MiB64 Minimum System Specification</center>
+This specification will be sufficient for you to enjoy *most* compatible games with good graphics, sound, and control—subject to correct configuration and some limitations of the emulator.  
+You may experience performance issues and won’t be able to use all emulator options.
 
-This specification will be sufficient for you to enjoy *most* compatible games with good graphics, sound and control, subject to correct configuration and some limitations of the emulator. You are likely to suffer some performance problems, and you will not be able to use all the options in the emulator.
+---
 
 - **Operating system** (No support for Windows Vista and below)  
   - Microsoft Windows 7 and up
