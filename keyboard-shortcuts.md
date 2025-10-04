@@ -69,7 +69,7 @@ This section will take you through keyboard shortcuts in MiB64.
 | start emulation                  | F10          |
 | end emulation                    | F11          |
 
-### Available during emulation:
+### Available only during emulation:
 
 | Action                          | Shortcut     |
 |:---------------------------------|:-------------|
@@ -94,7 +94,7 @@ This section will take you through keyboard shortcuts in MiB64.
 | configure settings               | CTRL+T       |
 | gs button (gameshark button)     | F9           |
 
-### Available in Game Browser:
+### Available only in Game Browser:
 
 | Action                          | Shortcut     |
 |:---------------------------------|:-------------|
