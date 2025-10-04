@@ -1,6 +1,7 @@
 ---
 title: Start, Stop, Reset Games
-nav_order: 13
+nav_order: 1
+parent: Using MiB64
 ---
 
 ## <center><b>Start, Stop, Reset Games</b></center>
