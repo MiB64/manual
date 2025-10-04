@@ -59,7 +59,7 @@ nav_order: 11
 }
 </style>
 
-## <center><b>Internal RSP (Reality Signal Processor)</b></center>
+## <center>Internal RSP (Reality Signal Processor</center>
 <b>
 
 <b>
