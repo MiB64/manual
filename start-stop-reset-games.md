@@ -124,14 +124,14 @@ By default the list shows only the 4 most recently added game directories, but t
 ## <center><b>Stopping & Changing Games</b></center>
 <b>
 
-If you are finished playing and want to leave MiB64 you can simply close the emulator like any normal Windows application (use the X, or File > Exit (see [shortcut](keyboard-shortcuts)).
+If you are finished playing and want to leave MiB64 you can simply close the emulator like any normal Windows application (use the X, or File > Exit or ALT+F4.
 
 There is no need to End Emulation before you quit.  
 If you are going to be away for a short period of time you could leave the emulator paused (by [default](app-options), losing window focus or minimizing the window will automatically pause for you).
 
 MiB64 does not prompt you to save and does not save automatically on exit, so do not forget to make a [state save](save-load-games) if you want to be able to pick up exactly where you left off.
 
-You'll probably want to make a named save, so go System > Save As ([shortcut](keyboard-shortcuts)) to open the dialogue and type in a path and name you'll remember.
+You'll probably want to make a named save, so go System > Save As or CTRL+S to open the dialogue and type in a path and name you'll remember.
 
 If you want to play a different game, you can go back to the Game Browser to make your selection by choosing File > End Emulation, or you can go ahead and load it directly from File > Open or the Recent Game menu, even while the old game is running.
 
